@@ -56,7 +56,7 @@
 
 | 字段 | 类型 | 含义 |
 |---|---|---|
-| `id` | string | 主表地点唯一编号；跨来源实体匹配后的 ID |
+| `id` | string | 周边背景对象的规范ID；部分可与主表id对应，也包括未进入主表及加州边界外的背景对象，不能假设全部属于主表 |
 | `name` | string | 规范门店／地点名称；用于查看及审核，不作为分类输入 |
 | `x_m` | double | EPSG:3310 California Albers 投影横坐标 |
 | `y_m` | double | EPSG:3310 California Albers 投影纵坐标 |
