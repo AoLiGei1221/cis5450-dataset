@@ -1,0 +1,38 @@
+{
+  "complete": true,
+  "date": "2026-10-26",
+  "visibility": "PUBLIC",
+  "repo": "https://github.com/AoLiGei1221/cis5450-dataset",
+  "release": "https://github.com/AoLiGei1221/cis5450-dataset/releases/tag/data-v3-2026-10-26",
+  "all_four_dataset_asset_server_digests_match_manifest": true,
+  "dataset_asset_count": 4,
+  "additional_checksum_file": true,
+  "anonymous_access_checks": [
+    {
+      "dataset": "overture",
+      "anonymous_http_status": 206,
+      "prefix_bytes_read": 64,
+      "content_range": "bytes 0-63/552458577"
+    },
+    {
+      "dataset": "osm",
+      "anonymous_http_status": 206,
+      "prefix_bytes_read": 64,
+      "content_range": "bytes 0-63/1333570033"
+    },
+    {
+      "dataset": "public_clean_master",
+      "bytes_downloaded": 9757973,
+      "sha256": "da49534f55f7ebc49ca5142db17074a55ce9358e59965ba19de3598969c97904"
+    }
+  ],
+  "anonymous_full_download_and_sha_verification": [
+    "ACS four DAT files through download script",
+    "TIGER ZIP through download script",
+    "clean master Parquet"
+  ],
+  "raw_header_mappings_checked": 138,
+  "versioned_data_file_checksums_checked": 28,
+  "main_schema_columns": 51,
+  "fresh_notebook_reproduction_evidence": "github_clone_reproduction_v3.json"
+}
