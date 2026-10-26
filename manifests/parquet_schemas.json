@@ -1,0 +1,1616 @@
+[
+  {
+    "path": "data/clean_v3/california_retail_clean_master_v3.parquet",
+    "rows": 58513,
+    "columns": [
+      {
+        "name": "id",
+        "type": "string"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "category",
+        "type": "string"
+      },
+      {
+        "name": "basic_category",
+        "type": "string"
+      },
+      {
+        "name": "address",
+        "type": "string"
+      },
+      {
+        "name": "locality",
+        "type": "string"
+      },
+      {
+        "name": "postcode",
+        "type": "string"
+      },
+      {
+        "name": "website",
+        "type": "string"
+      },
+      {
+        "name": "phone",
+        "type": "string"
+      },
+      {
+        "name": "lon",
+        "type": "double"
+      },
+      {
+        "name": "lat",
+        "type": "double"
+      },
+      {
+        "name": "x_m",
+        "type": "double"
+      },
+      {
+        "name": "y_m",
+        "type": "double"
+      },
+      {
+        "name": "tract_geoid",
+        "type": "string"
+      },
+      {
+        "name": "county_geoid",
+        "type": "string"
+      },
+      {
+        "name": "county_block_id",
+        "type": "string"
+      },
+      {
+        "name": "is_bay_area_9county",
+        "type": "bool"
+      },
+      {
+        "name": "population",
+        "type": "int64"
+      },
+      {
+        "name": "households",
+        "type": "int64"
+      },
+      {
+        "name": "land_area_km2",
+        "type": "double"
+      },
+      {
+        "name": "acs_period",
+        "type": "string"
+      },
+      {
+        "name": "population_density_per_km2",
+        "type": "double"
+      },
+      {
+        "name": "under18_share",
+        "type": "double"
+      },
+      {
+        "name": "young_adult_18_34_share",
+        "type": "double"
+      },
+      {
+        "name": "median_household_income_2024_usd",
+        "type": "int64"
+      },
+      {
+        "name": "median_household_income_moe",
+        "type": "int64"
+      },
+      {
+        "name": "income_relative_moe",
+        "type": "double"
+      },
+      {
+        "name": "college_enrolled_share_3plus",
+        "type": "double"
+      },
+      {
+        "name": "family_household_share",
+        "type": "double"
+      },
+      {
+        "name": "living_alone_household_share",
+        "type": "double"
+      },
+      {
+        "name": "confidence",
+        "type": "double"
+      },
+      {
+        "name": "operating_status",
+        "type": "string"
+      },
+      {
+        "name": "source_provider",
+        "type": "string"
+      },
+      {
+        "name": "is_mapped_specialist",
+        "type": "int64"
+      },
+      {
+        "name": "specialist_label_verified",
+        "type": "int64"
+      },
+      {
+        "name": "specialist_label_basis",
+        "type": "string"
+      },
+      {
+        "name": "retail_evidence_level",
+        "type": "string"
+      },
+      {
+        "name": "target_subtype",
+        "type": "string"
+      },
+      {
+        "name": "audit_evidence_url",
+        "type": "string"
+      },
+      {
+        "name": "snapshot_date",
+        "type": "string"
+      },
+      {
+        "name": "coordinate_crs",
+        "type": "string"
+      },
+      {
+        "name": "metric_crs",
+        "type": "string"
+      },
+      {
+        "name": "other_retail_count_500m_clean",
+        "type": "int64"
+      },
+      {
+        "name": "other_retail_count_1000m_clean",
+        "type": "int64"
+      },
+      {
+        "name": "food_count_500m_clean",
+        "type": "int64"
+      },
+      {
+        "name": "food_count_1000m_clean",
+        "type": "int64"
+      },
+      {
+        "name": "other_target_count_500m_clean",
+        "type": "int64"
+      },
+      {
+        "name": "other_target_count_1000m_clean",
+        "type": "int64"
+      },
+      {
+        "name": "distance_to_other_target_m_clean",
+        "type": "double"
+      },
+      {
+        "name": "distance_to_mall_m_clean",
+        "type": "double"
+      },
+      {
+        "name": "distance_to_university_m_clean",
+        "type": "double"
+      }
+    ]
+  },
+  {
+    "path": "data/clean_v3/california_tract_clean_summary_v3.parquet",
+    "rows": 9129,
+    "columns": [
+      {
+        "name": "GEOID",
+        "type": "string"
+      },
+      {
+        "name": "B01001_001E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_001M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_002E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_002M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_003E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_003M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_004E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_004M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_005E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_005M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_006E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_006M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_007E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_007M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_008E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_008M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_009E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_009M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_010E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_010M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_011E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_011M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_012E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_012M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_013E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_013M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_014E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_014M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_015E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_015M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_016E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_016M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_017E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_017M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_018E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_018M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_019E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_019M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_020E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_020M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_021E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_021M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_022E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_022M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_023E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_023M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_024E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_024M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_025E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_025M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_026E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_026M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_027E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_027M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_028E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_028M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_029E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_029M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_030E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_030M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_031E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_031M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_032E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_032M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_033E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_033M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_034E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_034M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_035E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_035M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_036E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_036M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_037E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_037M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_038E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_038M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_039E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_039M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_040E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_040M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_041E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_041M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_042E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_042M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_043E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_043M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_044E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_044M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_045E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_045M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_046E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_046M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_047E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_047M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_048E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_048M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_049E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_049M",
+        "type": "int64"
+      },
+      {
+        "name": "B19013_001E",
+        "type": "int64"
+      },
+      {
+        "name": "B19013_001M",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_001E",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_001M",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_002E",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_002M",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_003E",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_003M",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_004E",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_004M",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_005E",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_005M",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_006E",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_006M",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_007E",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_007M",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_008E",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_008M",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_009E",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_009M",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_010E",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_010M",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_001E",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_001M",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_002E",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_002M",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_003E",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_003M",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_004E",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_004M",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_005E",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_005M",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_006E",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_006M",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_007E",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_007M",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_008E",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_008M",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_009E",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_009M",
+        "type": "int64"
+      },
+      {
+        "name": "NAME",
+        "type": "string"
+      },
+      {
+        "name": "acs_period",
+        "type": "string"
+      },
+      {
+        "name": "population",
+        "type": "int64"
+      },
+      {
+        "name": "under18_count",
+        "type": "int64"
+      },
+      {
+        "name": "under18_share",
+        "type": "double"
+      },
+      {
+        "name": "young_adult_18_34_count",
+        "type": "int64"
+      },
+      {
+        "name": "young_adult_18_34_share",
+        "type": "double"
+      },
+      {
+        "name": "median_household_income_2024_usd",
+        "type": "int64"
+      },
+      {
+        "name": "median_household_income_moe",
+        "type": "int64"
+      },
+      {
+        "name": "population_age3plus",
+        "type": "int64"
+      },
+      {
+        "name": "college_enrolled_count",
+        "type": "int64"
+      },
+      {
+        "name": "college_enrolled_share_3plus",
+        "type": "double"
+      },
+      {
+        "name": "households",
+        "type": "int64"
+      },
+      {
+        "name": "family_household_share",
+        "type": "double"
+      },
+      {
+        "name": "living_alone_household_share",
+        "type": "double"
+      },
+      {
+        "name": "STATEFP",
+        "type": "string"
+      },
+      {
+        "name": "COUNTYFP",
+        "type": "string"
+      },
+      {
+        "name": "county_geoid",
+        "type": "string"
+      },
+      {
+        "name": "county_block_id",
+        "type": "string"
+      },
+      {
+        "name": "is_bay_area_9county",
+        "type": "bool"
+      },
+      {
+        "name": "ALAND",
+        "type": "int64"
+      },
+      {
+        "name": "AWATER",
+        "type": "int64"
+      },
+      {
+        "name": "land_area_km2",
+        "type": "double"
+      },
+      {
+        "name": "water_area_km2",
+        "type": "double"
+      },
+      {
+        "name": "population_density_per_km2",
+        "type": "double"
+      },
+      {
+        "name": "clean_retail_rows",
+        "type": "int64"
+      },
+      {
+        "name": "mapped_specialist_rows",
+        "type": "int64"
+      }
+    ]
+  },
+  {
+    "path": "data/clean_v3/context_clean_v3.parquet",
+    "rows": 211627,
+    "columns": [
+      {
+        "name": "id",
+        "type": "string"
+      },
+      {
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "name": "x_m",
+        "type": "double"
+      },
+      {
+        "name": "y_m",
+        "type": "double"
+      },
+      {
+        "name": "other_retail",
+        "type": "bool"
+      },
+      {
+        "name": "target",
+        "type": "bool"
+      },
+      {
+        "name": "food",
+        "type": "bool"
+      },
+      {
+        "name": "mall",
+        "type": "bool"
+      },
+      {
+        "name": "university",
+        "type": "bool"
+      }
+    ]
+  },
+  {
+    "path": "data/clean_v3/source_provenance_v3.parquet",
+    "rows": 58513,
+    "columns": [
+      {
+        "name": "id",
+        "type": "string"
+      },
+      {
+        "name": "overture_ids_json",
+        "type": "string"
+      },
+      {
+        "name": "osm_ids_json",
+        "type": "string"
+      },
+      {
+        "name": "overture_sources_json",
+        "type": "string"
+      },
+      {
+        "name": "source_osm_json",
+        "type": "string"
+      },
+      {
+        "name": "osm_scope_evidence_json",
+        "type": "string"
+      }
+    ]
+  },
+  {
+    "path": "data/interim/census/ca_acs2024_tract_features.parquet",
+    "rows": 9129,
+    "columns": [
+      {
+        "name": "GEOID",
+        "type": "string"
+      },
+      {
+        "name": "B01001_001E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_001M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_002E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_002M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_003E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_003M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_004E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_004M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_005E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_005M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_006E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_006M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_007E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_007M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_008E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_008M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_009E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_009M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_010E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_010M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_011E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_011M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_012E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_012M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_013E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_013M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_014E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_014M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_015E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_015M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_016E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_016M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_017E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_017M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_018E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_018M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_019E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_019M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_020E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_020M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_021E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_021M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_022E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_022M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_023E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_023M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_024E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_024M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_025E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_025M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_026E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_026M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_027E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_027M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_028E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_028M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_029E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_029M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_030E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_030M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_031E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_031M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_032E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_032M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_033E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_033M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_034E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_034M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_035E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_035M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_036E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_036M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_037E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_037M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_038E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_038M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_039E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_039M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_040E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_040M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_041E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_041M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_042E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_042M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_043E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_043M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_044E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_044M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_045E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_045M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_046E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_046M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_047E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_047M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_048E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_048M",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_049E",
+        "type": "int64"
+      },
+      {
+        "name": "B01001_049M",
+        "type": "int64"
+      },
+      {
+        "name": "B19013_001E",
+        "type": "int64"
+      },
+      {
+        "name": "B19013_001M",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_001E",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_001M",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_002E",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_002M",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_003E",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_003M",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_004E",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_004M",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_005E",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_005M",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_006E",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_006M",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_007E",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_007M",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_008E",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_008M",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_009E",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_009M",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_010E",
+        "type": "int64"
+      },
+      {
+        "name": "B14001_010M",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_001E",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_001M",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_002E",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_002M",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_003E",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_003M",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_004E",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_004M",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_005E",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_005M",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_006E",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_006M",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_007E",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_007M",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_008E",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_008M",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_009E",
+        "type": "int64"
+      },
+      {
+        "name": "B11001_009M",
+        "type": "int64"
+      },
+      {
+        "name": "NAME",
+        "type": "string"
+      },
+      {
+        "name": "acs_period",
+        "type": "string"
+      },
+      {
+        "name": "population",
+        "type": "int64"
+      },
+      {
+        "name": "under18_count",
+        "type": "int64"
+      },
+      {
+        "name": "under18_share",
+        "type": "double"
+      },
+      {
+        "name": "young_adult_18_34_count",
+        "type": "int64"
+      },
+      {
+        "name": "young_adult_18_34_share",
+        "type": "double"
+      },
+      {
+        "name": "median_household_income_2024_usd",
+        "type": "int64"
+      },
+      {
+        "name": "median_household_income_moe",
+        "type": "int64"
+      },
+      {
+        "name": "population_age3plus",
+        "type": "int64"
+      },
+      {
+        "name": "college_enrolled_count",
+        "type": "int64"
+      },
+      {
+        "name": "college_enrolled_share_3plus",
+        "type": "double"
+      },
+      {
+        "name": "households",
+        "type": "int64"
+      },
+      {
+        "name": "family_household_share",
+        "type": "double"
+      },
+      {
+        "name": "living_alone_household_share",
+        "type": "double"
+      },
+      {
+        "name": "STATEFP",
+        "type": "string"
+      },
+      {
+        "name": "COUNTYFP",
+        "type": "string"
+      },
+      {
+        "name": "county_geoid",
+        "type": "string"
+      },
+      {
+        "name": "county_block_id",
+        "type": "string"
+      },
+      {
+        "name": "is_bay_area_9county",
+        "type": "bool"
+      },
+      {
+        "name": "ALAND",
+        "type": "int64"
+      },
+      {
+        "name": "AWATER",
+        "type": "int64"
+      },
+      {
+        "name": "land_area_km2",
+        "type": "double"
+      },
+      {
+        "name": "water_area_km2",
+        "type": "double"
+      },
+      {
+        "name": "population_density_per_km2",
+        "type": "double"
+      }
+    ]
+  }
+]

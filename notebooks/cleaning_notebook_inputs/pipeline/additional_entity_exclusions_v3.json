@@ -1,0 +1,76 @@
+{
+  "complete": true,
+  "evidence": "validation/clean_model_v3_independent_qa_duplicate_discovery.json",
+  "basis": "Independent SQL strong full-address/name/ZIP normalization found residual duplicate/coordinate risks; quarantine every member. Not a nonretail or closure declaration.",
+  "pre_correction_master_rows": 58521,
+  "groups": [
+    {
+      "name_key": "aropostale",
+      "address_key": "251stonewoodstb43",
+      "zip5": "90241",
+      "ids": [
+        "0ac95349-3d8a-4a05-b8bf-8a3ec69065e2",
+        "286d69a5-f5ff-4361-922d-626412577de4"
+      ]
+    },
+    {
+      "name_key": "lids",
+      "address_key": "415fletcherpkwysp655",
+      "zip5": "92020",
+      "ids": [
+        "2b2d37b8-6a2c-4d18-80e6-af601bf63c10",
+        "cc80696a-bc9b-4717-bf64-ad27b4c7878e"
+      ]
+    },
+    {
+      "name_key": "dior",
+      "address_key": "3333bristolstreetsouthcoastplazasuite1424",
+      "zip5": "92626",
+      "ids": [
+        "02ca20bf-df78-4a62-900a-2d07fb656c4e",
+        "2b7806b3-e9fb-4128-aaa5-d7bef8003b9f"
+      ]
+    },
+    {
+      "name_key": "shawarmavegas",
+      "address_key": "8665wflamingord",
+      "zip5": "89147",
+      "ids": [
+        "e7edb04b-640f-49a1-9a2f-3fa005ab8cd0",
+        "f685ccd4-5555-4b76-9fba-751af63f85ff"
+      ]
+    },
+    {
+      "name_key": "menswearhouse",
+      "address_key": "5000smithridgedrb12",
+      "zip5": "89502",
+      "ids": [
+        "63068a12-94a2-49c8-a02f-84eb2e39aa37",
+        "e49394e3-09ea-46c4-bb9f-d0e5c4c863dd"
+      ]
+    },
+    {
+      "name_key": "tmobileauthorizedretailer",
+      "address_key": "354n2ndstd3",
+      "zip5": "92021",
+      "ids": [
+        "5ebfcacb-b591-4600-b318-25059065cc2e",
+        "4e0794a0-1a2c-45c3-bd7e-c6a9f63903ce"
+      ]
+    }
+  ],
+  "exclude_ids": [
+    "02ca20bf-df78-4a62-900a-2d07fb656c4e",
+    "0ac95349-3d8a-4a05-b8bf-8a3ec69065e2",
+    "286d69a5-f5ff-4361-922d-626412577de4",
+    "2b2d37b8-6a2c-4d18-80e6-af601bf63c10",
+    "2b7806b3-e9fb-4128-aaa5-d7bef8003b9f",
+    "4e0794a0-1a2c-45c3-bd7e-c6a9f63903ce",
+    "5ebfcacb-b591-4600-b318-25059065cc2e",
+    "63068a12-94a2-49c8-a02f-84eb2e39aa37",
+    "cc80696a-bc9b-4717-bf64-ad27b4c7878e",
+    "e49394e3-09ea-46c4-bb9f-d0e5c4c863dd",
+    "e7edb04b-640f-49a1-9a2f-3fa005ab8cd0",
+    "f685ccd4-5555-4b76-9fba-751af63f85ff"
+  ]
+}

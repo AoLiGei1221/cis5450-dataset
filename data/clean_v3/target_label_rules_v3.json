@@ -1,0 +1,12 @@
+{
+  "primary_target_categories": [
+    "toy_store",
+    "osm_shop_toys",
+    "osm_shop_model",
+    "tabletop_games_store"
+  ],
+  "other_categories_require": "Official exact-address specialist confirmation, or accepted explicit OSM toys/model evidence with no location conflicts.",
+  "toy_primary_label": "Source-qualified mapped toy-store category remains a proxy; source confidence is not label accuracy.",
+  "not_automatically_targets": "General gift/party/hobby, gaming, apparel and mixed-lifestyle stores require category-specific evidence.",
+  "excluded_formats": "Unresolved vending/ROBO, park/concession, B2B-only, online-only, duplicate, address and opening-status conflicts."
+}

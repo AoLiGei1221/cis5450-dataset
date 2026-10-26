@@ -1,0 +1,25 @@
+{
+  "url": "https://download.geofabrik.de/north-america/us/california-261024.osm.pbf",
+  "local_file": "data/raw/osm/california-261024.osm.pbf",
+  "bytes": 1333570033,
+  "md5": "35cff894271b8f56ddb81911dcffe089",
+  "md5_source": "https://download.geofabrik.de/north-america/us/california-261024.osm.pbf.md5",
+  "sha256": "74dd4c0e3547668cfd38cfc73b5595f7054af2accc37d67f9ddf852a9c330061",
+  "source": "OpenStreetMap extract distributed by Geofabrik",
+  "downloaded_at_utc": "2026-10-25T23:16:33.582468+00:00",
+  "http_probe": {
+    "url": "https://download.geofabrik.de/north-america/us/california-261024.osm.pbf",
+    "http_status": 206,
+    "bytes_read": 64,
+    "content_range": "bytes 0-63/1333570033",
+    "total_bytes_from_range": 1333570033,
+    "last_modified": "Sun, 25 Oct 2026 00:51:09 GMT",
+    "etag": "\"4f7ca9f1-65e9f9bf50251\"",
+    "has_osm_pbf_header": true,
+    "note": "A successful probe verifies availability and a file prefix, not the complete download or store coverage."
+  },
+  "range_workers": 4,
+  "prefix_bytes_reused": 165675008,
+  "seconds": 182.85,
+  "license_url": "https://www.openstreetmap.org/copyright"
+}

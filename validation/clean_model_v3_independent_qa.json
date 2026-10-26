@@ -1,0 +1,3034 @@
+{
+  "complete": true,
+  "all_checks_passed": true,
+  "checked_at_utc": "2026-10-26T00:52:08.615580+00:00",
+  "upstream_released_at_utc": "2026-10-26T00:51:04.504966+00:00",
+  "method": "No production builder/function imports or cKDTree. IndependentSQL/key checks and directNumPy hypot across all context points for50 random+10 target records, fixedseed20261025, exclude sameID from all requested features.",
+  "interpretation": "58513 counts rule-cleaned records usable for mapped-label modeling, not58513 manually verified or certainly operating retail entities. Half the holdout remains unresolved, so it cannot prove the truly valid retailer population exceeds50000. Holdout results describe the original frozen frame, not fresh independent validation of the corrected release. Computation/rule execution is verified; business truth, label accuracy, demand/profit and exhaustive entity deduplication are not.",
+  "checks": {
+    "manifest_complete": true,
+    "not_universally_manually_verified": true,
+    "master_hash_matches_manifest": true,
+    "quality_input_hash_matches_manifest": true,
+    "all_four_audit_input_hashes_match_manifest": true,
+    "frozen_frame_hash_consistent": true,
+    "frozen_rules_hash_consistent": true,
+    "holdout_sample_hash_consistent": true,
+    "target_overrides_complete": true,
+    "at_least_50000_rule_qualified_rows": true,
+    "master_ids_unique_and_count_matches_manifest": true,
+    "binary_target_both_classes": true,
+    "exact_13_predictor_allowlist": true,
+    "predictors_no_null_or_infinite": true,
+    "competition_features_not_classifier_X": true,
+    "csv_parquet_all_columns_exact": true,
+    "master_subset_of_quality_input": true,
+    "US_country_CA_region_conflicts_absent": true,
+    "exact_CA_polygon_join_no_multiplication": true,
+    "GEOID_county_string_format": true,
+    "source_address_coordinates_unchanged": true,
+    "EPSG3310_metric_coordinates": true,
+    "master_ACS_values_and_nulls_unchanged": true,
+    "density_uses_official_land_km2": true,
+    "all_9129_tracts_retained_once": true,
+    "all_tract_source_ACS_and_MOE_values_preserved": true,
+    "MOE_negative_sentinels_absent": true,
+    "zero_demographic_denominators_null": true,
+    "tract_counts_match_master": true,
+    "all_negatives_subset_of_frozen_frame": true,
+    "frozen_count_matches_manifest": true,
+    "holdout_100_unique_and_exact_frozen_sample": true,
+    "nonconfirmed_holdout_excluded": true,
+    "official_address_never_bypasses_hard_location_conflicts": true,
+    "quality_duplicate_risk_members_excluded": true,
+    "all_extra_target_duplicate_group_members_excluded": true,
+    "ROBO_and_explicit_target_audit_exclusions_honored": true,
+    "address_contact_status_confidence_rules_executed": true,
+    "verified_labels_agree_with_proxy_target": true,
+    "context_IDs_unique": true,
+    "context_coordinates_finite": true,
+    "every_final_record_has_correct_context_flags": true,
+    "excluded_master_not_reintroduced_in_context": true,
+    "all_twelve_additional_entity_exclusions_absent_from_master_and_context": true,
+    "context_no_exact_strong_identity_duplicates": true,
+    "brute_force_all_six_counts_three_nearest_match": true,
+    "all_counts_nonnegative_nested": true,
+    "all_inputs_stable_during_QA": true
+  },
+  "metrics": {
+    "master_rows": 58513,
+    "label_counts": {
+      "0": 57965,
+      "1": 548
+    },
+    "predictors_no_null_or_infinite_violations": 0,
+    "csv_parquet_all_columns_exact_violations": 0,
+    "master_subset_of_quality_input_violations": 0,
+    "US_country_CA_region_conflicts_absent_violations": 0,
+    "exact_CA_join_rows": 58513,
+    "GEOID_county_string_format_violations": 0,
+    "source_address_coordinates_unchanged_violations": 0,
+    "projection_max_error_m": [
+      0.0,
+      0.0
+    ],
+    "retained_ACS_columns_compared": [
+      "acs_period",
+      "population",
+      "under18_share",
+      "young_adult_18_34_share",
+      "median_household_income_2024_usd",
+      "median_household_income_moe",
+      "college_enrolled_share_3plus",
+      "households",
+      "family_household_share",
+      "living_alone_household_share",
+      "county_geoid",
+      "county_block_id",
+      "is_bay_area_9county",
+      "land_area_km2",
+      "population_density_per_km2"
+    ],
+    "master_ACS_values_and_nulls_unchanged_violations": 0,
+    "density_uses_official_land_km2_violations": 0,
+    "all_tract_source_ACS_and_MOE_values_preserved_violations": 0,
+    "source_MOE_columns": 69,
+    "MOE_negative_sentinels_absent_violations": 0,
+    "zero_demographic_denominators_null_violations": 0,
+    "tract_counts_match_master_violations": 0,
+    "all_negatives_subset_of_frozen_frame_violations": 0,
+    "frozen_negative_rows": 58030,
+    "nonconfirmed_holdout_rows": 57,
+    "verified_labels_agree_with_proxy_target_violations": 0,
+    "context_counts": {
+      "other_retail": 63420,
+      "food": 143434,
+      "target": 601,
+      "mall": 1787,
+      "university": 2385
+    },
+    "sample_rows": 60,
+    "target_supplement_rows": 10,
+    "radius_count_comparisons": 360,
+    "nearest_distance_comparisons": 180,
+    "nearest_max_absolute_error_m": 1.8189894035458565e-12,
+    "all_counts_nonnegative_nested_violations": 0
+  },
+  "details": {
+    "retained_nonconfirmed_holdout": [],
+    "retained_hard_location_conflicts": [],
+    "retained_quality_duplicate_ids": [],
+    "retained_target_duplicate_ids": [],
+    "retained_explicit_target_exclusions": [],
+    "retained_basic_quality_violations": [],
+    "retained_additional_entity_exclusion_ids": [],
+    "retained_exact_strong_context_duplicate_groups": []
+  },
+  "input_snapshots": {
+    "m": {
+      "path": "data/clean_v3/california_retail_clean_master_v3.parquet",
+      "sha256": "da49534f55f7ebc49ca5142db17074a55ce9358e59965ba19de3598969c97904",
+      "bytes": 9757973,
+      "mtime_utc": "2026-10-26T00:51:16.028426+00:00"
+    },
+    "ctx": {
+      "path": "data/clean_v3/context_clean_v3.parquet",
+      "sha256": "086dc2acef0fca3b00b1ff4ed78aae600e31718e08f9e927b3a201a5f9298ae4",
+      "bytes": 9967770,
+      "mtime_utc": "2026-10-26T00:51:15.230804+00:00"
+    },
+    "frozen": {
+      "path": "data/clean_v3/frozen_comparator_frame_v3.parquet",
+      "sha256": "e526de04f645027ae0494d61ee48948780c4d98e7226fba6afd708484d8fb1de",
+      "bytes": 14305366,
+      "mtime_utc": "2026-10-26T00:32:20.192112+00:00"
+    },
+    "quality": {
+      "path": "data/clean_v3/quality_review_master_v3.parquet",
+      "sha256": "915711ef7e9384987615c2e9fd57f2948150f5615034881b49e6b046684698c3",
+      "bytes": 19919219,
+      "mtime_utc": "2026-10-26T00:32:20.605961+00:00"
+    },
+    "trace": {
+      "path": "data/clean_v3/final_cleaning_decisions_v3.parquet",
+      "sha256": "91e5afb262bcc4618b27aa758da3ea21a0f0cd23d4eecb44f199ad8652648cc7",
+      "bytes": 1652314,
+      "mtime_utc": "2026-10-26T00:51:15.468149+00:00"
+    },
+    "tract": {
+      "path": "data/clean_v3/california_tract_clean_summary_v3.parquet",
+      "sha256": "409e81689e841332331426ae8a673f516ec2502adcff040fbf399d2a89588153",
+      "bytes": 2449091,
+      "mtime_utc": "2026-10-26T00:51:16.393342+00:00"
+    },
+    "acs": {
+      "path": "data/interim/census/ca_acs2024_tract_features.parquet",
+      "sha256": "da66211a9d5b6b7641e31205e83978f72e4ee36c0745bfb8527c67b6240e7a59",
+      "bytes": 2440854,
+      "mtime_utc": "2026-10-25T23:27:53.088901+00:00"
+    },
+    "geo": {
+      "path": "data/interim/census/ca_tracts_2024.parquet",
+      "sha256": "41181f101d1e8040eef37017f8d0872791b667c26d5d349e77d51afa276ca19a",
+      "bytes": 61327509,
+      "mtime_utc": "2026-10-25T23:27:53.039170+00:00"
+    },
+    "pre": {
+      "path": "data/interim/integration/context_pre_dedup.parquet",
+      "sha256": "b858489004965bd7ed3659bf3d8adf6fdd4b86f8759bbe6580153971ee606bd4",
+      "bytes": 53797480,
+      "mtime_utc": "2026-10-25T23:27:57.825653+00:00"
+    },
+    "manifest": {
+      "path": "data/clean_v3/clean_dataset_manifest_v3.json",
+      "sha256": "17e17a6103ef211e9486d0e9a6b491a41ab6d641a307d2bbf626db3030a5b072",
+      "bytes": 2829,
+      "mtime_utc": "2026-10-26T00:51:16.443915+00:00"
+    },
+    "csv": {
+      "path": "data/clean_v3/california_retail_clean_master_v3.csv",
+      "sha256": "dedb031207b6fb1684eeec85414d22e31cad2046561431f368ee1371e7deb632",
+      "bytes": 38541661,
+      "mtime_utc": "2026-10-26T00:51:16.305990+00:00"
+    },
+    "spec": {
+      "path": "data/clean_v3/model_feature_spec_v3.json",
+      "sha256": "ae7ec741accbb6e620805af53519eb15c064cdae829f58f6ce05a7981f5ff416",
+      "bytes": 2059,
+      "mtime_utc": "2026-10-26T00:51:16.394455+00:00"
+    },
+    "rules": {
+      "path": "data/clean_v3/cleaning_rules_v3.json",
+      "sha256": "7532001002772b15bf19e71eb4a35e72919bbf3071d90b331348ecd1d39a3f82",
+      "bytes": 5783,
+      "mtime_utc": "2026-10-26T00:32:18.457397+00:00"
+    },
+    "duplicates": {
+      "path": "data/clean_v3/duplicate_review_groups_v3.json",
+      "sha256": "a2d83de62debca431efd3d25beedc813610f4f39513063f225ee8b546971a53d",
+      "bytes": 345240,
+      "mtime_utc": "2026-10-26T00:32:18.456308+00:00"
+    },
+    "design": {
+      "path": "validation/comparator_holdout_v3/sampling_design.json",
+      "sha256": "45e3fcd0e6c304e2dc6203456966e7510a3a9f741fdd2262af40f16f91a9cd06",
+      "bytes": 3690,
+      "mtime_utc": "2026-10-26T00:32:51.599458+00:00"
+    },
+    "sample": {
+      "path": "validation/comparator_holdout_v3/sample_frame.json",
+      "sha256": "4829ef46952bd17d388013e1bf5c87716d29a3ba3624258c78765148f5ba8438",
+      "bytes": 173392,
+      "mtime_utc": "2026-10-26T00:32:51.586984+00:00"
+    },
+    "holdout": {
+      "path": "validation/comparator_holdout_v3/final_adjudication.json",
+      "sha256": "c55f0cb845b8ccfb63e365644334fbde6fce019c07771faa280318088043f4e4",
+      "bytes": 366645,
+      "mtime_utc": "2026-10-26T00:44:53.279643+00:00"
+    },
+    "target": {
+      "path": "pipeline/target_scope_overrides_v3.json",
+      "sha256": "f8d5629fa9f2acac59e3864f1d36b7a30289ba3231605c3ed897f9663a658a45",
+      "bytes": 276325,
+      "mtime_utc": "2026-10-26T00:42:47.924779+00:00"
+    },
+    "target_audit": {
+      "path": "validation/target_scope_audit_v3.json",
+      "sha256": "e2d03091177072f568696b7a2754649d7cda81e82dbc7eee2160d0c1f494d525",
+      "bytes": 1178654,
+      "mtime_utc": "2026-10-26T00:42:25.932019+00:00"
+    },
+    "extra_exclusions": {
+      "path": "pipeline/additional_entity_exclusions_v3.json",
+      "sha256": "e8e5becd7b7183e96f3161208fe2f7557269b8469451a15edd8b877eaf200344",
+      "bytes": 2292,
+      "mtime_utc": "2026-10-26T00:51:02.076571+00:00"
+    }
+  },
+  "input_hashes_unchanged": {
+    "m": true,
+    "ctx": true,
+    "frozen": true,
+    "quality": true,
+    "trace": true,
+    "tract": true,
+    "acs": true,
+    "geo": true,
+    "pre": true,
+    "manifest": true,
+    "csv": true,
+    "spec": true,
+    "rules": true,
+    "duplicates": true,
+    "design": true,
+    "sample": true,
+    "holdout": true,
+    "target": true,
+    "target_audit": true,
+    "extra_exclusions": true
+  },
+  "feature_mismatches": [],
+  "sample_records": [
+    {
+      "id": "1858fd63-1911-400a-88b8-2876788bb1fb",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 209,
+          "actual": 209
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 251,
+          "actual": 251
+        },
+        "food_count_500m_clean": {
+          "expected": 83,
+          "actual": 83
+        },
+        "food_count_1000m_clean": {
+          "expected": 146,
+          "actual": 146
+        },
+        "other_target_count_500m_clean": {
+          "expected": 4,
+          "actual": 4
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 4,
+          "actual": 4
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 0.0,
+          "actual": 0.0,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 2019.0901941198476,
+          "actual": 2019.0901941198476,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 0.0,
+          "actual": 0.0,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "e6bb8bf5-68d2-4501-b80f-6bf4da212302",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 49,
+          "actual": 49
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 75,
+          "actual": 75
+        },
+        "food_count_500m_clean": {
+          "expected": 22,
+          "actual": 22
+        },
+        "food_count_1000m_clean": {
+          "expected": 43,
+          "actual": 43
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 719.2562129788028,
+          "actual": 719.2562129788028,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 12664.876276011022,
+          "actual": 12664.876276011022,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 6569.202444001836,
+          "actual": 6569.202444001836,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "9773add0-d415-4ae1-abcc-24858d139657",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 7,
+          "actual": 7
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 9,
+          "actual": 9
+        },
+        "food_count_500m_clean": {
+          "expected": 9,
+          "actual": 9
+        },
+        "food_count_1000m_clean": {
+          "expected": 34,
+          "actual": 34
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 1728.6274411774057,
+          "actual": 1728.6274411774057,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 2624.701358789372,
+          "actual": 2624.701358789372,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 3570.2081961099043,
+          "actual": 3570.2081961099043,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "111eaede-39eb-422f-af33-8681ea42e74c",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 10,
+          "actual": 10
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 15,
+          "actual": 15
+        },
+        "food_count_500m_clean": {
+          "expected": 21,
+          "actual": 21
+        },
+        "food_count_1000m_clean": {
+          "expected": 36,
+          "actual": 36
+        },
+        "other_target_count_500m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 31.056287223343052,
+          "actual": 31.056287223343052,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 1524.2533688287979,
+          "actual": 1524.2533688287979,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 305.627819414904,
+          "actual": 305.627819414904,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "eafb1fc2-baca-496d-ae4a-410c6df45574",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 30,
+          "actual": 30
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 120,
+          "actual": 120
+        },
+        "food_count_500m_clean": {
+          "expected": 24,
+          "actual": 24
+        },
+        "food_count_1000m_clean": {
+          "expected": 87,
+          "actual": 87
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 777.3299484610583,
+          "actual": 777.3299484610583,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 785.9464859988914,
+          "actual": 785.9464859988914,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 914.9339970641008,
+          "actual": 914.9339970641008,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "2eb58e9d-77f4-4ed6-9c51-e36049808490",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 25,
+          "actual": 25
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 31,
+          "actual": 31
+        },
+        "food_count_500m_clean": {
+          "expected": 46,
+          "actual": 46
+        },
+        "food_count_1000m_clean": {
+          "expected": 73,
+          "actual": 73
+        },
+        "other_target_count_500m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 6502.496196924749,
+          "actual": 6502.496196924749,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 699.1159200883855,
+          "actual": 699.1159200883855,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 207.24182482091618,
+          "actual": 207.24182482091618,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "78358448-d413-4726-b630-2670a43e1335",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 3,
+          "actual": 3
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 12,
+          "actual": 12
+        },
+        "food_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "food_count_1000m_clean": {
+          "expected": 22,
+          "actual": 22
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 1188.0208970727963,
+          "actual": 1188.0208970727963,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 2475.2461763189654,
+          "actual": 2475.2461763189654,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 571.2405005552555,
+          "actual": 571.2405005552555,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "aee47030-3eb0-4980-a216-9c5126078c4d",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 4,
+          "actual": 4
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 16,
+          "actual": 16
+        },
+        "food_count_500m_clean": {
+          "expected": 16,
+          "actual": 16
+        },
+        "food_count_1000m_clean": {
+          "expected": 28,
+          "actual": 28
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 239.32430636215173,
+          "actual": 239.32430636215176,
+          "absolute_error_m": 2.842170943040401e-14
+        },
+        "distance_to_university_m_clean": {
+          "expected": 600.5295991391838,
+          "actual": 600.5295991391838,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 2217.9556140423288,
+          "actual": 2217.9556140423288,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "a66713e9-dda3-4d1d-9220-fa30697a4d4c",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 9,
+          "actual": 9
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 53,
+          "actual": 53
+        },
+        "food_count_500m_clean": {
+          "expected": 12,
+          "actual": 12
+        },
+        "food_count_1000m_clean": {
+          "expected": 42,
+          "actual": 42
+        },
+        "other_target_count_500m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 219.57413833211513,
+          "actual": 219.57413833211513,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 1153.4865303279782,
+          "actual": 1153.4865303279782,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 236.0233353601773,
+          "actual": 236.0233353601773,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "97d37319-9c5f-452c-8669-d4c521041394",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 6,
+          "actual": 6
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 25,
+          "actual": 25
+        },
+        "food_count_500m_clean": {
+          "expected": 5,
+          "actual": 5
+        },
+        "food_count_1000m_clean": {
+          "expected": 75,
+          "actual": 75
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 1774.478664693067,
+          "actual": 1774.478664693067,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 1718.470599111791,
+          "actual": 1718.470599111791,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 6512.8201413731,
+          "actual": 6512.8201413731,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "37e96204-dfbf-404a-94d8-c1d6e0609d66",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 20,
+          "actual": 20
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 45,
+          "actual": 45
+        },
+        "food_count_500m_clean": {
+          "expected": 21,
+          "actual": 21
+        },
+        "food_count_1000m_clean": {
+          "expected": 60,
+          "actual": 60
+        },
+        "other_target_count_500m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 189.00550368994482,
+          "actual": 189.00550368994482,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 685.7943111647269,
+          "actual": 685.7943111647269,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 478.06187652874075,
+          "actual": 478.06187652874075,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "c22ddc7f-aff1-4f35-bfd4-c09f483b76a1",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 58,
+          "actual": 58
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 82,
+          "actual": 82
+        },
+        "food_count_500m_clean": {
+          "expected": 68,
+          "actual": 68
+        },
+        "food_count_1000m_clean": {
+          "expected": 124,
+          "actual": 124
+        },
+        "other_target_count_500m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 447.1074530429267,
+          "actual": 447.1074530429267,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 3023.2065539877854,
+          "actual": 3023.2065539877854,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 14.997160553101093,
+          "actual": 14.997160553101093,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "db9f44a2-2e03-455e-9eb9-e0dcb9bee50c",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 21,
+          "actual": 21
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 55,
+          "actual": 55
+        },
+        "food_count_500m_clean": {
+          "expected": 21,
+          "actual": 21
+        },
+        "food_count_1000m_clean": {
+          "expected": 57,
+          "actual": 57
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 74.72344446367973,
+          "actual": 74.72344446367973,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 4082.395806087717,
+          "actual": 4082.395806087717,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 1109.1391800399244,
+          "actual": 1109.1391800399244,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "add7d72c-e2cc-4343-9199-6a0a4b954fa1",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 12,
+          "actual": 12
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 15,
+          "actual": 15
+        },
+        "food_count_500m_clean": {
+          "expected": 23,
+          "actual": 23
+        },
+        "food_count_1000m_clean": {
+          "expected": 49,
+          "actual": 49
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 1073.8975649280799,
+          "actual": 1073.8975649280799,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 1327.4687290720083,
+          "actual": 1327.4687290720083,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 3832.8878607983106,
+          "actual": 3832.8878607983106,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "bf162df9-85b9-429b-981e-04469da049a5",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 7,
+          "actual": 7
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 7,
+          "actual": 7
+        },
+        "food_count_500m_clean": {
+          "expected": 9,
+          "actual": 9
+        },
+        "food_count_1000m_clean": {
+          "expected": 10,
+          "actual": 10
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 57542.15731092503,
+          "actual": 57542.15731092503,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 5739.97511217552,
+          "actual": 5739.97511217552,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 57228.20287634153,
+          "actual": 57228.20287634153,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "ef7d9909-f903-42d4-9fc9-954265d35b46",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 15,
+          "actual": 15
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 24,
+          "actual": 24
+        },
+        "food_count_500m_clean": {
+          "expected": 42,
+          "actual": 42
+        },
+        "food_count_1000m_clean": {
+          "expected": 53,
+          "actual": 53
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 1686.8341581742427,
+          "actual": 1686.8341581742427,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 1294.8130956470625,
+          "actual": 1294.8130956470625,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 2006.436004322315,
+          "actual": 2006.436004322315,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "c08e4867-6663-450c-9d4f-48e75cd06039",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 5,
+          "actual": 5
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 10,
+          "actual": 10
+        },
+        "food_count_500m_clean": {
+          "expected": 14,
+          "actual": 14
+        },
+        "food_count_1000m_clean": {
+          "expected": 15,
+          "actual": 15
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 1925.5799919320855,
+          "actual": 1925.5799919320855,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 4682.758198607858,
+          "actual": 4682.758198607858,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 6484.019863135608,
+          "actual": 6484.019863135608,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "114a4755-7b4d-49ba-8141-50b044335efb",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 6,
+          "actual": 6
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 9,
+          "actual": 9
+        },
+        "food_count_500m_clean": {
+          "expected": 10,
+          "actual": 10
+        },
+        "food_count_1000m_clean": {
+          "expected": 20,
+          "actual": 20
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 3159.9951198957824,
+          "actual": 3159.9951198957824,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 2205.170089644286,
+          "actual": 2205.170089644286,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 1442.7966913506623,
+          "actual": 1442.7966913506623,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "2109c7c5-afc9-48ac-8993-88aaf075f72c",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 8,
+          "actual": 8
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 17,
+          "actual": 17
+        },
+        "food_count_500m_clean": {
+          "expected": 27,
+          "actual": 27
+        },
+        "food_count_1000m_clean": {
+          "expected": 64,
+          "actual": 64
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 1372.2380545809276,
+          "actual": 1372.2380545809278,
+          "absolute_error_m": 2.2737367544323206e-13
+        },
+        "distance_to_university_m_clean": {
+          "expected": 1889.3840704221514,
+          "actual": 1889.3840704221514,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 875.8021649974412,
+          "actual": 875.8021649974411,
+          "absolute_error_m": 1.1368683772161603e-13
+        }
+      }
+    },
+    {
+      "id": "f95552b0-5c28-4e95-9572-fc11bfb7c860",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 693,
+          "actual": 693
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 1234,
+          "actual": 1234
+        },
+        "food_count_500m_clean": {
+          "expected": 292,
+          "actual": 292
+        },
+        "food_count_1000m_clean": {
+          "expected": 714,
+          "actual": 714
+        },
+        "other_target_count_500m_clean": {
+          "expected": 2,
+          "actual": 2
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 10,
+          "actual": 10
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 89.13596724180381,
+          "actual": 89.13596724180381,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 347.24696219301933,
+          "actual": 347.24696219301933,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 70.12787111448402,
+          "actual": 70.12787111448402,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "3ee0708c-ec70-4b9f-9414-55d472351383",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 79,
+          "actual": 79
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 97,
+          "actual": 97
+        },
+        "food_count_500m_clean": {
+          "expected": 108,
+          "actual": 108
+        },
+        "food_count_1000m_clean": {
+          "expected": 142,
+          "actual": 142
+        },
+        "other_target_count_500m_clean": {
+          "expected": 2,
+          "actual": 2
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 2,
+          "actual": 2
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 144.7244836389754,
+          "actual": 144.7244836389754,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 166.31475202227588,
+          "actual": 166.31475202227588,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 127.9433010979046,
+          "actual": 127.9433010979046,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "44a052a3-c898-4f13-b1fa-7ee4c2a03ded",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 6,
+          "actual": 6
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 39,
+          "actual": 39
+        },
+        "food_count_500m_clean": {
+          "expected": 36,
+          "actual": 36
+        },
+        "food_count_1000m_clean": {
+          "expected": 72,
+          "actual": 72
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 67.03787925300566,
+          "actual": 67.03787925300566,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 7550.2968066225485,
+          "actual": 7550.2968066225485,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 22802.053734278325,
+          "actual": 22802.053734278325,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "1fa25cfa-329b-461c-b6d2-e163d9deeaa5",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 21,
+          "actual": 21
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 48,
+          "actual": 48
+        },
+        "food_count_500m_clean": {
+          "expected": 21,
+          "actual": 21
+        },
+        "food_count_1000m_clean": {
+          "expected": 51,
+          "actual": 51
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 125.86012062432381,
+          "actual": 125.86012062432381,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 4087.4009022715986,
+          "actual": 4087.4009022715986,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 1142.4932937173014,
+          "actual": 1142.4932937173014,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "5d82e294-3e1e-4d9d-af52-123962b92aec",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 2,
+          "actual": 2
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 57,
+          "actual": 57
+        },
+        "food_count_500m_clean": {
+          "expected": 7,
+          "actual": 7
+        },
+        "food_count_1000m_clean": {
+          "expected": 49,
+          "actual": 49
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 595.4269233759436,
+          "actual": 595.4269233759436,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 700.9574677550045,
+          "actual": 700.9574677550045,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 1061.0635537689436,
+          "actual": 1061.0635537689436,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "53a3bbca-4833-4774-91bb-d8ec56b125dc",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 34,
+          "actual": 34
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 38,
+          "actual": 38
+        },
+        "food_count_500m_clean": {
+          "expected": 205,
+          "actual": 205
+        },
+        "food_count_1000m_clean": {
+          "expected": 218,
+          "actual": 218
+        },
+        "other_target_count_500m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 1853.0301274445253,
+          "actual": 1853.0301274445253,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 349.79372029667473,
+          "actual": 349.79372029667473,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 212.23617792905594,
+          "actual": 212.23617792905594,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "38abdc43-2dd4-4ae6-b57c-93671268a7ed",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 25,
+          "actual": 25
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 31,
+          "actual": 31
+        },
+        "food_count_500m_clean": {
+          "expected": 9,
+          "actual": 9
+        },
+        "food_count_1000m_clean": {
+          "expected": 20,
+          "actual": 20
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 908.3090051806465,
+          "actual": 908.3090051806465,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 747.1649604398366,
+          "actual": 747.1649604398366,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 11281.38217494708,
+          "actual": 11281.38217494708,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "ad7f3369-de8f-41ca-bb8b-aaaea5745639",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 20,
+          "actual": 20
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 51,
+          "actual": 51
+        },
+        "food_count_500m_clean": {
+          "expected": 51,
+          "actual": 51
+        },
+        "food_count_1000m_clean": {
+          "expected": 100,
+          "actual": 100
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 165.65229652086535,
+          "actual": 165.65229652086535,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 407.3100895096315,
+          "actual": 407.3100895096315,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 1248.8766045722887,
+          "actual": 1248.8766045722887,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "f27ab7f6-0d6b-48a6-bf74-d80a0875cd2e",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 3,
+          "actual": 3
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 7,
+          "actual": 7
+        },
+        "food_count_500m_clean": {
+          "expected": 8,
+          "actual": 8
+        },
+        "food_count_1000m_clean": {
+          "expected": 21,
+          "actual": 21
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 59575.97203895745,
+          "actual": 59575.97203895745,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 7711.13230569841,
+          "actual": 7711.13230569841,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 59259.94718231178,
+          "actual": 59259.94718231178,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "925f9d94-7564-4aaa-9c20-e6ef4b414f1f",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 8,
+          "actual": 8
+        },
+        "food_count_500m_clean": {
+          "expected": 6,
+          "actual": 6
+        },
+        "food_count_1000m_clean": {
+          "expected": 13,
+          "actual": 13
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 1107.9541357962596,
+          "actual": 1107.9541357962596,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 1633.0024398451287,
+          "actual": 1633.002439845129,
+          "absolute_error_m": 2.2737367544323206e-13
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 1161.4572443452153,
+          "actual": 1161.4572443452153,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "a1c4bf16-b984-4c65-bf19-1b4ca42abe13",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 14,
+          "actual": 14
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 26,
+          "actual": 26
+        },
+        "food_count_500m_clean": {
+          "expected": 13,
+          "actual": 13
+        },
+        "food_count_1000m_clean": {
+          "expected": 36,
+          "actual": 36
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 1712.6866434392537,
+          "actual": 1712.6866434392537,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 1339.9492690684153,
+          "actual": 1339.9492690684153,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 1667.9834952606525,
+          "actual": 1667.9834952606525,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "d82d6773-f32a-40c3-b276-7bd1b22b9285",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 7,
+          "actual": 7
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 26,
+          "actual": 26
+        },
+        "food_count_500m_clean": {
+          "expected": 21,
+          "actual": 21
+        },
+        "food_count_1000m_clean": {
+          "expected": 48,
+          "actual": 48
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 1679.905757519252,
+          "actual": 1679.905757519252,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 1151.0419789707523,
+          "actual": 1151.0419789707523,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 989.9492585938367,
+          "actual": 989.9492585938367,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "583260b1-8e34-4559-922c-7ecf62c102b8",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 53,
+          "actual": 53
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 86,
+          "actual": 86
+        },
+        "food_count_500m_clean": {
+          "expected": 41,
+          "actual": 41
+        },
+        "food_count_1000m_clean": {
+          "expected": 93,
+          "actual": 93
+        },
+        "other_target_count_500m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 152.80023126991273,
+          "actual": 152.80023126991273,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 2976.8810331151344,
+          "actual": 2976.8810331151344,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 219.10196783527056,
+          "actual": 219.10196783527056,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "310823db-fc17-489c-a600-4787ac6cc3db",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 12,
+          "actual": 12
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 30,
+          "actual": 30
+        },
+        "food_count_500m_clean": {
+          "expected": 18,
+          "actual": 18
+        },
+        "food_count_1000m_clean": {
+          "expected": 35,
+          "actual": 35
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 715.9241028604633,
+          "actual": 715.9241028604633,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 2506.27286641891,
+          "actual": 2506.27286641891,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 2572.0634697986015,
+          "actual": 2572.0634697986015,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "09b5d745-9580-43e8-9260-94df3587b860",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 99,
+          "actual": 99
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 110,
+          "actual": 110
+        },
+        "food_count_500m_clean": {
+          "expected": 39,
+          "actual": 39
+        },
+        "food_count_1000m_clean": {
+          "expected": 54,
+          "actual": 54
+        },
+        "other_target_count_500m_clean": {
+          "expected": 2,
+          "actual": 2
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 2,
+          "actual": 2
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 692.614225671604,
+          "actual": 692.614225671604,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 1413.5304367572157,
+          "actual": 1413.5304367572157,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 118.61052146849376,
+          "actual": 118.61052146849376,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "883cc219-6f75-41a1-a6f7-3b48de914843",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 5,
+          "actual": 5
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 18,
+          "actual": 18
+        },
+        "food_count_500m_clean": {
+          "expected": 11,
+          "actual": 11
+        },
+        "food_count_1000m_clean": {
+          "expected": 29,
+          "actual": 29
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 2333.4265646337826,
+          "actual": 2333.4265646337826,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 3916.689278829113,
+          "actual": 3916.689278829113,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 1580.12783233923,
+          "actual": 1580.12783233923,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "ba9edb13-d199-4978-894b-cdec91f87e8f",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 3,
+          "actual": 3
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 8,
+          "actual": 8
+        },
+        "food_count_500m_clean": {
+          "expected": 28,
+          "actual": 28
+        },
+        "food_count_1000m_clean": {
+          "expected": 34,
+          "actual": 34
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 1025.7980068465304,
+          "actual": 1025.7980068465304,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 256.1631110106546,
+          "actual": 256.1631110106546,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 1611.4739098445866,
+          "actual": 1611.4739098445866,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "82b3cf7a-4197-450c-9d2e-4811c75e3efe",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 77,
+          "actual": 77
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 101,
+          "actual": 101
+        },
+        "food_count_500m_clean": {
+          "expected": 32,
+          "actual": 32
+        },
+        "food_count_1000m_clean": {
+          "expected": 90,
+          "actual": 90
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 109.4952081449264,
+          "actual": 109.4952081449264,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 596.6579749700007,
+          "actual": 596.6579749700007,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 14466.8583898315,
+          "actual": 14466.8583898315,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "3e53275f-6a5a-4a00-b58e-b04fd0971c05",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 15,
+          "actual": 15
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 19,
+          "actual": 19
+        },
+        "food_count_500m_clean": {
+          "expected": 32,
+          "actual": 32
+        },
+        "food_count_1000m_clean": {
+          "expected": 45,
+          "actual": 45
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 214.41342890741237,
+          "actual": 214.41342890741237,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 817.0521461675498,
+          "actual": 817.0521461675498,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 5399.014419696763,
+          "actual": 5399.014419696763,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "9d0d0527-b627-4279-85c9-68e2262d07fe",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 10,
+          "actual": 10
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 39,
+          "actual": 39
+        },
+        "food_count_500m_clean": {
+          "expected": 14,
+          "actual": 14
+        },
+        "food_count_1000m_clean": {
+          "expected": 38,
+          "actual": 38
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 783.6834274831366,
+          "actual": 783.6834274831366,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 814.8441903471335,
+          "actual": 814.8441903471335,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 1085.4049069229957,
+          "actual": 1085.4049069229957,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "eff2cb6d-7736-4ce0-85e5-6304de98dfa6",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 3,
+          "actual": 3
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 6,
+          "actual": 6
+        },
+        "food_count_500m_clean": {
+          "expected": 6,
+          "actual": 6
+        },
+        "food_count_1000m_clean": {
+          "expected": 8,
+          "actual": 8
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 2505.713746350399,
+          "actual": 2505.713746350399,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 3546.0662398660593,
+          "actual": 3546.0662398660593,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 4661.545748898971,
+          "actual": 4661.545748898971,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "29e84d67-4368-4812-ad28-56c545d067cd",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 15,
+          "actual": 15
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 30,
+          "actual": 30
+        },
+        "food_count_500m_clean": {
+          "expected": 25,
+          "actual": 25
+        },
+        "food_count_1000m_clean": {
+          "expected": 64,
+          "actual": 64
+        },
+        "other_target_count_500m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 1438.27341710994,
+          "actual": 1438.27341710994,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 5475.709944266946,
+          "actual": 5475.709944266946,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 77.98005575245293,
+          "actual": 77.98005575245293,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "35e0bf54-6097-4dca-afc8-d285d05673c7",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 24,
+          "actual": 24
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 60,
+          "actual": 60
+        },
+        "food_count_500m_clean": {
+          "expected": 50,
+          "actual": 50
+        },
+        "food_count_1000m_clean": {
+          "expected": 123,
+          "actual": 123
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 159.76851746334214,
+          "actual": 159.76851746334214,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 996.5379017001052,
+          "actual": 996.5379017001052,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 692.0016813974115,
+          "actual": 692.0016813974115,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "73057738-6590-48de-8736-068249d7eb9a",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 29,
+          "actual": 29
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 42,
+          "actual": 42
+        },
+        "food_count_500m_clean": {
+          "expected": 42,
+          "actual": 42
+        },
+        "food_count_1000m_clean": {
+          "expected": 64,
+          "actual": 64
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 1509.056682716999,
+          "actual": 1509.056682716999,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 377.52306680637906,
+          "actual": 377.52306680637906,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 2561.6391890014493,
+          "actual": 2561.6391890014493,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "7bde62ca-c5f1-4fdd-b57d-6e652b52dced",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 16,
+          "actual": 16
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 24,
+          "actual": 24
+        },
+        "food_count_500m_clean": {
+          "expected": 27,
+          "actual": 27
+        },
+        "food_count_1000m_clean": {
+          "expected": 41,
+          "actual": 41
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 2084.871812811843,
+          "actual": 2084.871812811843,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 545.0415746051581,
+          "actual": 545.0415746051581,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 5051.339368762021,
+          "actual": 5051.339368762021,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "e214c88d-757a-43d9-8af4-d1cbb172c5d5",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 56,
+          "actual": 56
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 65,
+          "actual": 65
+        },
+        "food_count_500m_clean": {
+          "expected": 32,
+          "actual": 32
+        },
+        "food_count_1000m_clean": {
+          "expected": 44,
+          "actual": 44
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 393.1622340015793,
+          "actual": 393.1622340015793,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 1319.1765062620989,
+          "actual": 1319.1765062620989,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 2893.7518427410073,
+          "actual": 2893.7518427410073,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "a973332a-137d-4344-a218-e32b43ed041d",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 51,
+          "actual": 51
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 65,
+          "actual": 65
+        },
+        "food_count_500m_clean": {
+          "expected": 115,
+          "actual": 115
+        },
+        "food_count_1000m_clean": {
+          "expected": 159,
+          "actual": 159
+        },
+        "other_target_count_500m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 243.17054062206745,
+          "actual": 243.17054062206745,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 1040.4998358328216,
+          "actual": 1040.4998358328216,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 413.33725564965465,
+          "actual": 413.33725564965465,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "5f7bbf4f-7ed2-4d6b-8372-d31bba017b26",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 9,
+          "actual": 9
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 15,
+          "actual": 15
+        },
+        "food_count_500m_clean": {
+          "expected": 40,
+          "actual": 40
+        },
+        "food_count_1000m_clean": {
+          "expected": 50,
+          "actual": 50
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 1016.8083486222303,
+          "actual": 1016.8083486222303,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 987.3830989180503,
+          "actual": 987.3830989180503,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 1782.7371833585698,
+          "actual": 1782.7371833585698,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "ad4792c1-5de1-4bdf-a57c-42b9674dceca",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 9,
+          "actual": 9
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 19,
+          "actual": 19
+        },
+        "food_count_500m_clean": {
+          "expected": 17,
+          "actual": 17
+        },
+        "food_count_1000m_clean": {
+          "expected": 57,
+          "actual": 57
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 988.9647302271914,
+          "actual": 988.9647302271914,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 1422.1614858610587,
+          "actual": 1422.1614858610587,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 2212.3214860061453,
+          "actual": 2212.3214860061453,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "9f6eae8b-32b1-4d41-b577-91274a2bdb96",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 11,
+          "actual": 11
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 30,
+          "actual": 30
+        },
+        "food_count_500m_clean": {
+          "expected": 25,
+          "actual": 25
+        },
+        "food_count_1000m_clean": {
+          "expected": 74,
+          "actual": 74
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 559.9185139066013,
+          "actual": 559.9185139066013,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 2569.5864142431606,
+          "actual": 2569.5864142431606,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 858.5911033871217,
+          "actual": 858.5911033871217,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "45c8596d-ef0f-4a89-9c59-bcb2dd1e03ca",
+      "target": 0,
+      "selection": "random_master",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 9,
+          "actual": 9
+        },
+        "food_count_500m_clean": {
+          "expected": 2,
+          "actual": 2
+        },
+        "food_count_1000m_clean": {
+          "expected": 47,
+          "actual": 47
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 662.3417186649066,
+          "actual": 662.3417186649066,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 1680.6684775267183,
+          "actual": 1680.6684775267183,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 761.453641007637,
+          "actual": 761.453641007637,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "b640b4b9-2fce-4865-82a0-a296bb922b50",
+      "target": 1,
+      "selection": "target_supplement",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 7,
+          "actual": 7
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 35,
+          "actual": 35
+        },
+        "food_count_500m_clean": {
+          "expected": 15,
+          "actual": 15
+        },
+        "food_count_1000m_clean": {
+          "expected": 50,
+          "actual": 50
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 2975.023221391627,
+          "actual": 2975.023221391627,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 3291.4103171981014,
+          "actual": 3291.4103171981014,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 2579.587968281637,
+          "actual": 2579.587968281637,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "56fd42f7-59b6-49f2-b610-ab94442448fc",
+      "target": 1,
+      "selection": "target_supplement",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 36,
+          "actual": 36
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 43,
+          "actual": 43
+        },
+        "food_count_500m_clean": {
+          "expected": 56,
+          "actual": 56
+        },
+        "food_count_1000m_clean": {
+          "expected": 79,
+          "actual": 79
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 1825.1379265379485,
+          "actual": 1825.1379265379485,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 934.8844381884504,
+          "actual": 934.8844381884504,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 11565.116075087208,
+          "actual": 11565.116075087206,
+          "absolute_error_m": 1.8189894035458565e-12
+        }
+      }
+    },
+    {
+      "id": "26b0dfbb-72f3-4534-b263-f8e24f4b7e9e",
+      "target": 1,
+      "selection": "target_supplement",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 9,
+          "actual": 9
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 28,
+          "actual": 28
+        },
+        "food_count_500m_clean": {
+          "expected": 14,
+          "actual": 14
+        },
+        "food_count_1000m_clean": {
+          "expected": 36,
+          "actual": 36
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 566.9390102405046,
+          "actual": 566.9390102405046,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 2470.5407167174703,
+          "actual": 2470.5407167174703,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 3106.519450599957,
+          "actual": 3106.519450599957,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "56d51301-1635-4f95-9bd2-e71cdec2b976",
+      "target": 1,
+      "selection": "target_supplement",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 11,
+          "actual": 11
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 37,
+          "actual": 37
+        },
+        "food_count_500m_clean": {
+          "expected": 43,
+          "actual": 43
+        },
+        "food_count_1000m_clean": {
+          "expected": 94,
+          "actual": 94
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 2357.479993803026,
+          "actual": 2357.479993803026,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 752.326931317637,
+          "actual": 752.326931317637,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 1126.0668433156472,
+          "actual": 1126.0668433156472,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "aca954ad-d6a5-4b23-97ae-b786a03f080e",
+      "target": 1,
+      "selection": "target_supplement",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 40,
+          "actual": 40
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 64,
+          "actual": 64
+        },
+        "food_count_500m_clean": {
+          "expected": 18,
+          "actual": 18
+        },
+        "food_count_1000m_clean": {
+          "expected": 75,
+          "actual": 75
+        },
+        "other_target_count_500m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 1,
+          "actual": 1
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 204.90826263519887,
+          "actual": 204.90826263519887,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 2519.941918202945,
+          "actual": 2519.941918202945,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 284.3116115519079,
+          "actual": 284.3116115519079,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "2a135306-6748-4d5a-b523-c94ec83f8072",
+      "target": 1,
+      "selection": "target_supplement",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 28,
+          "actual": 28
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 29,
+          "actual": 29
+        },
+        "food_count_500m_clean": {
+          "expected": 16,
+          "actual": 16
+        },
+        "food_count_1000m_clean": {
+          "expected": 22,
+          "actual": 22
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 51.15017847506918,
+          "actual": 51.15017847506918,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 2095.148381063882,
+          "actual": 2095.148381063882,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 1783.6723778560558,
+          "actual": 1783.6723778560558,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "ab35bf5e-b89f-4718-8ac0-2a996c2f521d",
+      "target": 1,
+      "selection": "target_supplement",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 15,
+          "actual": 15
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 19,
+          "actual": 19
+        },
+        "food_count_500m_clean": {
+          "expected": 13,
+          "actual": 13
+        },
+        "food_count_1000m_clean": {
+          "expected": 24,
+          "actual": 24
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 1406.5643184312298,
+          "actual": 1406.5643184312298,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 2267.9317275130666,
+          "actual": 2267.9317275130666,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 98547.14921080858,
+          "actual": 98547.14921080858,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "2f0f2ae8-abfc-486f-b20e-c82f6940e20b",
+      "target": 1,
+      "selection": "target_supplement",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 24,
+          "actual": 24
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 45,
+          "actual": 45
+        },
+        "food_count_500m_clean": {
+          "expected": 38,
+          "actual": 38
+        },
+        "food_count_1000m_clean": {
+          "expected": 71,
+          "actual": 71
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 136.45670093747492,
+          "actual": 136.45670093747492,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 1224.1925931357741,
+          "actual": 1224.1925931357741,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 2741.6941067098733,
+          "actual": 2741.6941067098733,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "aa4578be-2120-42b0-8538-a11d76271375",
+      "target": 1,
+      "selection": "target_supplement",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 33,
+          "actual": 33
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 52,
+          "actual": 52
+        },
+        "food_count_500m_clean": {
+          "expected": 32,
+          "actual": 32
+        },
+        "food_count_1000m_clean": {
+          "expected": 71,
+          "actual": 71
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 1499.6575702341875,
+          "actual": 1499.6575702341875,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 2176.0693762882347,
+          "actual": 2176.0693762882347,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 2209.1886392641136,
+          "actual": 2209.1886392641136,
+          "absolute_error_m": 0.0
+        }
+      }
+    },
+    {
+      "id": "129ea805-c4df-4499-8867-6a69d38bae63",
+      "target": 1,
+      "selection": "target_supplement",
+      "comparisons": {
+        "other_retail_count_500m_clean": {
+          "expected": 5,
+          "actual": 5
+        },
+        "other_retail_count_1000m_clean": {
+          "expected": 6,
+          "actual": 6
+        },
+        "food_count_500m_clean": {
+          "expected": 7,
+          "actual": 7
+        },
+        "food_count_1000m_clean": {
+          "expected": 11,
+          "actual": 11
+        },
+        "other_target_count_500m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "other_target_count_1000m_clean": {
+          "expected": 0,
+          "actual": 0
+        },
+        "distance_to_mall_m_clean": {
+          "expected": 1865.9846801814772,
+          "actual": 1865.9846801814772,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_university_m_clean": {
+          "expected": 1774.9266558629586,
+          "actual": 1774.9266558629586,
+          "absolute_error_m": 0.0
+        },
+        "distance_to_other_target_m_clean": {
+          "expected": 2041.650631689813,
+          "actual": 2041.650631689813,
+          "absolute_error_m": 0.0
+        }
+      }
+    }
+  ]
+}

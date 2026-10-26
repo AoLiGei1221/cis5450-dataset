@@ -1,0 +1,85 @@
+{
+  "complete": true,
+  "analysis_ready": true,
+  "started_utc": "2026-10-25T22:38:08.868801+00:00",
+  "mode": "full",
+  "method": "summary",
+  "dataset": "2024 ACS 5-Year Detailed Tables",
+  "period": "2020-2024",
+  "state": "California",
+  "state_fips": "06",
+  "unit": "census tract",
+  "sources": [
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat",
+      "path": "tutorial_tests/acs_full/raw/acsdt5y2024-b01001.dat",
+      "reused": true,
+      "bytes": 200356282,
+      "sha256": "1637b18a96881b81e050df1cd3d5ac38a33208b9b69b40e1dbeb3c4e13718f0e",
+      "table": "B01001",
+      "california_tract_rows": 9129
+    },
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+      "path": "tutorial_tests/acs_full/raw/acsdt5y2024-b19013.dat",
+      "reused": true,
+      "bytes": 17917916,
+      "sha256": "b25a176b0e6c339b6f3a2a0d3d8446bf06f5f080b4395993ec9a8313efb1c229",
+      "table": "B19013",
+      "california_tract_rows": 9129
+    },
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b14001.dat",
+      "path": "tutorial_tests/acs_full/raw/acsdt5y2024-b14001.dat",
+      "reused": true,
+      "bytes": 27312329,
+      "sha256": "e175af4a33616da45fb590da3d67f37eee65a3cb51e6f5864c64ff31fb716b81",
+      "table": "B14001",
+      "california_tract_rows": 9129
+    },
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b11001.dat",
+      "path": "tutorial_tests/acs_full/raw/acsdt5y2024-b11001.dat",
+      "reused": true,
+      "bytes": 45827971,
+      "sha256": "77200c3d9c0d99773bc7f78208bc96f25170e5d4d175a5de320620b478ceaff5",
+      "table": "B11001",
+      "california_tract_rows": 9129
+    }
+  ],
+  "notes": [
+    "Sample mode verifies Summary headers or one API tract only; it does not satisfy any dataset-size requirement.",
+    "Negative special Census estimate/MOE values become missing; original raw files preserve source codes.",
+    "All raw MOE columns are retained; derived ratio MOEs are not calculated by this script.",
+    "Missing demographic rows are not fabricated. This is a demographic table, not the final retailer modeling dataset."
+  ],
+  "table_rows": {
+    "B01001": 9129,
+    "B19013": 9129,
+    "B14001": 9129,
+    "B11001": 9129
+  },
+  "analytical_rows": 9129,
+  "unique_geoid": 9129,
+  "positive_population_and_income_rows": 9007,
+  "missing_features": {
+    "population": 0,
+    "under18_count": 0,
+    "under18_share": 48,
+    "young_adult_18_34_count": 0,
+    "young_adult_18_34_share": 48,
+    "median_household_income_2024_usd": 122,
+    "median_household_income_moe": 286,
+    "population_age3plus": 0,
+    "college_enrolled_count": 0,
+    "college_enrolled_share_3plus": 48,
+    "households": 0,
+    "family_household_share": 81,
+    "living_alone_household_share": 81
+  },
+  "paths": {
+    "source_columns": "tutorial_tests/acs_full/ca_acs2024_source_columns.csv",
+    "tract_features": "tutorial_tests/acs_full/ca_acs2024_tract_features.csv"
+  },
+  "finished_utc": "2026-10-25T22:38:16.705030+00:00"
+}

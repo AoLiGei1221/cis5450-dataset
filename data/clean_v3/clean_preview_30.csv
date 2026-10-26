@@ -1,0 +1,31 @@
+name,address,tract_geoid,population_density_per_km2,young_adult_18_34_share,median_household_income_2024_usd,other_retail_count_500m_clean,food_count_500m_clean,is_mapped_specialist,specialist_label_basis,retail_evidence_level
+1 Look Vintage,217 5th St,06059099311,3658.6045877641723,0.2252328535139712,114309,39,118,0,mapped_category_and_review_rules_proxy,source_qualified_map_record
+Augustine Carbon e-Bikes,"1030 River St #218",06087100300,695.0437438311637,0.3333333333333333,144146,8,11,0,mapped_category_and_review_rules_proxy,source_qualified_map_record
+Benefit Cosmetics Browbar,302 Town Ctr E,06083002101,3686.2483860922516,0.24284594276754215,86351,43,29,0,mapped_category_and_review_rules_proxy,source_qualified_map_record
+Carter's,"2620 E Workman Ave #4 #4",06037406300,1045.833422296322,0.2075270726078466,102638,19,33,0,mapped_category_and_review_rules_proxy,overture_and_osm_goods
+Market Street Cycles,1592 Market St,06075016802,18316.787988869637,0.5214303829571393,135588,59,170,0,mapped_category_and_review_rules_proxy,source_qualified_map_record
+Marshalls,310 E. H Street,06073013409,2161.5703230878444,0.26530958439355384,111349,12,15,0,mapped_category_and_review_rules_proxy,overture_and_osm_goods
+Metro by T-Mobile,32272 Camino Capistrano Ste A,06059042312,1755.0817127607318,0.235686492495831,109765,15,37,0,mapped_category_and_review_rules_proxy,source_qualified_map_record
+Nike Glendale,837 Americana Way,06037302301,5215.812447720544,0.2569786535303777,87198,172,185,0,mapped_category_and_review_rules_proxy,source_qualified_map_record
+Nordstrom,1870 Redwood Hwy,06041121200,1047.1027009959962,0.10511452776906181,216731,55,30,0,mapped_category_and_review_rules_proxy,overture_and_osm_goods
+Northstar Sports - Delivery,6001 Northstar Dr Ste 6103,06061022011,15.96789352115395,0.10167865707434053,191250,10,7,0,mapped_category_and_review_rules_proxy,source_qualified_map_record
+Red Wing,941 Broadway Ste O,06073016302,4760.37327238085,0.25665902275533603,51164,10,13,0,mapped_category_and_review_rules_proxy,overture_and_osm_goods
+Rusty's Discount Pet Center,11672 Ventura Blvd,06037143801,2288.666837594776,0.22435897435897437,165880,4,31,0,mapped_category_and_review_rules_proxy,source_qualified_map_record
+Shoe Palace,5150 E Kings Canyon Rd,06019001407,3493.4139668469984,0.25514950166112954,31250,5,13,0,mapped_category_and_review_rules_proxy,overture_and_osm_goods
+Stellar Remnant,315 E 8th St Unit 101,06037226002,739.7760036132217,0.3631578947368421,52412,504,151,0,mapped_category_and_review_rules_proxy,source_qualified_map_record
+Ulta Beauty,5701 Outlets at Tejon Parkway,06029006011,2.697393870028026,0.11429461227032077,86800,43,15,0,mapped_category_and_review_rules_proxy,source_qualified_map_record
+Adams Toys Cars,1341 Clevenger Dr,06099000505,1553.2287941674674,0.22011661807580174,86853,1,1,1,mapped_category_and_review_rules_proxy,source_qualified_map_record
+BlueStacks,2105 S Bascom Ave Ste 380,06085502604,3209.390902563142,0.3125,110581,11,43,1,mapped_category_and_review_rules_proxy,source_qualified_map_record
+Card Addiction,2445 E Orangethorpe Ave,06059011602,990.7928930904337,0.20125223613595708,68396,4,10,1,mapped_category_and_review_rules_proxy,source_qualified_map_record
+GLX Trading,15442 Valley Blvd,06037980035,48.53969480826981,0.24406332453825857,68603,5,16,1,mapped_category_and_review_rules_proxy,source_qualified_map_record
+HELLO TOKYO,"20 City Blvd W #921",06059076102,3282.9897014894195,0.40366505472130315,82292,60,33,1,mapped_category_and_review_rules_proxy,source_qualified_map_record
+Hobbytown,27548 Ynez Rd Ste I1,06065043216,1385.3140671084234,0.3228857828603699,94750,12,43,1,mapped_category_and_review_rules_proxy,source_qualified_map_record
+Imagination Station Educational Toy Depot,262 E Commercial St,06045010700,258.81989436022474,0.17992619926199263,70781,10,24,1,mapped_category_and_review_rules_proxy,source_qualified_map_record
+Indy Plush,13763 Fiji Way,06037702900,4152.690106858455,0.33576721883173494,146623,0,8,1,mapped_category_and_review_rules_proxy,source_qualified_map_record
+Kids Wonder Toys,10714 Riverside Dr,06037143102,6260.176941383374,0.20620661494487547,101333,6,23,1,mapped_category_and_review_rules_proxy,source_qualified_map_record
+Kinnex International Inc,122 Winston St,06037207306,13589.633953635368,0.2982216142270862,49729,288,178,1,mapped_category_and_review_rules_proxy,source_qualified_map_record
+Learning Express Toys,3568 Mt Diablo Blvd,06013350000,679.1127938042906,0.1627188465499485,192961,35,67,1,mapped_category_and_review_rules_proxy,overture_and_osm_goods
+Scooter Way,6516 Hollywood Blvd,06037190701,3950.2199965198292,0.4267734553775744,48836,54,190,1,mapped_category_and_review_rules_proxy,source_qualified_map_record
+Tokyo Japanese Lifestyle,"925 Blossom Hill Rd #1463",06085512027,2333.2833798935217,0.2047082906857728,106406,82,58,1,mapped_category_and_review_rules_proxy,overture_and_osm_goods
+Toy Wars,1084 La Mirada Ct,06073019905,1582.4454956778638,0.20064724919093851,112063,5,10,1,mapped_category_and_review_rules_proxy,source_qualified_map_record
+Truckee Variety Co.,10088 Donner Pass Rd,06057001209,151.77894540142282,0.1506849315068493,107787,28,38,1,mapped_category_and_review_rules_proxy,overture_and_osm_goods

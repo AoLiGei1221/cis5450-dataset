@@ -1,0 +1,139 @@
+﻿table,raw_dat_column,census_variable,concept,official_label,meaning
+B01001,B01001_E001,B01001_001E,Sex by Age,Estimate!!Total:,estimate
+B01001,B01001_M001,B01001_001M,Sex by Age,Margin of Error!!Total:,90 percent margin of error
+B01001,B01001_E002,B01001_002E,Sex by Age,Estimate!!Total:!!Male:,estimate
+B01001,B01001_M002,B01001_002M,Sex by Age,Margin of Error!!Total:!!Male:,90 percent margin of error
+B01001,B01001_E003,B01001_003E,Sex by Age,Estimate!!Total:!!Male:!!Under 5 years,estimate
+B01001,B01001_M003,B01001_003M,Sex by Age,Margin of Error!!Total:!!Male:!!Under 5 years,90 percent margin of error
+B01001,B01001_E004,B01001_004E,Sex by Age,Estimate!!Total:!!Male:!!5 to 9 years,estimate
+B01001,B01001_M004,B01001_004M,Sex by Age,Margin of Error!!Total:!!Male:!!5 to 9 years,90 percent margin of error
+B01001,B01001_E005,B01001_005E,Sex by Age,Estimate!!Total:!!Male:!!10 to 14 years,estimate
+B01001,B01001_M005,B01001_005M,Sex by Age,Margin of Error!!Total:!!Male:!!10 to 14 years,90 percent margin of error
+B01001,B01001_E006,B01001_006E,Sex by Age,Estimate!!Total:!!Male:!!15 to 17 years,estimate
+B01001,B01001_M006,B01001_006M,Sex by Age,Margin of Error!!Total:!!Male:!!15 to 17 years,90 percent margin of error
+B01001,B01001_E007,B01001_007E,Sex by Age,Estimate!!Total:!!Male:!!18 and 19 years,estimate
+B01001,B01001_M007,B01001_007M,Sex by Age,Margin of Error!!Total:!!Male:!!18 and 19 years,90 percent margin of error
+B01001,B01001_E008,B01001_008E,Sex by Age,Estimate!!Total:!!Male:!!20 years,estimate
+B01001,B01001_M008,B01001_008M,Sex by Age,Margin of Error!!Total:!!Male:!!20 years,90 percent margin of error
+B01001,B01001_E009,B01001_009E,Sex by Age,Estimate!!Total:!!Male:!!21 years,estimate
+B01001,B01001_M009,B01001_009M,Sex by Age,Margin of Error!!Total:!!Male:!!21 years,90 percent margin of error
+B01001,B01001_E010,B01001_010E,Sex by Age,Estimate!!Total:!!Male:!!22 to 24 years,estimate
+B01001,B01001_M010,B01001_010M,Sex by Age,Margin of Error!!Total:!!Male:!!22 to 24 years,90 percent margin of error
+B01001,B01001_E011,B01001_011E,Sex by Age,Estimate!!Total:!!Male:!!25 to 29 years,estimate
+B01001,B01001_M011,B01001_011M,Sex by Age,Margin of Error!!Total:!!Male:!!25 to 29 years,90 percent margin of error
+B01001,B01001_E012,B01001_012E,Sex by Age,Estimate!!Total:!!Male:!!30 to 34 years,estimate
+B01001,B01001_M012,B01001_012M,Sex by Age,Margin of Error!!Total:!!Male:!!30 to 34 years,90 percent margin of error
+B01001,B01001_E013,B01001_013E,Sex by Age,Estimate!!Total:!!Male:!!35 to 39 years,estimate
+B01001,B01001_M013,B01001_013M,Sex by Age,Margin of Error!!Total:!!Male:!!35 to 39 years,90 percent margin of error
+B01001,B01001_E014,B01001_014E,Sex by Age,Estimate!!Total:!!Male:!!40 to 44 years,estimate
+B01001,B01001_M014,B01001_014M,Sex by Age,Margin of Error!!Total:!!Male:!!40 to 44 years,90 percent margin of error
+B01001,B01001_E015,B01001_015E,Sex by Age,Estimate!!Total:!!Male:!!45 to 49 years,estimate
+B01001,B01001_M015,B01001_015M,Sex by Age,Margin of Error!!Total:!!Male:!!45 to 49 years,90 percent margin of error
+B01001,B01001_E016,B01001_016E,Sex by Age,Estimate!!Total:!!Male:!!50 to 54 years,estimate
+B01001,B01001_M016,B01001_016M,Sex by Age,Margin of Error!!Total:!!Male:!!50 to 54 years,90 percent margin of error
+B01001,B01001_E017,B01001_017E,Sex by Age,Estimate!!Total:!!Male:!!55 to 59 years,estimate
+B01001,B01001_M017,B01001_017M,Sex by Age,Margin of Error!!Total:!!Male:!!55 to 59 years,90 percent margin of error
+B01001,B01001_E018,B01001_018E,Sex by Age,Estimate!!Total:!!Male:!!60 and 61 years,estimate
+B01001,B01001_M018,B01001_018M,Sex by Age,Margin of Error!!Total:!!Male:!!60 and 61 years,90 percent margin of error
+B01001,B01001_E019,B01001_019E,Sex by Age,Estimate!!Total:!!Male:!!62 to 64 years,estimate
+B01001,B01001_M019,B01001_019M,Sex by Age,Margin of Error!!Total:!!Male:!!62 to 64 years,90 percent margin of error
+B01001,B01001_E020,B01001_020E,Sex by Age,Estimate!!Total:!!Male:!!65 and 66 years,estimate
+B01001,B01001_M020,B01001_020M,Sex by Age,Margin of Error!!Total:!!Male:!!65 and 66 years,90 percent margin of error
+B01001,B01001_E021,B01001_021E,Sex by Age,Estimate!!Total:!!Male:!!67 to 69 years,estimate
+B01001,B01001_M021,B01001_021M,Sex by Age,Margin of Error!!Total:!!Male:!!67 to 69 years,90 percent margin of error
+B01001,B01001_E022,B01001_022E,Sex by Age,Estimate!!Total:!!Male:!!70 to 74 years,estimate
+B01001,B01001_M022,B01001_022M,Sex by Age,Margin of Error!!Total:!!Male:!!70 to 74 years,90 percent margin of error
+B01001,B01001_E023,B01001_023E,Sex by Age,Estimate!!Total:!!Male:!!75 to 79 years,estimate
+B01001,B01001_M023,B01001_023M,Sex by Age,Margin of Error!!Total:!!Male:!!75 to 79 years,90 percent margin of error
+B01001,B01001_E024,B01001_024E,Sex by Age,Estimate!!Total:!!Male:!!80 to 84 years,estimate
+B01001,B01001_M024,B01001_024M,Sex by Age,Margin of Error!!Total:!!Male:!!80 to 84 years,90 percent margin of error
+B01001,B01001_E025,B01001_025E,Sex by Age,Estimate!!Total:!!Male:!!85 years and over,estimate
+B01001,B01001_M025,B01001_025M,Sex by Age,Margin of Error!!Total:!!Male:!!85 years and over,90 percent margin of error
+B01001,B01001_E026,B01001_026E,Sex by Age,Estimate!!Total:!!Female:,estimate
+B01001,B01001_M026,B01001_026M,Sex by Age,Margin of Error!!Total:!!Female:,90 percent margin of error
+B01001,B01001_E027,B01001_027E,Sex by Age,Estimate!!Total:!!Female:!!Under 5 years,estimate
+B01001,B01001_M027,B01001_027M,Sex by Age,Margin of Error!!Total:!!Female:!!Under 5 years,90 percent margin of error
+B01001,B01001_E028,B01001_028E,Sex by Age,Estimate!!Total:!!Female:!!5 to 9 years,estimate
+B01001,B01001_M028,B01001_028M,Sex by Age,Margin of Error!!Total:!!Female:!!5 to 9 years,90 percent margin of error
+B01001,B01001_E029,B01001_029E,Sex by Age,Estimate!!Total:!!Female:!!10 to 14 years,estimate
+B01001,B01001_M029,B01001_029M,Sex by Age,Margin of Error!!Total:!!Female:!!10 to 14 years,90 percent margin of error
+B01001,B01001_E030,B01001_030E,Sex by Age,Estimate!!Total:!!Female:!!15 to 17 years,estimate
+B01001,B01001_M030,B01001_030M,Sex by Age,Margin of Error!!Total:!!Female:!!15 to 17 years,90 percent margin of error
+B01001,B01001_E031,B01001_031E,Sex by Age,Estimate!!Total:!!Female:!!18 and 19 years,estimate
+B01001,B01001_M031,B01001_031M,Sex by Age,Margin of Error!!Total:!!Female:!!18 and 19 years,90 percent margin of error
+B01001,B01001_E032,B01001_032E,Sex by Age,Estimate!!Total:!!Female:!!20 years,estimate
+B01001,B01001_M032,B01001_032M,Sex by Age,Margin of Error!!Total:!!Female:!!20 years,90 percent margin of error
+B01001,B01001_E033,B01001_033E,Sex by Age,Estimate!!Total:!!Female:!!21 years,estimate
+B01001,B01001_M033,B01001_033M,Sex by Age,Margin of Error!!Total:!!Female:!!21 years,90 percent margin of error
+B01001,B01001_E034,B01001_034E,Sex by Age,Estimate!!Total:!!Female:!!22 to 24 years,estimate
+B01001,B01001_M034,B01001_034M,Sex by Age,Margin of Error!!Total:!!Female:!!22 to 24 years,90 percent margin of error
+B01001,B01001_E035,B01001_035E,Sex by Age,Estimate!!Total:!!Female:!!25 to 29 years,estimate
+B01001,B01001_M035,B01001_035M,Sex by Age,Margin of Error!!Total:!!Female:!!25 to 29 years,90 percent margin of error
+B01001,B01001_E036,B01001_036E,Sex by Age,Estimate!!Total:!!Female:!!30 to 34 years,estimate
+B01001,B01001_M036,B01001_036M,Sex by Age,Margin of Error!!Total:!!Female:!!30 to 34 years,90 percent margin of error
+B01001,B01001_E037,B01001_037E,Sex by Age,Estimate!!Total:!!Female:!!35 to 39 years,estimate
+B01001,B01001_M037,B01001_037M,Sex by Age,Margin of Error!!Total:!!Female:!!35 to 39 years,90 percent margin of error
+B01001,B01001_E038,B01001_038E,Sex by Age,Estimate!!Total:!!Female:!!40 to 44 years,estimate
+B01001,B01001_M038,B01001_038M,Sex by Age,Margin of Error!!Total:!!Female:!!40 to 44 years,90 percent margin of error
+B01001,B01001_E039,B01001_039E,Sex by Age,Estimate!!Total:!!Female:!!45 to 49 years,estimate
+B01001,B01001_M039,B01001_039M,Sex by Age,Margin of Error!!Total:!!Female:!!45 to 49 years,90 percent margin of error
+B01001,B01001_E040,B01001_040E,Sex by Age,Estimate!!Total:!!Female:!!50 to 54 years,estimate
+B01001,B01001_M040,B01001_040M,Sex by Age,Margin of Error!!Total:!!Female:!!50 to 54 years,90 percent margin of error
+B01001,B01001_E041,B01001_041E,Sex by Age,Estimate!!Total:!!Female:!!55 to 59 years,estimate
+B01001,B01001_M041,B01001_041M,Sex by Age,Margin of Error!!Total:!!Female:!!55 to 59 years,90 percent margin of error
+B01001,B01001_E042,B01001_042E,Sex by Age,Estimate!!Total:!!Female:!!60 and 61 years,estimate
+B01001,B01001_M042,B01001_042M,Sex by Age,Margin of Error!!Total:!!Female:!!60 and 61 years,90 percent margin of error
+B01001,B01001_E043,B01001_043E,Sex by Age,Estimate!!Total:!!Female:!!62 to 64 years,estimate
+B01001,B01001_M043,B01001_043M,Sex by Age,Margin of Error!!Total:!!Female:!!62 to 64 years,90 percent margin of error
+B01001,B01001_E044,B01001_044E,Sex by Age,Estimate!!Total:!!Female:!!65 and 66 years,estimate
+B01001,B01001_M044,B01001_044M,Sex by Age,Margin of Error!!Total:!!Female:!!65 and 66 years,90 percent margin of error
+B01001,B01001_E045,B01001_045E,Sex by Age,Estimate!!Total:!!Female:!!67 to 69 years,estimate
+B01001,B01001_M045,B01001_045M,Sex by Age,Margin of Error!!Total:!!Female:!!67 to 69 years,90 percent margin of error
+B01001,B01001_E046,B01001_046E,Sex by Age,Estimate!!Total:!!Female:!!70 to 74 years,estimate
+B01001,B01001_M046,B01001_046M,Sex by Age,Margin of Error!!Total:!!Female:!!70 to 74 years,90 percent margin of error
+B01001,B01001_E047,B01001_047E,Sex by Age,Estimate!!Total:!!Female:!!75 to 79 years,estimate
+B01001,B01001_M047,B01001_047M,Sex by Age,Margin of Error!!Total:!!Female:!!75 to 79 years,90 percent margin of error
+B01001,B01001_E048,B01001_048E,Sex by Age,Estimate!!Total:!!Female:!!80 to 84 years,estimate
+B01001,B01001_M048,B01001_048M,Sex by Age,Margin of Error!!Total:!!Female:!!80 to 84 years,90 percent margin of error
+B01001,B01001_E049,B01001_049E,Sex by Age,Estimate!!Total:!!Female:!!85 years and over,estimate
+B01001,B01001_M049,B01001_049M,Sex by Age,Margin of Error!!Total:!!Female:!!85 years and over,90 percent margin of error
+B19013,B19013_E001,B19013_001E,Median Household Income in the Past 12 Months (in 2024 Inflation-Adjusted Dollars),Estimate!!Median household income in the past 12 months (in 2024 inflation-adjusted dollars),estimate
+B19013,B19013_M001,B19013_001M,Median Household Income in the Past 12 Months (in 2024 Inflation-Adjusted Dollars),Margin of Error!!Median household income in the past 12 months (in 2024 inflation-adjusted dollars),90 percent margin of error
+B14001,B14001_E001,B14001_001E,School Enrollment by Level of School for the Population 3 Years and Over,Estimate!!Total:,estimate
+B14001,B14001_M001,B14001_001M,School Enrollment by Level of School for the Population 3 Years and Over,Margin of Error!!Total:,90 percent margin of error
+B14001,B14001_E002,B14001_002E,School Enrollment by Level of School for the Population 3 Years and Over,Estimate!!Total:!!Enrolled in school:,estimate
+B14001,B14001_M002,B14001_002M,School Enrollment by Level of School for the Population 3 Years and Over,Margin of Error!!Total:!!Enrolled in school:,90 percent margin of error
+B14001,B14001_E003,B14001_003E,School Enrollment by Level of School for the Population 3 Years and Over,"Estimate!!Total:!!Enrolled in school:!!Enrolled in nursery school, preschool",estimate
+B14001,B14001_M003,B14001_003M,School Enrollment by Level of School for the Population 3 Years and Over,"Margin of Error!!Total:!!Enrolled in school:!!Enrolled in nursery school, preschool",90 percent margin of error
+B14001,B14001_E004,B14001_004E,School Enrollment by Level of School for the Population 3 Years and Over,Estimate!!Total:!!Enrolled in school:!!Enrolled in kindergarten,estimate
+B14001,B14001_M004,B14001_004M,School Enrollment by Level of School for the Population 3 Years and Over,Margin of Error!!Total:!!Enrolled in school:!!Enrolled in kindergarten,90 percent margin of error
+B14001,B14001_E005,B14001_005E,School Enrollment by Level of School for the Population 3 Years and Over,Estimate!!Total:!!Enrolled in school:!!Enrolled in grade 1 to grade 4,estimate
+B14001,B14001_M005,B14001_005M,School Enrollment by Level of School for the Population 3 Years and Over,Margin of Error!!Total:!!Enrolled in school:!!Enrolled in grade 1 to grade 4,90 percent margin of error
+B14001,B14001_E006,B14001_006E,School Enrollment by Level of School for the Population 3 Years and Over,Estimate!!Total:!!Enrolled in school:!!Enrolled in grade 5 to grade 8,estimate
+B14001,B14001_M006,B14001_006M,School Enrollment by Level of School for the Population 3 Years and Over,Margin of Error!!Total:!!Enrolled in school:!!Enrolled in grade 5 to grade 8,90 percent margin of error
+B14001,B14001_E007,B14001_007E,School Enrollment by Level of School for the Population 3 Years and Over,Estimate!!Total:!!Enrolled in school:!!Enrolled in grade 9 to grade 12,estimate
+B14001,B14001_M007,B14001_007M,School Enrollment by Level of School for the Population 3 Years and Over,Margin of Error!!Total:!!Enrolled in school:!!Enrolled in grade 9 to grade 12,90 percent margin of error
+B14001,B14001_E008,B14001_008E,School Enrollment by Level of School for the Population 3 Years and Over,"Estimate!!Total:!!Enrolled in school:!!Enrolled in college, undergraduate years",estimate
+B14001,B14001_M008,B14001_008M,School Enrollment by Level of School for the Population 3 Years and Over,"Margin of Error!!Total:!!Enrolled in school:!!Enrolled in college, undergraduate years",90 percent margin of error
+B14001,B14001_E009,B14001_009E,School Enrollment by Level of School for the Population 3 Years and Over,Estimate!!Total:!!Enrolled in school:!!Graduate or professional school,estimate
+B14001,B14001_M009,B14001_009M,School Enrollment by Level of School for the Population 3 Years and Over,Margin of Error!!Total:!!Enrolled in school:!!Graduate or professional school,90 percent margin of error
+B14001,B14001_E010,B14001_010E,School Enrollment by Level of School for the Population 3 Years and Over,Estimate!!Total:!!Not enrolled in school,estimate
+B14001,B14001_M010,B14001_010M,School Enrollment by Level of School for the Population 3 Years and Over,Margin of Error!!Total:!!Not enrolled in school,90 percent margin of error
+B11001,B11001_E001,B11001_001E,Household Type (Including Living Alone),Estimate!!Total:,estimate
+B11001,B11001_M001,B11001_001M,Household Type (Including Living Alone),Margin of Error!!Total:,90 percent margin of error
+B11001,B11001_E002,B11001_002E,Household Type (Including Living Alone),Estimate!!Total:!!Family households:,estimate
+B11001,B11001_M002,B11001_002M,Household Type (Including Living Alone),Margin of Error!!Total:!!Family households:,90 percent margin of error
+B11001,B11001_E003,B11001_003E,Household Type (Including Living Alone),Estimate!!Total:!!Family households:!!Married-couple family,estimate
+B11001,B11001_M003,B11001_003M,Household Type (Including Living Alone),Margin of Error!!Total:!!Family households:!!Married-couple family,90 percent margin of error
+B11001,B11001_E004,B11001_004E,Household Type (Including Living Alone),Estimate!!Total:!!Family households:!!Other family:,estimate
+B11001,B11001_M004,B11001_004M,Household Type (Including Living Alone),Margin of Error!!Total:!!Family households:!!Other family:,90 percent margin of error
+B11001,B11001_E005,B11001_005E,Household Type (Including Living Alone),"Estimate!!Total:!!Family households:!!Other family:!!Male householder, no spouse present",estimate
+B11001,B11001_M005,B11001_005M,Household Type (Including Living Alone),"Margin of Error!!Total:!!Family households:!!Other family:!!Male householder, no spouse present",90 percent margin of error
+B11001,B11001_E006,B11001_006E,Household Type (Including Living Alone),"Estimate!!Total:!!Family households:!!Other family:!!Female householder, no spouse present",estimate
+B11001,B11001_M006,B11001_006M,Household Type (Including Living Alone),"Margin of Error!!Total:!!Family households:!!Other family:!!Female householder, no spouse present",90 percent margin of error
+B11001,B11001_E007,B11001_007E,Household Type (Including Living Alone),Estimate!!Total:!!Nonfamily households:,estimate
+B11001,B11001_M007,B11001_007M,Household Type (Including Living Alone),Margin of Error!!Total:!!Nonfamily households:,90 percent margin of error
+B11001,B11001_E008,B11001_008E,Household Type (Including Living Alone),Estimate!!Total:!!Nonfamily households:!!Householder living alone,estimate
+B11001,B11001_M008,B11001_008M,Household Type (Including Living Alone),Margin of Error!!Total:!!Nonfamily households:!!Householder living alone,90 percent margin of error
+B11001,B11001_E009,B11001_009E,Household Type (Including Living Alone),Estimate!!Total:!!Nonfamily households:!!Householder not living alone,estimate
+B11001,B11001_M009,B11001_009M,Household Type (Including Living Alone),Margin of Error!!Total:!!Nonfamily households:!!Householder not living alone,90 percent margin of error

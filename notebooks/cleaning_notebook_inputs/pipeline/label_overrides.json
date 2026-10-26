@@ -1,0 +1,319 @@
+{
+  "overrides": [
+    {
+      "id": "4d6f182f-7b58-402d-953a-a9fd86eec378",
+      "decision": "comparison_verified",
+      "reason": "官方品牌店页确认48400 Seminole Dr是Ann Taylor Factory服装实体店；toy_store为明显误分类，应作为服装零售对照，不是玩具正类。",
+      "evidence_url": "https://www.anntaylor.com/store/factory/ca/cabazon/48400-seminole-dr",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "9081c6b1-9b8e-4ec9-a1c9-60f7cd3aaa85",
+      "decision": "exclude",
+      "reason": "同名同域官网明确提供汽车维修、改装与悬挂等服务，当前地址为Belmont；原San Carlos点还可能是旧址。非消费者玩具/收藏品零售，排出候选样本。",
+      "evidence_url": "https://www.abctoygarage.com/",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "2ab4129d-975e-48ba-ac77-27043853e9ef",
+      "decision": "exclude",
+      "reason": "官方页面明确是anime merchandise wholesaler/distributor；联系页3277 Yale Way与原记录一致。作为B2B批发商不计普通消费者门店。",
+      "evidence_url": "https://www.japan-animation.com/",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "1d78c0e3-72ef-457d-b3b1-8409425126aa",
+      "decision": "exclude",
+      "reason": "原1719 Sherborn St地址与OSHA官方矿业检查场址一致，NAICS 212313矿业/采石。原企业域名现DNS失败；官方场址证据支持工业地点而非玩具零售。证据为2021检查，不将其当2026营业证明。",
+      "evidence_url": "https://www.osha.gov/ords/imis/establishment.inspection_detail?id=1532370.015",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "eeb3cab8-6495-4b51-b250-1cfd72ec4165",
+      "decision": "exclude",
+      "reason": "官方联系页确认Laguna Woods的建筑玻璃企业，按预约面向建筑设计专业客户；TCG是企业缩写，不是trading-card零售。",
+      "evidence_url": "https://www.tcgglass.com/contact",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "f076eeab-9fc1-4395-b15f-3e060158a239",
+      "decision": "exclude",
+      "reason": "同名官网明确为商业增长战略咨询，原分类也为business_consulting；TCG名称不能转成收藏卡店标签。",
+      "evidence_url": "https://tcg-advisors.com/",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "9995fee0-123b-47c9-8889-e0e7ae00d2db",
+      "decision": "exclude",
+      "reason": "同名官网提供product-development/management consulting；不是交易卡或玩具实体零售，原分类为business office。",
+      "evidence_url": "https://www.tcgen.com/",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "e9deb390-29dc-4a54-bc19-64db4d7252d8",
+      "decision": "exclude",
+      "reason": "官网明确是TCG Smog车辆排放检测服务，地址2187 Sampson Ave Unit101吻合；不是卡店。",
+      "evidence_url": "https://coronasmogcheckteststation.com/",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "753f4407-c461-40e6-83bd-9f34fb4b9c4a",
+      "decision": "exclude",
+      "reason": "format_robo_shop：官方store-list将4545 La Jolla Village Dr Ste E-25列为ROBO SHOP Westfield-UTC near POP MART。保留原始竞争补充记录，但不当普通实体专营门店训练观测。",
+      "evidence_url": "https://www.popmart.com/en-us/store-list",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "bbf43fec-970c-4311-8fa2-17e1c4e54b5b",
+      "decision": "target_verified",
+      "reason": "官方Mattel store locator确认333 Continental Blvd El Segundo是总部园区内向公众营业的玩具店，并列营业时间；不能因HQ/corporate字样删除。",
+      "evidence_url": "https://shop.mattel.com/pages/mattel-toy-store",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "17712e6e-7a98-457c-b338-ff656491fcb5",
+      "decision": "target_verified",
+      "reason": "官方Mattel store locator确认1456 E Harry Shepard Blvd San Bernardino配送中心内有公众玩具零售店和营业时间。该ID作为同址门店主核验记录，另一个Mattel Inc点待重复核验。",
+      "evidence_url": "https://shop.mattel.com/pages/mattel-toy-store",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "94e9d11b-49ee-41cb-b76c-df58a85e440f",
+      "decision": "target_verified",
+      "reason": "官方Funko Hollywood店页确认6201 Hollywood Blvd是开放的旗舰零售空间，出售POP收藏品，地址吻合。",
+      "evidence_url": "https://funko.com/locations-hollywood.html",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "90285394-88eb-4d56-95a9-1ccc7491bd84",
+      "decision": "target_verified",
+      "reason": "官方玩具商品目录、公开营业时间和3979 S Higuera St San Luis Obispo地址与原记录吻合。",
+      "evidence_url": "https://whizkidsslo.com/",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "e7e3e789-0fe2-4486-bc08-6de6e011604f",
+      "decision": "target_verified",
+      "reason": "官网明确为Pacifica本地玩具店，提供积木、玩偶、模型和桌游，地址70 Eureka Dr与Eureka Square原店铺地址基本吻合。",
+      "evidence_url": "https://magictoybox.com/",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "c430b67a-be18-4e8d-82ff-c0bdf8cb4b39",
+      "decision": "target_verified",
+      "reason": "官方POP MART store-list列明普通门店South Coast Plaza, Shop1055/3333 Bristol St，与记录地址一致；未由Robo Shop条目替代。",
+      "evidence_url": "https://www.popmart.com/en-us/store-list",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "29038502-917c-4902-873b-3cc3ec72e66c",
+      "decision": "target_verified",
+      "reason": "官方POP MART store-list列明普通门店Valley Fair, B565/2855 Stevens Creek Blvd，与记录地址一致；未由Robo Shop条目替代。",
+      "evidence_url": "https://www.popmart.com/en-us/store-list",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "9c5a2675-efca-4c71-b420-8e8416e9118d",
+      "decision": "target_verified",
+      "reason": "官方POP MART store-list列明普通门店Century City,10250 Santa Monica Blvd，与记录地址一致；未由Robo Shop条目替代。",
+      "evidence_url": "https://www.popmart.com/en-us/store-list",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "1e4245e3-544b-4114-881b-cd8158ad7661",
+      "decision": "target_verified",
+      "reason": "官方POP MART store-list列明普通门店Glendale Galleria,1181 Galleria Way，与记录地址一致；未由Robo Shop条目替代。",
+      "evidence_url": "https://www.popmart.com/en-us/store-list",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "5387ca6c-aa6c-4166-b4ac-61647152f653",
+      "decision": "target_verified",
+      "reason": "官方POP MART store-list列明普通门店200 Powell Street San Francisco，与记录地址一致；未由Robo Shop条目替代。",
+      "evidence_url": "https://www.popmart.com/en-us/store-list",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "78bb2b9f-3ad6-4436-ac8a-c76d7526451e",
+      "decision": "target_verified",
+      "reason": "官方POP MART store-list列明普通门店Ontario Mills,1 Mills Circle Suite324，与记录地址一致；未由Robo Shop条目替代。",
+      "evidence_url": "https://www.popmart.com/en-us/store-list",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "82d04651-3a2e-4c25-b828-b1230a3f9770",
+      "decision": "target_verified",
+      "reason": "CoreTCG官网列Pokemon/MTG等收藏卡零售、公开店时和770 South Arroyo Pkwy #110 Pasadena地址。用户范围明确包含TCG专营店，原gift_shop分类应升级为经核验目标。",
+      "evidence_url": "https://www.coretcg.com/",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "656d5197-d0f0-4959-b2a5-73e5cf26cccf",
+      "decision": "target_verified",
+      "reason": "官方FinalCutTCG网页明确TCG专营、店内比赛、店址3017 Kilgore Rd Ste130 Rancho Cordova和营业时间，与原点吻合。",
+      "evidence_url": "https://finalcuttcg.com/",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "65d6d354-71fa-4e3f-b69d-313c3205129e",
+      "decision": "ambiguous",
+      "reason": "原名Abc Kids但所连ABS Kids官网是ABA/autism服务；未找到3619 W3rd St与该机构的官方地址对应。可能错误网站链接，不能仅由域名把原店确定为医疗或玩具。",
+      "evidence_url": "https://www.abskids.com/locations/ventura-county/",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "35b3564d-e092-4e8b-bf96-c1c50b2f1d34",
+      "decision": "ambiguous",
+      "reason": "官方3DRetro现在明确位于3999 Spring Mountain Rd Las Vegas，原1851 Victory Blvd Glendale点可能是迁址残留；尚未取得原店关闭日期，不能确认它是2026有效CA门店。",
+      "evidence_url": "https://3dretro.com/",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "159340bd-b95c-4ce6-ad19-a30dbcc05496",
+      "decision": "ambiguous",
+      "reason": "官方Anime Imports现有实体卡店，但当前联系页列116 Manor Dr Pacifica，原点为1305 Palmetto Ave；产品和品牌是真的，原坐标/旧址是否有效须核实。",
+      "evidence_url": "https://animeimports.net/pages/contact",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "1010b979-ecb0-4f95-afe7-db00a6699060",
+      "decision": "ambiguous",
+      "reason": "官网确认毛绒玩具在线零售及批发，但未核实原5145 Congemi Ct是否公众可访问固定门店；不能仅凭Factory或电商网页硬判为批发或实体零售。",
+      "evidence_url": "https://boobearfactory.com/",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "09efad30-6920-4688-ba34-250440b4d050",
+      "decision": "ambiguous",
+      "reason": "可确认品牌在线销售收藏品，但官方帮助/联系页面本次403，未确认61 Moreland Rd具有公众零售店面；保留待核实，不把online存在等同online-only。",
+      "evidence_url": "https://www.entertainmentearth.com/help/contact-us",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "e57c62ac-8da3-4625-91c4-c1881134fc28",
+      "decision": "ambiguous",
+      "reason": "官方域名当前介绍Brentwood母婴家具/推车门店，原点在Pleasant Hill。类别和门店地址均需核对，不能直接当玩具专营正类或未经核实的家具负类。",
+      "evidence_url": "https://www.childrensfurniturestorepleasanthill.com/",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "ab3a8276-849f-4bcb-9c32-3ac1a63d866b",
+      "decision": "ambiguous",
+      "reason": "官方商品页确认1220 Alderwood Ave Sunnyvale可取货，主要是LEGO展示柜/收藏配件；尚未证明是可公开walk-in的玩具/收藏品专营门店。不能因Supply字样直接删除。",
+      "evidence_url": "https://shop.kingdombricksupply.com/products/75309-ucs-republic-gunship-display-case",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "a73245af-bcef-4ab7-adb9-38fb5a3c832b",
+      "decision": "ambiguous",
+      "reason": "官网同时有布料、毛线、服装和玩具，尚未核对1671 E Monte Vista Ave当前门店和是否目标专营；不由Kids/Boutique字样自动赋标签。",
+      "evidence_url": "https://www.koolkidsboutique.com/",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "9819bee9-6741-426a-95cd-0bd5c4f8d2be",
+      "decision": "ambiguous",
+      "reason": "所列官方域名本次DNS失败；未取得足够第一方内容证明经营类型或626 Gotham Dr实体店有效，尤其不凭ToyBox店名认定儿童玩具或成人用品。",
+      "evidence_url": "https://www.soniastoybox.com/",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "8588c726-a1f2-40a4-85ba-1b498b22db97",
+      "decision": "ambiguous",
+      "reason": "官网为服饰/家居/玩具混合在线商店，未核实21356 Nordhoff St公众实体门店。网站存在不能证明online-only或专营toy实体店。",
+      "evidence_url": "https://www.squareimports.com/",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "bc49809f-2fd6-46e7-a664-e2c204cf23b2",
+      "decision": "ambiguous",
+      "reason": "官方站HTTP200但仅返回Mastertoys客户端壳，未读到2355 E37th St零售/批发业务说明；第三方资料倾向批发但本审计不据此硬排。",
+      "evidence_url": "https://www.mastertoysinc.com/",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "92363e3c-c406-4717-934f-a3db7cff15d2",
+      "decision": "ambiguous",
+      "reason": "官方说明是toy supplier且2580 Pioneer Ave吻合，但未明确该地址是否同时向公众零售；依据Mattel案例，不能仅凭Distributing/Supplier名称删除。",
+      "evidence_url": "https://www.uccdist.com/about-us",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "d955d58b-406d-407a-9f86-7d53027eaffb",
+      "decision": "ambiguous",
+      "reason": "所列dtidirect.com域名本次DNS失败；未核实3778 Milliken Ave E是否Freddo消费者门店/仓库，不作确定标签。",
+      "evidence_url": "https://www.dtidirect.com/",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "7b825128-873d-400b-9839-e297e686205f",
+      "decision": "ambiguous",
+      "reason": "所列官方域名证书已过期，本次未绕过证书检查；原2833 Pacific Coast Hwy店址和经营类型未重新核验。",
+      "evidence_url": "https://www.wondertreekids.com/",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "c6f77389-34a2-421c-a971-46d9eb12866a",
+      "decision": "ambiguous",
+      "reason": "官方网页本次TLS失败，未核实5555 Santa Fe St是可比玩具专营零售、playground展示场还是其他经营形式。",
+      "evidence_url": "https://www.playgroundwarehouse.com/",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "88290d0f-e071-4e88-8873-a12a88a2a84e",
+      "decision": "ambiguous",
+      "reason": "Mattel官方当前公开零售地址为333 Continental Blvd，而此点2041 E Maple Ave未在已读store locator中核实；不能仅按Mattel品牌或Corporate推断正负。",
+      "evidence_url": "https://shop.mattel.com/pages/mattel-toy-store",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "be0b9457-3a73-458d-a5a9-a042bee7f9ea",
+      "decision": "ambiguous",
+      "reason": "Mattel Toy Tent原1955 E Grand Ave可能涉及旧址/临时售卖；已读官方当前store locator列333 Continental Blvd，未证实该tent是独立固定门店。",
+      "evidence_url": "https://shop.mattel.com/pages/mattel-toy-store",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "a2c0ff81-4b03-4a6f-b57c-e4d953141ca1",
+      "decision": "ambiguous",
+      "reason": "1456 E Harry Sheppard Blvd的Mattel公众零售已核实，但此GERS与17712e6e同地址不同坐标，可能同一campus店的重复定位；保留一个已核验店点，另点待实体解析，不重复计门店。",
+      "evidence_url": "https://shop.mattel.com/pages/mattel-toy-store",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "d9f57593-4d63-407a-9069-a9d590e38e7b",
+      "decision": "ambiguous",
+      "reason": "官网自述互动淘矿景点及gift shop，出售岩石/矿物收藏品，是否属于项目目标专营零售而非attraction须按范围进一步决定，不能直接沿toy_store标签。",
+      "evidence_url": "https://www.goldrushminingco.com/",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "80a7886c-b520-45e8-8925-60d737758d64",
+      "decision": "ambiguous",
+      "reason": "官方域名本次返回domain-for-sale停放页；不能确认原2842 Story Rd #60仍是有效Just Flip TCG门店。",
+      "evidence_url": "https://www.justfliptcg.com/",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "60891bd7-7999-4771-9437-fd0d8d6ae61f",
+      "decision": "ambiguous",
+      "reason": "官网确认销售TCG和桌游，但已读页面未给7901 Westwood Dr Gilroy店址或公开门店时间，contact路径404；须核实具体physical location再升级目标。",
+      "evidence_url": "https://thehubtcg.com/",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "47add3eb-7952-40e5-891e-355407463d8d",
+      "decision": "ambiguous",
+      "reason": "Ontario Mills官方普通门店是1 Mills Circle Suite324，另一个已核验GERS为78bb2b9f；此点只有Suite1且坐标与其相距较远，需判断duplicate/robo/定位偏差，不重复默认正类。",
+      "evidence_url": "https://www.popmart.com/en-us/store-list",
+      "checked_on": "2026-10-25"
+    },
+    {
+      "id": "915bc620-6aa6-4b0a-96c0-7943de4c80ef",
+      "decision": "ambiguous",
+      "reason": "提供的cgmotorsports.com官网现为加拿大Richmond BMW维修公司，与San Diego点地址不符；TCG名称并非卡牌证据，具体身份关联存在错误。",
+      "evidence_url": "https://www.cgmotorsports.com/",
+      "checked_on": "2026-10-25"
+    }
+  ]
+}

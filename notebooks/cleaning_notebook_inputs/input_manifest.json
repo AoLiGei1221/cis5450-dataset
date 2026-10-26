@@ -1,0 +1,101 @@
+{
+  "files": {
+    "pipeline/label_overrides.json": {
+      "bytes": 16982,
+      "sha256": "a6309cac908c73425a96d1bea2a2cb42685ebf75f21cc72cb7918010b3449d33"
+    },
+    "pipeline/preview_scope_overrides_v2.json": {
+      "bytes": 2018,
+      "sha256": "4c9dba471380645190f7556c75c5fe71445ce2b5de414a6910b56d9b0028ee9b"
+    },
+    "pipeline/retail_scope_overrides_v2.json": {
+      "bytes": 145143,
+      "sha256": "06396fb1467a14eed22d0a72f0bc7cf9bff72faf988f58f00a5ca888955a774f"
+    },
+    "pipeline/target_scope_overrides_v2.json": {
+      "bytes": 87456,
+      "sha256": "fc8fffc467c72dd7d7764a9bbae5f8ebe698361beb3b925ce3f29fe5eb10aac9"
+    },
+    "pipeline/target_scope_overrides_v3.json": {
+      "bytes": 276325,
+      "sha256": "f8d5629fa9f2acac59e3864f1d36b7a30289ba3231605c3ed897f9663a658a45"
+    },
+    "pipeline/additional_entity_exclusions_v3.json": {
+      "bytes": 2292,
+      "sha256": "e8e5becd7b7183e96f3161208fe2f7557269b8469451a15edd8b877eaf200344"
+    },
+    "validation/target_scope_audit_v3.json": {
+      "bytes": 1178654,
+      "sha256": "e2d03091177072f568696b7a2754649d7cda81e82dbc7eee2160d0c1f494d525"
+    },
+    "validation/comparator_holdout_v3/final_adjudication.json": {
+      "bytes": 366645,
+      "sha256": "c55f0cb845b8ccfb63e365644334fbde6fce019c07771faa280318088043f4e4"
+    },
+    "validation/comparator_holdout_v3/sample_frame.json": {
+      "bytes": 173392,
+      "sha256": "4829ef46952bd17d388013e1bf5c87716d29a3ba3624258c78765148f5ba8438"
+    },
+    "validation/comparator_holdout_v3/sampling_design.json": {
+      "bytes": 3294,
+      "sha256": "83aa48debab182d09ff454bc1007802e28c55b37b9d46053cd18d9abadd50f4c"
+    },
+    "data/clean_v3/frozen_comparator_frame_v3.parquet": {
+      "bytes": 14305366,
+      "sha256": "e526de04f645027ae0494d61ee48948780c4d98e7226fba6afd708484d8fb1de"
+    },
+    "data/clean_v3/cleaning_rules_v3.json": {
+      "bytes": 5783,
+      "sha256": "7532001002772b15bf19e71eb4a35e72919bbf3071d90b331348ecd1d39a3f82"
+    },
+    "data/clean_v3/quality_frame_manifest_v3.json": {
+      "bytes": 1346,
+      "sha256": "daa85e4701e3c2b5fe585193f90dec3ed448c1095b19c765da5d25bf97cd21b2"
+    },
+    "data/raw/census/metadata/B01001.json": {
+      "bytes": 251518,
+      "sha256": "0f0422e346fdd3369363f040127fe61a3e35a47215755bcd300615bbfc7abcc6"
+    },
+    "data/raw/census/metadata/B19013.json": {
+      "bytes": 200530,
+      "sha256": "304b5d72b144edcddf9d76bdb3d3928d2240d2a1c3071770666a313df32bfae9"
+    },
+    "data/raw/census/metadata/B14001.json": {
+      "bytes": 213470,
+      "sha256": "0135531adad4ad240ead2a1e08fbbb84746c27990574423246a810c576090e09"
+    },
+    "data/raw/census/metadata/B11001.json": {
+      "bytes": 210123,
+      "sha256": "f0673cd5d46cc43a1a380660e9124b469048f363eb7d8cf43eca400794264863"
+    },
+    "reference_release/california_retail_clean_master_v3.parquet": {
+      "bytes": 9757973,
+      "sha256": "da49534f55f7ebc49ca5142db17074a55ce9358e59965ba19de3598969c97904"
+    },
+    "reference_release/clean_dataset_manifest_v3.json": {
+      "bytes": 2829,
+      "sha256": "17e17a6103ef211e9486d0e9a6b491a41ab6d641a307d2bbf626db3030a5b072"
+    }
+  },
+  "source_versions": {
+    "Overture": "2026-10-21.0",
+    "OSM": "2026-10-24",
+    "ACS": "2020-2024 five-year",
+    "TIGER": "2024"
+  },
+  "source_code": {
+    "pipeline/collect_overture_ca.py": "252c04db81301c456152f0480dc171fead76c15869033709601f363d81b0e7c8",
+    "pipeline/osm_extract.py": "2b637bcee6a7c345f066ef5925f421fa8bf242f7add3ab199afd80d0d0f3ab0b",
+    "validation/describe_osm_allshops.py": "a75fb21577a9f873af2068761a0e300a5b2bdaf748b049ccb91e661201c1c663",
+    "pipeline/prepare_census.py": "7af704832734cea503aabeb03e0746e4ea9657fa370714ac7469f66fface4c70",
+    "pipeline/build_master.py": "58b49f849f3853e0e1affa4f5b3b065ba18d049a4cd732556b5a26677333ae7d",
+    "pipeline/audit_retail_scope_v2.py": "7117dab52254ec5edd15c746520e7608cfd344d27f97c5409d3f846de0cbbdba",
+    "pipeline/build_clean_model_v3.py": "74617eafa7b2a47b37a2972c2838ae27398b5ed9a703afa66d0669ffe987fe24",
+    "pipeline/release_clean_model_v3.py": "371d8967d63754ad1fb56c96082674c5442c5bf5d2287dcca087482b87ab2a6c",
+    "validation/check_clean_model_v3_independent.py": "b9e405fdf185c7a22cc2dbe5a284b83610b778275aed1224addb00ee0311b396"
+  },
+  "publication_adjustment": {
+    "description": "Only sampling metadata paths made repository-relative; sample membership and raw/final data unchanged. Notebook display output paths use a placeholder.",
+    "original_sampling_design_sha256": "45e3fcd0e6c304e2dc6203456966e7510a3a9f741fdd2262af40f16f91a9cd06"
+  }
+}

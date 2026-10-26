@@ -1,0 +1,5 @@
+# Keep frozen research inputs and dataset checksum bytes portable on every OS.
+data/** -text
+notebooks/** -text
+LICENSES/** -text
+docs/*.csv -text

@@ -1,0 +1,56 @@
+{
+  "complete": true,
+  "reviewed_at_utc": "2026-10-26T01:09:08.854103+00:00",
+  "verdict": "PASS_REAL_92_CELL_RAW_CACHE_CLEANING_NOTEBOOK",
+  "notebook": "output/california_retail_v3/California_Retail_Full_Data_Cleaning_V3.ipynb",
+  "notebook_sha256": "c83ae86a673d70b40f7ca77f5b53f2e0f19d992a81b08a0e3aef080b508be979",
+  "execution_evidence": "output/california_retail_v3/full_cleaning_notebook_execution_v3.json",
+  "elapsed_seconds": 182.45,
+  "checks": {
+    "code_cells": 92,
+    "executions_sequential_1_to_92": true,
+    "error_outputs": 0,
+    "visible_top_level_function_class_definitions": 75,
+    "duplicate_top_level_definition_names": [],
+    "dynamic_or_subprocess_calls": [],
+    "external_project_imports": [],
+    "executed_notebook_sha_matches": true,
+    "sidecar_input_hashes_all_match": true,
+    "frozen_comparator_ids_exact": true,
+    "frozen_comparator_rows": 58030,
+    "copied_original_frozen_bytes_match": true,
+    "rules_sha_matches_design": true,
+    "all_51_column_mismatch_counts_zero": true,
+    "rebuilt_parquet_bytes_equal_reference": true,
+    "independent_QA_checks": 48,
+    "independent_QA_all_passed": true,
+    "original_six_protected_files_match_sidecar_reference": {
+      "data/clean_v3/california_retail_clean_master_v3.parquet": true,
+      "data/clean_v3/clean_dataset_manifest_v3.json": true,
+      "data/clean_v3/frozen_comparator_frame_v3.parquet": true,
+      "data/clean_v3/quality_frame_manifest_v3.json": true,
+      "validation/comparator_holdout_v3/sample_frame.json": true,
+      "validation/comparator_holdout_v3/sampling_design.json": true
+    },
+    "isolated_run_root": "notebook_runs/cleaning_v3_20261026T010331_105860Z",
+    "new_output_rows": 58513,
+    "new_output_columns": 51,
+    "label_counts": {
+      "0": 57965,
+      "1": 548
+    }
+  },
+  "code_review": [
+    "Actual extraction/cleaning/SQL functions are visible ordinary Python cells; stage calls execute them in this notebook rather than reading final tables or launching project scripts.",
+    "Cached Overture raw shards are flattened; the fixed OSM PBF is scanned in both candidate/all-shop modes; ACS DAT and TIGER ZIP are rebuilt before integration, V2/V3 screening and neighborhood recomputation.",
+    "Stage-prefixed helpers/imports and ROOT/OUT values avoid global name collisions. Inspected function parameters do not shadow renamed global symbols. All processing roots refer to the isolated run directory.",
+    "The quality no-freeze manifest issue is handled in the new directory: recomputed comparator IDs must exactly equal the original frozen population before the original frozen Parquet is copied and its row count/hash restored. No holdout is redrawn.",
+    "Manual judgments remain versioned sidecar inputs. The notebook explicitly says it applies completed human adjudication rather than automatically repeating website/semantic review."
+  ],
+  "nonblocking_notes": [
+    "Optional acquisition/network functions are included but are not the executed cleaning path. Existing raw cache plus the sidecar is required.",
+    "An intermediate integrated candidate count is81494 rather than the historical81495: the former unmatched OSM-only go! calendars record node/10313978905 is now recorded as unit_conflict_review against an Overture candidate. The frozen comparator population and final Parquet are identical; intermediate files are not claimed byte-identical.",
+    "Source-qualified mapped store/target proxies are not universal current-storefront or profitability ground truth."
+  ],
+  "data_modified_by_review": false
+}

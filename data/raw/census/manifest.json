@@ -1,0 +1,106 @@
+{
+  "complete": true,
+  "started_utc": "2026-10-25T23:27:43.879328+00:00",
+  "archive_mode_requested": "hardlink",
+  "notes": [
+    "Hardlinked raw files are immutable shared inodes; do not modify either copy.",
+    "This pipeline reuses acquired DAT/ZIP files and downloads no large source files."
+  ],
+  "sources": [
+    {
+      "table": "B01001",
+      "source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat",
+      "original_local_input": "data/raw/census/acs2024/acsdt5y2024-b01001.dat",
+      "archived_path": "data/raw/census/acs2024/acsdt5y2024-b01001.dat",
+      "storage": "in_place_hardlink",
+      "hardlink_count": 2,
+      "bytes": 200356282,
+      "sha256": "1637b18a96881b81e050df1cd3d5ac38a33208b9b69b40e1dbeb3c4e13718f0e"
+    },
+    {
+      "table": "B19013",
+      "source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+      "original_local_input": "data/raw/census/acs2024/acsdt5y2024-b19013.dat",
+      "archived_path": "data/raw/census/acs2024/acsdt5y2024-b19013.dat",
+      "storage": "in_place_hardlink",
+      "hardlink_count": 2,
+      "bytes": 17917916,
+      "sha256": "b25a176b0e6c339b6f3a2a0d3d8446bf06f5f080b4395993ec9a8313efb1c229"
+    },
+    {
+      "table": "B14001",
+      "source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b14001.dat",
+      "original_local_input": "data/raw/census/acs2024/acsdt5y2024-b14001.dat",
+      "archived_path": "data/raw/census/acs2024/acsdt5y2024-b14001.dat",
+      "storage": "in_place_hardlink",
+      "hardlink_count": 2,
+      "bytes": 27312329,
+      "sha256": "e175af4a33616da45fb590da3d67f37eee65a3cb51e6f5864c64ff31fb716b81"
+    },
+    {
+      "table": "B11001",
+      "source_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b11001.dat",
+      "original_local_input": "data/raw/census/acs2024/acsdt5y2024-b11001.dat",
+      "archived_path": "data/raw/census/acs2024/acsdt5y2024-b11001.dat",
+      "storage": "in_place_hardlink",
+      "hardlink_count": 2,
+      "bytes": 45827971,
+      "sha256": "77200c3d9c0d99773bc7f78208bc96f25170e5d4d175a5de320620b478ceaff5"
+    },
+    {
+      "source_url": "https://www2.census.gov/geo/tiger/TIGER2024/TRACT/tl_2024_06_tract.zip",
+      "original_local_input": "data/raw/census/tiger2024/tl_2024_06_tract.zip",
+      "archived_path": "data/raw/census/tiger2024/tl_2024_06_tract.zip",
+      "storage": "in_place_hardlink",
+      "hardlink_count": 2,
+      "bytes": 32451946,
+      "sha256": "8ad60e582b4d61be94ac072a4dd80d763255c0c987c616c7e6f9ffc7ee0bd318"
+    }
+  ],
+  "variable_dictionaries": [
+    {
+      "table": "B01001",
+      "source_url": "https://api.census.gov/data/2024/acs/acs5/groups/B01001.json",
+      "path": "data/raw/census/metadata/B01001.json",
+      "reused": true
+    },
+    {
+      "table": "B19013",
+      "source_url": "https://api.census.gov/data/2024/acs/acs5/groups/B19013.json",
+      "path": "data/raw/census/metadata/B19013.json",
+      "reused": true
+    },
+    {
+      "table": "B14001",
+      "source_url": "https://api.census.gov/data/2024/acs/acs5/groups/B14001.json",
+      "path": "data/raw/census/metadata/B14001.json",
+      "reused": true
+    },
+    {
+      "table": "B11001",
+      "source_url": "https://api.census.gov/data/2024/acs/acs5/groups/B11001.json",
+      "path": "data/raw/census/metadata/B11001.json",
+      "reused": true
+    }
+  ],
+  "original_download_manifests": [
+    {
+      "original_local_input": "data/raw/census/input_manifests/manifest_acs.json",
+      "archived_path": "data/raw/census/input_manifests/manifest_acs.json",
+      "storage": "in_place_hardlink",
+      "hardlink_count": 2,
+      "bytes": 3552,
+      "sha256": "a334084ddee16a1e1e94b63d2887a4d0af1200958e5da5e7dc6dfe3611448e40"
+    },
+    {
+      "original_local_input": "data/raw/census/input_manifests/manifest_tracts.json",
+      "archived_path": "data/raw/census/input_manifests/manifest_tracts.json",
+      "storage": "in_place_hardlink",
+      "hardlink_count": 2,
+      "bytes": 1353,
+      "sha256": "f5a124c1c3376e6be4e4f936699bf3b2aafa0d2b1f8b48aca531b5ac7bec7c71"
+    }
+  ],
+  "shapefile": "data/raw/census/tiger2024/shapefile/tl_2024_06_tract.shp",
+  "finished_utc": "2026-10-25T23:27:44.526035+00:00"
+}

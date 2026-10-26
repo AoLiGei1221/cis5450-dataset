@@ -1,0 +1,119 @@
+{
+  "files": [
+    {
+      "path": "data/raw/overture_ca/raw_shards/part_000.parquet",
+      "bytes": 1810,
+      "sha256": "6b622dfd82c9c34e2d3dd19fb6f0df441da52bca059e78a2cb0f779d49908465"
+    },
+    {
+      "path": "data/raw/overture_ca/raw_shards/part_001.parquet",
+      "bytes": 171519234,
+      "sha256": "8260e6ae757ccb1cfccc14e0e76b272ea0463e0540bd90d2cf58981dd1c55c47"
+    },
+    {
+      "path": "data/raw/overture_ca/raw_shards/part_002.parquet",
+      "bytes": 135651440,
+      "sha256": "4613a0a9b0222d6c9a245b2e86634dd47cbbab77e2fd2c7b5a7a618af7e018b5"
+    },
+    {
+      "path": "data/raw/overture_ca/raw_shards/part_003.parquet",
+      "bytes": 1810,
+      "sha256": "6b622dfd82c9c34e2d3dd19fb6f0df441da52bca059e78a2cb0f779d49908465"
+    },
+    {
+      "path": "data/raw/overture_ca/raw_shards/part_004.parquet",
+      "bytes": 1810,
+      "sha256": "6b622dfd82c9c34e2d3dd19fb6f0df441da52bca059e78a2cb0f779d49908465"
+    },
+    {
+      "path": "data/raw/overture_ca/raw_shards/part_005.parquet",
+      "bytes": 1810,
+      "sha256": "6b622dfd82c9c34e2d3dd19fb6f0df441da52bca059e78a2cb0f779d49908465"
+    },
+    {
+      "path": "data/raw/overture_ca/raw_shards/part_006.parquet",
+      "bytes": 1810,
+      "sha256": "6b622dfd82c9c34e2d3dd19fb6f0df441da52bca059e78a2cb0f779d49908465"
+    },
+    {
+      "path": "data/raw/overture_ca/raw_shards/part_007.parquet",
+      "bytes": 1810,
+      "sha256": "6b622dfd82c9c34e2d3dd19fb6f0df441da52bca059e78a2cb0f779d49908465"
+    },
+    {
+      "path": "data/raw/overture_ca/raw_shards/part_008.parquet",
+      "bytes": 1810,
+      "sha256": "6b622dfd82c9c34e2d3dd19fb6f0df441da52bca059e78a2cb0f779d49908465"
+    },
+    {
+      "path": "data/raw/overture_ca/raw_shards/part_009.parquet",
+      "bytes": 1810,
+      "sha256": "6b622dfd82c9c34e2d3dd19fb6f0df441da52bca059e78a2cb0f779d49908465"
+    },
+    {
+      "path": "data/raw/overture_ca/raw_shards/part_010.parquet",
+      "bytes": 1810,
+      "sha256": "6b622dfd82c9c34e2d3dd19fb6f0df441da52bca059e78a2cb0f779d49908465"
+    },
+    {
+      "path": "data/raw/overture_ca/raw_shards/part_011.parquet",
+      "bytes": 1810,
+      "sha256": "6b622dfd82c9c34e2d3dd19fb6f0df441da52bca059e78a2cb0f779d49908465"
+    },
+    {
+      "path": "data/raw/overture_ca/raw_shards/part_012.parquet",
+      "bytes": 1810,
+      "sha256": "6b622dfd82c9c34e2d3dd19fb6f0df441da52bca059e78a2cb0f779d49908465"
+    },
+    {
+      "path": "data/raw/overture_ca/raw_shards/part_013.parquet",
+      "bytes": 1810,
+      "sha256": "6b622dfd82c9c34e2d3dd19fb6f0df441da52bca059e78a2cb0f779d49908465"
+    },
+    {
+      "path": "data/raw/overture_ca/raw_shards/part_014.parquet",
+      "bytes": 1810,
+      "sha256": "6b622dfd82c9c34e2d3dd19fb6f0df441da52bca059e78a2cb0f779d49908465"
+    },
+    {
+      "path": "data/raw/overture_ca/raw_shards/part_015.parquet",
+      "bytes": 1810,
+      "sha256": "6b622dfd82c9c34e2d3dd19fb6f0df441da52bca059e78a2cb0f779d49908465"
+    },
+    {
+      "path": "data/raw/overture_ca/points.parquet",
+      "bytes": 245215519,
+      "sha256": "5f4b68ed1c76be03ed91bcdc8ec8a0135c428086fedcf42db1e43ccf74420e96"
+    },
+    {
+      "path": "data/raw/census/acs2024/acsdt5y2024-b01001.dat",
+      "bytes": 200356282,
+      "sha256": "1637b18a96881b81e050df1cd3d5ac38a33208b9b69b40e1dbeb3c4e13718f0e"
+    },
+    {
+      "path": "data/raw/census/acs2024/acsdt5y2024-b11001.dat",
+      "bytes": 45827971,
+      "sha256": "77200c3d9c0d99773bc7f78208bc96f25170e5d4d175a5de320620b478ceaff5"
+    },
+    {
+      "path": "data/raw/census/acs2024/acsdt5y2024-b14001.dat",
+      "bytes": 27312329,
+      "sha256": "e175af4a33616da45fb590da3d67f37eee65a3cb51e6f5864c64ff31fb716b81"
+    },
+    {
+      "path": "data/raw/census/acs2024/acsdt5y2024-b19013.dat",
+      "bytes": 17917916,
+      "sha256": "b25a176b0e6c339b6f3a2a0d3d8446bf06f5f080b4395993ec9a8313efb1c229"
+    },
+    {
+      "path": "data/raw/census/tiger2024/tl_2024_06_tract.zip",
+      "bytes": 32451946,
+      "sha256": "8ad60e582b4d61be94ac072a4dd80d763255c0c987c616c7e6f9ffc7ee0bd318"
+    },
+    {
+      "path": "data/raw/osm/california-261024.osm.pbf",
+      "bytes": 1333570033,
+      "sha256": "74dd4c0e3547668cfd38cfc73b5595f7054af2accc37d67f9ddf852a9c330061"
+    }
+  ]
+}

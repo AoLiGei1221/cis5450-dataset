@@ -1,0 +1,178 @@
+{
+  "verified_at_utc": "2026-10-25T23:14:58.516947+00:00",
+  "scope": "Entire CA-enclosing rectangle plus 2000m retrieval padding; includes neighboring-state POIs; not yet exact California polygon-filtered",
+  "release": "2026-10-21.0",
+  "query_bbox_wsen": [
+    -124.52451232875113,
+    32.481818181818184,
+    -114.07548767124887,
+    42.03818181818182
+  ],
+  "completed_parts": 16,
+  "raw_place_rows": 2375195,
+  "unique_gers_ids": 2375195,
+  "invalid_coordinate_rows": 0,
+  "outside_query_bbox_rows": 0,
+  "missing_sources_rows": 0,
+  "missing_primary_category_rows": 122224,
+  "missing_name_rows": 0,
+  "quality_pass_non_review_context_pois": 1424479,
+  "shopping_rows": 297412,
+  "initial_candidate_rows_not_final_cleaned": 87339,
+  "candidate_label_proxy_distribution": [
+    {
+      "label_proxy": 0,
+      "rows": 86345
+    },
+    {
+      "label_proxy": 1,
+      "rows": 994
+    }
+  ],
+  "target_review_rows": 6904,
+  "raw_strict_target_proxy_rows": 1610,
+  "candidate_exact_normalized_name_rounded5_coordinate_duplicate_groups": 129,
+  "candidate_records_beyond_first_in_those_groups": 129,
+  "duplicate_note": "This is a diagnostic only; same business name plus rounded5 coordinates is not the final 25m entity-resolution procedure",
+  "operating_status_distribution": [
+    {
+      "status": "open",
+      "rows": 1611291
+    },
+    {
+      "status": null,
+      "rows": 658362
+    },
+    {
+      "status": "permanently_closed",
+      "rows": 105520
+    },
+    {
+      "status": "temporarily_closed",
+      "rows": 22
+    }
+  ],
+  "source_entry_counts": [
+    {
+      "dataset": "Overture",
+      "source_entries": 2375195
+    },
+    {
+      "dataset": "Overture-signals",
+      "source_entries": 1269274
+    },
+    {
+      "dataset": "meta",
+      "source_entries": 1226263
+    },
+    {
+      "dataset": "BrightQuery",
+      "source_entries": 1100474
+    },
+    {
+      "dataset": "Microsoft",
+      "source_entries": 286366
+    },
+    {
+      "dataset": "Foursquare",
+      "source_entries": 148582
+    },
+    {
+      "dataset": "AllThePlaces",
+      "source_entries": 29957
+    },
+    {
+      "dataset": "Uberall",
+      "source_entries": 17228
+    },
+    {
+      "dataset": "DAC",
+      "source_entries": 9893
+    },
+    {
+      "dataset": "PinMeTo",
+      "source_entries": 2438
+    },
+    {
+      "dataset": "Birdeye",
+      "source_entries": 1234
+    },
+    {
+      "dataset": "RenderSEO",
+      "source_entries": 199
+    },
+    {
+      "dataset": "OpenTravel",
+      "source_entries": 120
+    }
+  ],
+  "points_columns": [
+    "id",
+    "name",
+    "basic_category",
+    "category",
+    "hierarchy",
+    "alternate_categories",
+    "confidence",
+    "operating_status",
+    "lon",
+    "lat",
+    "addresses",
+    "sources",
+    "brand",
+    "websites",
+    "phones",
+    "audit_source_file",
+    "audit_release",
+    "audit_scope",
+    "passes_initial_quality_screen",
+    "in_candidate_category_frame",
+    "target_review_reason",
+    "is_strict_target_proxy"
+  ],
+  "raw_columns": [
+    "id",
+    "geometry",
+    "confidence",
+    "websites",
+    "emails",
+    "socials",
+    "phones",
+    "brand",
+    "addresses",
+    "names",
+    "sources",
+    "operating_status",
+    "basic_category",
+    "taxonomy",
+    "version",
+    "bbox",
+    "audit_source_file",
+    "audit_release",
+    "audit_scope",
+    "audit_lon",
+    "audit_lat"
+  ],
+  "all_original_physical_attributes_preserved": true,
+  "mirror_checks": [
+    {
+      "url": "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=places/type=place/part-00000-a0a9949b-7e8e-59fe-803b-6cc55b17f790-c000.zstd.parquet",
+      "status": 200,
+      "content_length": "729511821"
+    },
+    {
+      "url": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=places/type=place/part-00000-a0a9949b-7e8e-59fe-803b-6cc55b17f790-c000.zstd.parquet",
+      "status": 200,
+      "content_length": "729511821"
+    }
+  ],
+  "raw_parts_row_counts_sum_matches_index": true,
+  "all_rows_frozen_release_and_scope": true,
+  "pending": [
+    "exact CA polygon membership",
+    "candidate entity resolution",
+    "target label audit",
+    "ACS/other source integration"
+  ],
+  "final_cleaned_50000_row_claim": false
+}

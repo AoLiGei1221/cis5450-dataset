@@ -1,0 +1,69 @@
+{
+  "complete": true,
+  "version": "v3",
+  "released_at_utc": "2026-10-26T00:51:04.504966+00:00",
+  "rows": 58513,
+  "label_counts": {
+    "0": 57965,
+    "1": 548
+  },
+  "frozen_comparator_rows": 58030,
+  "removed_after_record_audit": 65,
+  "all_rows_manually_verified": false,
+  "target_meaning": "mapped toy/collectible/TCG/model specialist status; not profit, success, demand, or current on-site truth",
+  "rules_sha256": "7532001002772b15bf19e71eb4a35e72919bbf3071d90b331348ecd1d39a3f82",
+  "frozen_frame_sha256": "e526de04f645027ae0494d61ee48948780c4d98e7226fba6afd708484d8fb1de",
+  "input_sha256": "915711ef7e9384987615c2e9fd57f2948150f5615034881b49e6b046684698c3",
+  "additional_target_duplicate_review_groups": 36,
+  "additional_target_duplicate_review_ids": 78,
+  "audit_input_sha256": {
+    "pipeline/target_scope_overrides_v3.json": "f8d5629fa9f2acac59e3864f1d36b7a30289ba3231605c3ed897f9663a658a45",
+    "validation/comparator_holdout_v3/final_adjudication.json": "c55f0cb845b8ccfb63e365644334fbde6fce019c07771faa280318088043f4e4",
+    "validation/target_scope_audit_v3.json": "e2d03091177072f568696b7a2754649d7cda81e82dbc7eee2160d0c1f494d525",
+    "pipeline/additional_entity_exclusions_v3.json": "e8e5becd7b7183e96f3161208fe2f7557269b8469451a15edd8b877eaf200344"
+  },
+  "context_counts": {
+    "other_retail": 63420,
+    "food": 143434,
+    "other_target": 601,
+    "mall": 1787,
+    "university": 2385
+  },
+  "context_exclusion_counts_overlapping": {
+    "review_or_excluded_master": 22986,
+    "context_confidence": 15168,
+    "non_US_context": 11104,
+    "context_address_or_contact": 10952,
+    "context_status": 7800,
+    "background_duplicate_group": 6409
+  },
+  "context_interpretation": "Source-qualified US mapped context; food requires listed-open/.90/numbered address/locality/ZIP/contact. Mall/campus distances allow unknown operation status with .90 existence confidence. Border coverage limited to the original retrieval rectangle.",
+  "columns": 51,
+  "predictor_missingness": {
+    "population_density_per_km2": 0,
+    "under18_share": 0,
+    "young_adult_18_34_share": 0,
+    "median_household_income_2024_usd": 0,
+    "college_enrolled_share_3plus": 0,
+    "family_household_share": 0,
+    "living_alone_household_share": 0,
+    "other_retail_count_500m_clean": 0,
+    "other_retail_count_1000m_clean": 0,
+    "food_count_500m_clean": 0,
+    "food_count_1000m_clean": 0,
+    "distance_to_mall_m_clean": 0,
+    "distance_to_university_m_clean": 0
+  },
+  "clean_row_threshold_50000_met": true,
+  "evidence_level_counts": {
+    "source_qualified_map_record": 48706,
+    "overture_and_osm_goods": 9702,
+    "official_address": 105
+  },
+  "verified_label_counts": {
+    "None": 58471,
+    "1": 41,
+    "0": 1
+  },
+  "master_sha256": "da49534f55f7ebc49ca5142db17074a55ce9358e59965ba19de3598969c97904"
+}

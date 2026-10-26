@@ -1,0 +1,18 @@
+{
+  "record_unit": "source-qualified mapped product-retail location",
+  "source_proxy_analysis_rows": 58513,
+  "source_proxy_analysis_rows_at_least_50000": true,
+  "all_rows_current_physical_retail_verified": false,
+  "verified_physical_retail_50000_established": false,
+  "course_size_interpretation": "The numerical post-cleaning row threshold is met for analysis of mapped-retailer proxy labels. This is not proof of >=50000 currently operating consumer retail storefronts.",
+  "permitted_model_target": "is_mapped_specialist",
+  "label_semantics": "mapped toy/collectible/TCG/model specialist status; not profit, success, demand, or current on-site truth",
+  "cross_evidence_subset_rows": 9807,
+  "official_address_scope_subset_rows": 105,
+  "holdout_counts_before_record_corrections": {
+    "ambiguous": 50,
+    "nonretail_confirmed": 7,
+    "retailer_confirmed": 43
+  },
+  "holdout_limitation": "Unknowns remain unresolved. The same holdout is not independent post-correction validation; no full-population accuracy claim is made."
+}

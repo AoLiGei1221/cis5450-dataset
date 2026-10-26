@@ -1,0 +1,41 @@
+{
+  "version": "v3",
+  "built_at_utc": "2026-10-26T00:32:19.826915+00:00",
+  "input_v2_sha256": "189e4c9052d13b7747bdbc4749784e96b4f82e24ea65a93432099594974b8db1",
+  "rules_sha256": "7532001002772b15bf19e71eb4a35e72919bbf3071d90b331348ecd1d39a3f82",
+  "source_rows": 81495,
+  "quality_rule_eligible_rows": 58608,
+  "class_counts": [
+    [
+      0,
+      58030
+    ],
+    [
+      1,
+      578
+    ]
+  ],
+  "duplicate_groups": 971,
+  "duplicate_review_ids": 1690,
+  "flag_counts": {
+    "v2_scope_or_label_or_demographic_ineligible": 9954,
+    "source_confidence_or_status": 9853,
+    "unresolved_duplicate_or_coordinate_group": 1690,
+    "mixed_service_leaf_without_goods_evidence": 1669,
+    "education_service": 97,
+    "missing_locality": 233,
+    "numbered_street_required": 1290,
+    "nonretail_entity_or_format": 473,
+    "invalid_postcode": 453,
+    "legacy_chain_location_review": 1033,
+    "missing_valid_contact_format": 1214,
+    "medical_or_dental_service": 107,
+    "ignition_interlock_service": 449,
+    "postal_or_print_service": 19,
+    "non_CA_region_conflict": 35,
+    "outside_explicit_product_leaf_frame": 2
+  },
+  "status": "QUALITY_FRAME_FROZEN_FOR_INDEPENDENT_VALIDATION_NOT_FINAL_RELEASE",
+  "frozen_comparator_rows": 58030,
+  "frozen_comparator_sha256": "e526de04f645027ae0494d61ee48948780c4d98e7226fba6afd708484d8fb1de"
+}

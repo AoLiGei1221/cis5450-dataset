@@ -1,0 +1,39 @@
+{
+  "complete": true,
+  "source_audit": "validation/retail_scope_previews_audit.json",
+  "overrides": [
+    {
+      "id": "4a96e845-6acb-409d-a567-22a225ead703",
+      "name": "\"Music Lessons 4 Me\" In-Home Music Education LA",
+      "retail_scope_decision": "ambiguous",
+      "target_decision": "ambiguous",
+      "reason": "名称包含In-Home Music Education，存在上门音乐教学而非商品门店的业态冲突；本轮未找到可匹配该Sherman Oaks地址或818-301-1044电话的一手官网内容，不能据名称直接称已核验非零售或关店。",
+      "evidence_url": null,
+      "evidence_kind": "conflicting_secondary_leads_not_official_confirmation",
+      "checked": "2026-10-25",
+      "selection_method": "user_preview_risk_followup"
+    },
+    {
+      "id": "edd08c45-80bd-43bf-9d93-a1e635af6958",
+      "name": "\"STEPS\" Dance Studio - Tulare",
+      "retail_scope_decision": "ambiguous",
+      "target_decision": "ambiguous",
+      "reason": "同址二手目录将其列入舞蹈教学／Dance Studios, Schools and Halls，与dancewear_store商品零售类别冲突；尚无该Tulare主体的一手网站内容证明其主营业务或是否另有商品零售。",
+      "evidence_url": null,
+      "evidence_kind": "conflicting_secondary_leads_not_official_confirmation",
+      "checked": "2026-10-25",
+      "selection_method": "user_preview_risk_followup"
+    },
+    {
+      "id": "65eee9d2-9131-4d45-a7c2-0e4974e4aa6a",
+      "name": "\"The Spot\" Dance Here",
+      "retail_scope_decision": "ambiguous",
+      "target_decision": "ambiguous",
+      "reason": "同址历史新闻与二手目录描述舞蹈课程，提示dancewear_store标签可能混入舞蹈教学服务；原数据提供的Wix页面404，不能将页面失效视为关店或充分核验当前业态。",
+      "evidence_url": null,
+      "evidence_kind": "conflicting_secondary_leads_not_official_confirmation",
+      "checked": "2026-10-25",
+      "selection_method": "user_preview_risk_followup"
+    }
+  ]
+}

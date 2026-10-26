@@ -1,0 +1,113 @@
+{
+  "status": "FROZEN_BEFORE_HOLDOUT_WEB_INSPECTION",
+  "frame_path": "data/clean_v3/frozen_comparator_frame_v3.parquet",
+  "frame_sha256": "e526de04f645027ae0494d61ee48948780c4d98e7226fba6afd708484d8fb1de",
+  "rule_spec_path": "data/clean_v3/cleaning_rules_v3.json",
+  "rule_spec_sha256": "7532001002772b15bf19e71eb4a35e72919bbf3071d90b331348ecd1d39a3f82",
+  "label_column": "target_label_proxy_v2",
+  "eligible_column": null,
+  "eligible_comparator_N_before_prior_audit_exclusion": 58030,
+  "untouched_holdout_population_N": 58009,
+  "prior_audit_excluded_count_in_frame": 21,
+  "exclusion_sources": [
+    {
+      "path": "validation/negative_scope_audit_v2.json",
+      "sha256": "c0bc41e326b5adb15c388f6a8f7d9959b554ab79b12492c65abc850d759334bf",
+      "new_ids": 200
+    },
+    {
+      "path": "validation/positive_scope_audit_v2.json",
+      "sha256": "fd6e879c0d10ca647ffa3e935a60fa79f16e9ddcc34408d2dc593e61f386e777",
+      "new_ids": 100
+    },
+    {
+      "path": "validation/target_label_audit_full.json",
+      "sha256": "e6baa855e2d43288a0e87d8d894e98c1544fcf6a9ee010c5a3eb219487a21fb7",
+      "new_ids": 46
+    },
+    {
+      "path": "pipeline/label_overrides.json",
+      "sha256": "a6309cac908c73425a96d1bea2a2cb42685ebf75f21cc72cb7918010b3449d33",
+      "new_ids": 0
+    },
+    {
+      "path": "pipeline/retail_scope_overrides_v2.json",
+      "sha256": "06396fb1467a14eed22d0a72f0bc7cf9bff72faf988f58f00a5ca888955a774f",
+      "new_ids": 0
+    },
+    {
+      "path": "pipeline/target_scope_overrides_v2.json",
+      "sha256": "fc8fffc467c72dd7d7764a9bbae5f8ebe698361beb3b925ce3f29fe5eb10aac9",
+      "new_ids": 0
+    },
+    {
+      "path": "pipeline/preview_scope_overrides_v2.json",
+      "sha256": "4c9dba471380645190f7556c75c5fe71445ce2b5de414a6910b56d9b0028ee9b",
+      "new_ids": 3
+    }
+  ],
+  "seed": 54502026,
+  "n": 100,
+  "strata": [
+    {
+      "stratum": "OTHER",
+      "N": 3221,
+      "n": 7
+    },
+    {
+      "stratum": "animal_and_pet_store",
+      "N": 2331,
+      "n": 6
+    },
+    {
+      "stratum": "arts_crafts_and_hobby_store",
+      "N": 1201,
+      "n": 4
+    },
+    {
+      "stratum": "books_music_and_video_store",
+      "N": 1558,
+      "n": 5
+    },
+    {
+      "stratum": "discount_store",
+      "N": 3129,
+      "n": 7
+    },
+    {
+      "stratum": "electronics_store",
+      "N": 7685,
+      "n": 12
+    },
+    {
+      "stratum": "fashion_and_apparel_store",
+      "N": 21870,
+      "n": 28
+    },
+    {
+      "stratum": "flowers_and_gifts_store",
+      "N": 5140,
+      "n": 9
+    },
+    {
+      "stratum": "personal_care_and_beauty_store",
+      "N": 2927,
+      "n": 6
+    },
+    {
+      "stratum": "second_hand_store",
+      "N": 3867,
+      "n": 7
+    },
+    {
+      "stratum": "sporting_goods_store",
+      "N": 5080,
+      "n": 9
+    }
+  ],
+  "sampling_method": "SRSWOR within top10 basic-category plus OTHER strata, ID sorted then random.Random(54502026), base3 plus proportional capacity and largest remainders; no substitutions.",
+  "web_inspection_started": false,
+  "selection_probability": "n_h/N_h within each stratum; design_weight=N_h/n_h",
+  "sample_json_sha256": "4829ef46952bd17d388013e1bf5c87716d29a3ba3624258c78765148f5ba8438",
+  "sample_parquet_sha256": "851e95b3f46c85787b25e0006270f53f7b1504b0670849005c04b3625635381d"
+}

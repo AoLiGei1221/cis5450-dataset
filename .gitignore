@@ -1,0 +1,14 @@
+# Downloaded payloads are distributed through Releases
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+notebook_runs/
+.downloads/
+data/raw/osm/*.pbf
+data/raw/overture_ca/raw_shards/*.parquet
+data/raw/overture_ca/points.parquet
+data/raw/census/acs2024/*.dat
+data/raw/census/tiger2024/*.zip
+data/raw/census/tiger2024/shapefile/

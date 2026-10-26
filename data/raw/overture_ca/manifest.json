@@ -1,0 +1,149 @@
+{
+  "release": "2026-10-21.0",
+  "prefix": "release/2026-10-21.0/theme=places/type=place/",
+  "stac_catalog_url": "https://stac.overturemaps.org/2026-10-21.0/catalog.json",
+  "verified_at_utc": "2026-10-25T23:11:12.334831+00:00",
+  "asset_count": 16,
+  "assets": [
+    {
+      "key": "release/2026-10-21.0/theme=places/type=place/part-00000-a0a9949b-7e8e-59fe-803b-6cc55b17f790-c000.zstd.parquet",
+      "size_bytes": 729511821,
+      "etag": "\"4875d0ea87ee1003e2dd155858941baa-11\"",
+      "last_modified": "2026-10-21T17:43:48.000Z",
+      "s3_https_url": "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=places/type=place/part-00000-a0a9949b-7e8e-59fe-803b-6cc55b17f790-c000.zstd.parquet",
+      "azure_https_url": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=places/type=place/part-00000-a0a9949b-7e8e-59fe-803b-6cc55b17f790-c000.zstd.parquet"
+    },
+    {
+      "key": "release/2026-10-21.0/theme=places/type=place/part-00001-95b3bb67-399f-571e-9503-61421d57661c-c000.zstd.parquet",
+      "size_bytes": 810722286,
+      "etag": "\"47bb338922630e7aea96a47bd57c2e90-13\"",
+      "last_modified": "2026-10-21T17:43:57.000Z",
+      "s3_https_url": "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=places/type=place/part-00001-95b3bb67-399f-571e-9503-61421d57661c-c000.zstd.parquet",
+      "azure_https_url": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=places/type=place/part-00001-95b3bb67-399f-571e-9503-61421d57661c-c000.zstd.parquet"
+    },
+    {
+      "key": "release/2026-10-21.0/theme=places/type=place/part-00002-6f03d044-7fc3-539e-842b-7b15c796e629-c000.zstd.parquet",
+      "size_bytes": 814700009,
+      "etag": "\"66e8287a6251de068513fce76f2e98b9-13\"",
+      "last_modified": "2026-10-21T17:45:32.000Z",
+      "s3_https_url": "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=places/type=place/part-00002-6f03d044-7fc3-539e-842b-7b15c796e629-c000.zstd.parquet",
+      "azure_https_url": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=places/type=place/part-00002-6f03d044-7fc3-539e-842b-7b15c796e629-c000.zstd.parquet"
+    },
+    {
+      "key": "release/2026-10-21.0/theme=places/type=place/part-00003-755a53ba-2d37-54c8-b30e-8c14897bc3f3-c000.zstd.parquet",
+      "size_bytes": 826418126,
+      "etag": "\"a755b221cf913d4a385342fe52a03d49-13\"",
+      "last_modified": "2026-10-21T17:45:32.000Z",
+      "s3_https_url": "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=places/type=place/part-00003-755a53ba-2d37-54c8-b30e-8c14897bc3f3-c000.zstd.parquet",
+      "azure_https_url": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=places/type=place/part-00003-755a53ba-2d37-54c8-b30e-8c14897bc3f3-c000.zstd.parquet"
+    },
+    {
+      "key": "release/2026-10-21.0/theme=places/type=place/part-00004-14b83d8c-d850-51f9-85b2-8f8a0b4634af-c000.zstd.parquet",
+      "size_bytes": 712441815,
+      "etag": "\"cd9c9c2fd09e39782e7cc6b2063f719b-11\"",
+      "last_modified": "2026-10-21T17:45:26.000Z",
+      "s3_https_url": "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=places/type=place/part-00004-14b83d8c-d850-51f9-85b2-8f8a0b4634af-c000.zstd.parquet",
+      "azure_https_url": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=places/type=place/part-00004-14b83d8c-d850-51f9-85b2-8f8a0b4634af-c000.zstd.parquet"
+    },
+    {
+      "key": "release/2026-10-21.0/theme=places/type=place/part-00005-c3667754-428e-500c-bf3b-a0b5921b7cc0-c000.zstd.parquet",
+      "size_bytes": 720677975,
+      "etag": "\"673abe364c042bf4710d4417c1605e0d-11\"",
+      "last_modified": "2026-10-21T17:44:01.000Z",
+      "s3_https_url": "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=places/type=place/part-00005-c3667754-428e-500c-bf3b-a0b5921b7cc0-c000.zstd.parquet",
+      "azure_https_url": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=places/type=place/part-00005-c3667754-428e-500c-bf3b-a0b5921b7cc0-c000.zstd.parquet"
+    },
+    {
+      "key": "release/2026-10-21.0/theme=places/type=place/part-00006-55d446f6-129a-556e-b79e-e1cfd5735068-c000.zstd.parquet",
+      "size_bytes": 755632071,
+      "etag": "\"b458120a0ecd82ac2748bf4e06eb8add-12\"",
+      "last_modified": "2026-10-21T17:50:51.000Z",
+      "s3_https_url": "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=places/type=place/part-00006-55d446f6-129a-556e-b79e-e1cfd5735068-c000.zstd.parquet",
+      "azure_https_url": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=places/type=place/part-00006-55d446f6-129a-556e-b79e-e1cfd5735068-c000.zstd.parquet"
+    },
+    {
+      "key": "release/2026-10-21.0/theme=places/type=place/part-00007-a2c7689b-daa2-5233-9780-d37ccfc3ea74-c000.zstd.parquet",
+      "size_bytes": 725017426,
+      "etag": "\"e92948dbce4b18503f5633f019a52b20-11\"",
+      "last_modified": "2026-10-21T17:45:46.000Z",
+      "s3_https_url": "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=places/type=place/part-00007-a2c7689b-daa2-5233-9780-d37ccfc3ea74-c000.zstd.parquet",
+      "azure_https_url": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=places/type=place/part-00007-a2c7689b-daa2-5233-9780-d37ccfc3ea74-c000.zstd.parquet"
+    },
+    {
+      "key": "release/2026-10-21.0/theme=places/type=place/part-00008-8b09f6c1-f726-581a-9b39-f891088cc2ad-c000.zstd.parquet",
+      "size_bytes": 721833497,
+      "etag": "\"cb566d51c33a8717be151741f011468c-11\"",
+      "last_modified": "2026-10-21T17:45:53.000Z",
+      "s3_https_url": "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=places/type=place/part-00008-8b09f6c1-f726-581a-9b39-f891088cc2ad-c000.zstd.parquet",
+      "azure_https_url": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=places/type=place/part-00008-8b09f6c1-f726-581a-9b39-f891088cc2ad-c000.zstd.parquet"
+    },
+    {
+      "key": "release/2026-10-21.0/theme=places/type=place/part-00009-fe90ff49-733f-5fa3-9755-c6cd4438305c-c000.zstd.parquet",
+      "size_bytes": 713205738,
+      "etag": "\"ef4fbf2137ac3bbe9c56f6bf2fabf5ce-11\"",
+      "last_modified": "2026-10-21T17:43:29.000Z",
+      "s3_https_url": "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=places/type=place/part-00009-fe90ff49-733f-5fa3-9755-c6cd4438305c-c000.zstd.parquet",
+      "azure_https_url": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=places/type=place/part-00009-fe90ff49-733f-5fa3-9755-c6cd4438305c-c000.zstd.parquet"
+    },
+    {
+      "key": "release/2026-10-21.0/theme=places/type=place/part-00010-c680fdf1-f03b-5be1-93f1-56c835a00765-c000.zstd.parquet",
+      "size_bytes": 723633922,
+      "etag": "\"d2be0995fe0d8266579a2f780d3e6344-11\"",
+      "last_modified": "2026-10-21T17:45:48.000Z",
+      "s3_https_url": "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=places/type=place/part-00010-c680fdf1-f03b-5be1-93f1-56c835a00765-c000.zstd.parquet",
+      "azure_https_url": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=places/type=place/part-00010-c680fdf1-f03b-5be1-93f1-56c835a00765-c000.zstd.parquet"
+    },
+    {
+      "key": "release/2026-10-21.0/theme=places/type=place/part-00011-472205f3-e3ff-5474-98a4-b9b3361f7306-c000.zstd.parquet",
+      "size_bytes": 714390669,
+      "etag": "\"a77c4beb9d0e1f4873c8657c0f251b9e-11\"",
+      "last_modified": "2026-10-21T17:45:41.000Z",
+      "s3_https_url": "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=places/type=place/part-00011-472205f3-e3ff-5474-98a4-b9b3361f7306-c000.zstd.parquet",
+      "azure_https_url": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=places/type=place/part-00011-472205f3-e3ff-5474-98a4-b9b3361f7306-c000.zstd.parquet"
+    },
+    {
+      "key": "release/2026-10-21.0/theme=places/type=place/part-00012-8cf9bdfe-d946-56f8-84c0-19493d0fbb9c-c000.zstd.parquet",
+      "size_bytes": 730097847,
+      "etag": "\"c1fa07385d7fa2c56f413e8e322d59cd-11\"",
+      "last_modified": "2026-10-21T17:46:03.000Z",
+      "s3_https_url": "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=places/type=place/part-00012-8cf9bdfe-d946-56f8-84c0-19493d0fbb9c-c000.zstd.parquet",
+      "azure_https_url": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=places/type=place/part-00012-8cf9bdfe-d946-56f8-84c0-19493d0fbb9c-c000.zstd.parquet"
+    },
+    {
+      "key": "release/2026-10-21.0/theme=places/type=place/part-00013-6c366648-1364-543e-894b-d6e65d03c056-c000.zstd.parquet",
+      "size_bytes": 719333214,
+      "etag": "\"fe3a6ceb7ac3d8c9a2862a46ccd4b24b-11\"",
+      "last_modified": "2026-10-21T17:45:52.000Z",
+      "s3_https_url": "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=places/type=place/part-00013-6c366648-1364-543e-894b-d6e65d03c056-c000.zstd.parquet",
+      "azure_https_url": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=places/type=place/part-00013-6c366648-1364-543e-894b-d6e65d03c056-c000.zstd.parquet"
+    },
+    {
+      "key": "release/2026-10-21.0/theme=places/type=place/part-00014-dcceff87-235e-5a0e-a4b4-5f25ccb873e7-c000.zstd.parquet",
+      "size_bytes": 744601106,
+      "etag": "\"4ff3b0b5c984c13fb472965d6e91e953-12\"",
+      "last_modified": "2026-10-21T17:45:49.000Z",
+      "s3_https_url": "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=places/type=place/part-00014-dcceff87-235e-5a0e-a4b4-5f25ccb873e7-c000.zstd.parquet",
+      "azure_https_url": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=places/type=place/part-00014-dcceff87-235e-5a0e-a4b4-5f25ccb873e7-c000.zstd.parquet"
+    },
+    {
+      "key": "release/2026-10-21.0/theme=places/type=place/part-00015-eb1c1331-f519-5db6-8fef-74a77e5776ff-c000.zstd.parquet",
+      "size_bytes": 733499664,
+      "etag": "\"a6c4747c58c0a8a44c937a4f2ff3cdea-11\"",
+      "last_modified": "2026-10-21T17:44:10.000Z",
+      "s3_https_url": "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=places/type=place/part-00015-eb1c1331-f519-5db6-8fef-74a77e5776ff-c000.zstd.parquet",
+      "azure_https_url": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=places/type=place/part-00015-eb1c1331-f519-5db6-8fef-74a77e5776ff-c000.zstd.parquet"
+    }
+  ],
+  "mirror_checks": [
+    {
+      "url": "https://overturemaps-us-west-2.s3.us-west-2.amazonaws.com/release/2026-10-21.0/theme=places/type=place/part-00000-a0a9949b-7e8e-59fe-803b-6cc55b17f790-c000.zstd.parquet",
+      "status": 200,
+      "content_length": "729511821"
+    },
+    {
+      "url": "https://overturemapswestus2.blob.core.windows.net/release/2026-10-21.0/theme=places/type=place/part-00000-a0a9949b-7e8e-59fe-803b-6cc55b17f790-c000.zstd.parquet",
+      "status": 200,
+      "content_length": "729511821"
+    }
+  ]
+}

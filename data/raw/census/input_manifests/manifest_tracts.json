@@ -1,0 +1,43 @@
+{
+  "complete": true,
+  "analysis_ready": true,
+  "mode": "full",
+  "started_utc": "2026-10-25T22:38:08.648406+00:00",
+  "source_url": "https://www2.census.gov/geo/tiger/TIGER2024/TRACT/tl_2024_06_tract.zip",
+  "vintage": 2024,
+  "state": "California",
+  "state_fips": "06",
+  "paths": {
+    "tract_zip": "tutorial_tests/tracts/tl_2024_06_tract.zip",
+    "shapefile": "tutorial_tests/tracts/shapefile/tl_2024_06_tract.shp"
+  },
+  "bytes": 32451946,
+  "sha256": "8ad60e582b4d61be94ac072a4dd80d763255c0c987c616c7e6f9ffc7ee0bd318",
+  "reused": true,
+  "validation": {
+    "tract_rows": 9129,
+    "unique_geoid": 9129,
+    "fields": [
+      "STATEFP",
+      "COUNTYFP",
+      "TRACTCE",
+      "GEOID",
+      "GEOIDFQ",
+      "NAME",
+      "NAMELSAD",
+      "MTFCC",
+      "FUNCSTAT",
+      "ALAND",
+      "AWATER",
+      "INTPTLAT",
+      "INTPTLON"
+    ],
+    "crs": "EPSG:4269 (NAD83)",
+    "projection_wkt": "GEOGCS[\"GCS_North_American_1983\",DATUM[\"D_North_American_1983\",SPHEROID[\"GRS_1980\",6378137,298.257222101]],PRIMEM[\"Greenwich\",0],UNIT[\"Degree\",0.017453292519943295]]",
+    "shapefile_magic": 9994,
+    "shapefile_version": 1000,
+    "shape_type": 5,
+    "all_zip_member_crcs_valid": true
+  },
+  "finished_utc": "2026-10-25T22:38:08.800238+00:00"
+}

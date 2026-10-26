@@ -1,0 +1,39 @@
+{
+  "release_tag": "data-v3-2026-10-26",
+  "assets": [
+    {
+      "dataset": "overture",
+      "asset": "raw-overture-2026-10-21.0.zip",
+      "size_bytes": 552458577,
+      "sha256": "cca60603f9aac4d280aa4aaec5b47b6cd6931b66aab580728c83e0e70bc0f474",
+      "kind": "zip",
+      "url": "https://github.com/AoLiGei1221/cis5450-dataset/releases/download/data-v3-2026-10-26/raw-overture-2026-10-21.0.zip"
+    },
+    {
+      "dataset": "acs",
+      "asset": "raw-acs-2024-5year.zip",
+      "size_bytes": 98851631,
+      "sha256": "77bbd37dc4080055fa4b71fb52fd14e74f78b414aff187e3a27a91fe2fcf9485",
+      "kind": "zip",
+      "url": "https://github.com/AoLiGei1221/cis5450-dataset/releases/download/data-v3-2026-10-26/raw-acs-2024-5year.zip"
+    },
+    {
+      "dataset": "tiger",
+      "asset": "tl_2024_06_tract.zip",
+      "size_bytes": 32451946,
+      "sha256": "8ad60e582b4d61be94ac072a4dd80d763255c0c987c616c7e6f9ffc7ee0bd318",
+      "kind": "file",
+      "url": "https://github.com/AoLiGei1221/cis5450-dataset/releases/download/data-v3-2026-10-26/tl_2024_06_tract.zip",
+      "destination": "data/raw/census/tiger2024/tl_2024_06_tract.zip"
+    },
+    {
+      "dataset": "osm",
+      "asset": "california-261024.osm.pbf",
+      "size_bytes": 1333570033,
+      "sha256": "74dd4c0e3547668cfd38cfc73b5595f7054af2accc37d67f9ddf852a9c330061",
+      "kind": "file",
+      "url": "https://github.com/AoLiGei1221/cis5450-dataset/releases/download/data-v3-2026-10-26/california-261024.osm.pbf",
+      "destination": "data/raw/osm/california-261024.osm.pbf"
+    }
+  ]
+}

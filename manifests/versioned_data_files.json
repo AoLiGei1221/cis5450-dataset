@@ -1,0 +1,144 @@
+{
+  "files": [
+    {
+      "path": "data/clean_v3/california_retail_clean_master_v3.csv",
+      "bytes": 38541661,
+      "sha256": "dedb031207b6fb1684eeec85414d22e31cad2046561431f368ee1371e7deb632"
+    },
+    {
+      "path": "data/clean_v3/california_retail_clean_master_v3.parquet",
+      "bytes": 9757973,
+      "sha256": "da49534f55f7ebc49ca5142db17074a55ce9358e59965ba19de3598969c97904"
+    },
+    {
+      "path": "data/clean_v3/california_tract_clean_summary_v3.parquet",
+      "bytes": 2449091,
+      "sha256": "409e81689e841332331426ae8a673f516ec2502adcff040fbf399d2a89588153"
+    },
+    {
+      "path": "data/clean_v3/clean_dataset_manifest_v3.json",
+      "bytes": 2829,
+      "sha256": "17e17a6103ef211e9486d0e9a6b491a41ab6d641a307d2bbf626db3030a5b072"
+    },
+    {
+      "path": "data/clean_v3/clean_preview_30.csv",
+      "bytes": 5245,
+      "sha256": "83811612217d19bd66cd0de3722800637586e2c32aad5030244702a179216c03"
+    },
+    {
+      "path": "data/clean_v3/cleaning_rules_v3.json",
+      "bytes": 5783,
+      "sha256": "7532001002772b15bf19e71eb4a35e72919bbf3071d90b331348ecd1d39a3f82"
+    },
+    {
+      "path": "data/clean_v3/context_clean_v3.parquet",
+      "bytes": 9967770,
+      "sha256": "086dc2acef0fca3b00b1ff4ed78aae600e31718e08f9e927b3a201a5f9298ae4"
+    },
+    {
+      "path": "data/clean_v3/field_dictionary_v3.csv",
+      "bytes": 2519,
+      "sha256": "2723f4b8eaee9be2b44821b70f5f10127b3faac13be2a8aa56513a21f66166c2"
+    },
+    {
+      "path": "data/clean_v3/model_feature_spec_v3.json",
+      "bytes": 2059,
+      "sha256": "ae7ec741accbb6e620805af53519eb15c064cdae829f58f6ce05a7981f5ff416"
+    },
+    {
+      "path": "data/clean_v3/release_status_v3.json",
+      "bytes": 1039,
+      "sha256": "ffdb4b316a5089f191287547f0d15cdf392a8f7eb67ebed52831b562885a3057"
+    },
+    {
+      "path": "data/clean_v3/source_provenance_v3.parquet",
+      "bytes": 5935669,
+      "sha256": "0f318b9a69c759dd150e23e78229a3ae94f221e3c22e50e002b80178b34f431e"
+    },
+    {
+      "path": "data/clean_v3/target_label_rules_v3.json",
+      "bytes": 686,
+      "sha256": "85e006b85ceef7503ffe5e2df28a3c9889d269170bad782b3654852a317680d5"
+    },
+    {
+      "path": "data/interim/census/ca_acs2024_tract_features.parquet",
+      "bytes": 2440854,
+      "sha256": "da66211a9d5b6b7641e31205e83978f72e4ee36c0745bfb8527c67b6240e7a59"
+    },
+    {
+      "path": "data/interim/census/field_dictionary.csv",
+      "bytes": 44715,
+      "sha256": "f33ba35a1d4533f9cd188c8103fdd41a33ed7570489b550e81d7721e055595c7"
+    },
+    {
+      "path": "data/raw/census/input_manifests/manifest_acs.json",
+      "bytes": 3288,
+      "sha256": "7cb09da70d1b3c48adbf59a6181f2290a3dbb88d27105a614d2cd1c067ca8a95"
+    },
+    {
+      "path": "data/raw/census/input_manifests/manifest_tracts.json",
+      "bytes": 1265,
+      "sha256": "ff5aabd8a0065b870ca294c5bda87160c17d8eefee595e516a76aed1404e61a8"
+    },
+    {
+      "path": "data/raw/census/manifest.json",
+      "bytes": 4439,
+      "sha256": "179bfc608532b5a195707201df21256b264239761e0ea36277449c3c661905d6"
+    },
+    {
+      "path": "data/raw/census/metadata/B01001.json",
+      "bytes": 251519,
+      "sha256": "3861d22c80c547c5cb8aed210c2b59ed4ecd08055010aebd95a48b25cc9e879a"
+    },
+    {
+      "path": "data/raw/census/metadata/B11001.json",
+      "bytes": 210123,
+      "sha256": "f0673cd5d46cc43a1a380660e9124b469048f363eb7d8cf43eca400794264863"
+    },
+    {
+      "path": "data/raw/census/metadata/B14001.json",
+      "bytes": 213471,
+      "sha256": "4abe80101d6fb6dc6718e0c22fdd5ed48a0112c656f983d2954e7ccd76ad9c3b"
+    },
+    {
+      "path": "data/raw/census/metadata/B19013.json",
+      "bytes": 200531,
+      "sha256": "9ee4e8ebcdaf8f0637a870453b14d0be24f0c25c0a228637e727c4b9647264ba"
+    },
+    {
+      "path": "data/raw/osm/california-261024.osm.pbf.download.json",
+      "bytes": 1141,
+      "sha256": "00f9db348ffc090c232fa5cf648efafe876677580a99bdf9d7203e170142fb2c"
+    },
+    {
+      "path": "data/raw/overture_ca/collection_qa.json",
+      "bytes": 4228,
+      "sha256": "d7411fac5810fda9a3ea49b28187433392310ea5173b94b7cd8fb7e3457c6a79"
+    },
+    {
+      "path": "data/raw/overture_ca/manifest.json",
+      "bytes": 11373,
+      "sha256": "60521aed9b3bbbb0fc5f2edc00fab1f4b82407112c48c6206932e5188100220b"
+    },
+    {
+      "path": "data/raw/overture_ca/queries.sql",
+      "bytes": 2967,
+      "sha256": "2c6881d2e4ab238ebedcf1a18f22212f7bd3e0a89db82df3c731f4df2e542aa7"
+    },
+    {
+      "path": "data/raw/overture_ca/run_config.json",
+      "bytes": 405,
+      "sha256": "f33c7d3f3486e487583cc27502e334acfdd23fc82b0dd1290e2bf48da1ac31a6"
+    },
+    {
+      "path": "data/raw/overture_ca/run_summary.json",
+      "bytes": 158740,
+      "sha256": "9696071bbc1a8bf87d4e2b3393f795cb7b40b73124a03f1bb2b1305af019ce26"
+    },
+    {
+      "path": "data/raw/overture_ca/source_schema.json",
+      "bytes": 2324,
+      "sha256": "ebb3b1fdfe4e63e0f96c6c81e07aac13b723973f147b14e12e4912771b542836"
+    }
+  ]
+}
