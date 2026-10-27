@@ -1,0 +1,61 @@
+{
+  "diagnostic_only": true,
+  "notes": "Feature-group ablation after the initial fixed full-model audit; same fixed RF architecture and same county splits. No tuning. Bay is now an inspected diagnostic region, not an untouched future holdout.",
+  "feature_groups": {
+    "demographic_7": [
+      "population_density_per_km2",
+      "under18_share",
+      "young_adult_18_34_share",
+      "median_household_income_2024_usd",
+      "college_enrolled_share_3plus",
+      "family_household_share",
+      "living_alone_household_share"
+    ],
+    "commercial_6": [
+      "other_retail_count_500m_clean",
+      "other_retail_count_1000m_clean",
+      "food_count_500m_clean",
+      "food_count_1000m_clean",
+      "distance_to_mall_m_clean",
+      "distance_to_university_m_clean"
+    ]
+  },
+  "models": {
+    "demographic_7": {
+      "county_oof": {
+        "AP": 0.009914428043162395,
+        "null_AP": 0.009197708934319997,
+        "AP_lift": 1.0779236562018242,
+        "ROC_AUC": 0.5284805841443252,
+        "top_1pct_k": 479,
+        "top_1pct_positives": 3
+      },
+      "bay9": {
+        "AP": 0.012891694464183989,
+        "null_AP": 0.010117096018735363,
+        "AP_lift": 1.2742485037515192,
+        "ROC_AUC": 0.5504965668801194,
+        "top_1pct_k": 107,
+        "top_1pct_positives": 1
+      }
+    },
+    "commercial_6": {
+      "county_oof": {
+        "AP": 0.010031020529028673,
+        "null_AP": 0.009197708934319997,
+        "AP_lift": 1.090599909244713,
+        "ROC_AUC": 0.5279692948302384,
+        "top_1pct_k": 479,
+        "top_1pct_positives": 6
+      },
+      "bay9": {
+        "AP": 0.012040782301890311,
+        "null_AP": 0.010117096018735363,
+        "AP_lift": 1.1901421395618432,
+        "ROC_AUC": 0.5115028793343358,
+        "top_1pct_k": 107,
+        "top_1pct_positives": 2
+      }
+    }
+  }
+}

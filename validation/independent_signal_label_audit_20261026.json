@@ -1,0 +1,1268 @@
+{
+  "complete": true,
+  "audited_at_utc": "2026-10-27T00:45:38.565703+00:00",
+  "scope": "Independent read-only descriptive audit of released V3 table; no model fit, no data changes, no GitHub changes.",
+  "input": {
+    "path": "data/clean_v3/california_retail_clean_master_v3.parquet",
+    "sha256_before": "da49534f55f7ebc49ca5142db17074a55ce9358e59965ba19de3598969c97904",
+    "sha256_after": "da49534f55f7ebc49ca5142db17074a55ce9358e59965ba19de3598969c97904",
+    "manifest_released_at_utc": "2026-10-26T00:51:04.504966+00:00",
+    "matches_manifest_sha256": true,
+    "predictor_spec": "data/clean_v3/model_feature_spec_v3.json",
+    "target": "is_mapped_specialist"
+  },
+  "overall": {
+    "rows": 58513,
+    "positives": 548,
+    "comparators": 57965,
+    "positive_prevalence": 0.009365440158597235,
+    "majority_class_fraction": 0.9906345598414028,
+    "predictor_count": 13,
+    "positive_category_toy_store": 522,
+    "positive_category_toy_store_share": 0.9525547445255474,
+    "other_positive_categories_count": 26,
+    "verified_positive_labels": 41,
+    "verified_comparator_labels": 1,
+    "unverified_proxy_positive_labels": 507,
+    "verified_positive_fraction": 0.07481751824817519
+  },
+  "positive_category_distribution": [
+    {
+      "category": "toy_store",
+      "positives": 522,
+      "comparators": 0,
+      "verified_positive_labels": 30,
+      "share_of_548_positives": 0.9525547445255474
+    },
+    {
+      "category": "hobby_shop",
+      "positives": 10,
+      "comparators": 0,
+      "verified_positive_labels": 6,
+      "share_of_548_positives": 0.01824817518248175
+    },
+    {
+      "category": "gift_shop",
+      "positives": 5,
+      "comparators": 0,
+      "verified_positive_labels": 2,
+      "share_of_548_positives": 0.009124087591240875
+    },
+    {
+      "category": "comic_books_store",
+      "positives": 3,
+      "comparators": 0,
+      "verified_positive_labels": 1,
+      "share_of_548_positives": 0.005474452554744526
+    },
+    {
+      "category": "childrens_clothing_store",
+      "positives": 2,
+      "comparators": 577,
+      "verified_positive_labels": 0,
+      "share_of_548_positives": 0.0036496350364963502
+    },
+    {
+      "category": "flowers_and_gifts_store",
+      "positives": 2,
+      "comparators": 3789,
+      "verified_positive_labels": 0,
+      "share_of_548_positives": 0.0036496350364963502
+    },
+    {
+      "category": "osm_shop_toys",
+      "positives": 2,
+      "comparators": 0,
+      "verified_positive_labels": 2,
+      "share_of_548_positives": 0.0036496350364963502
+    },
+    {
+      "category": "candy_store",
+      "positives": 1,
+      "comparators": 0,
+      "verified_positive_labels": 0,
+      "share_of_548_positives": 0.0018248175182481751
+    },
+    {
+      "category": "souvenir_store",
+      "positives": 1,
+      "comparators": 58,
+      "verified_positive_labels": 0,
+      "share_of_548_positives": 0.0018248175182481751
+    }
+  ],
+  "mapped_label_basis_verified_crosstab": [
+    {
+      "mapped_label": 0,
+      "specialist_label_basis": "mapped_category_and_review_rules_proxy",
+      "specialist_label_verified": null,
+      "rows": 57964
+    },
+    {
+      "mapped_label": 0,
+      "specialist_label_basis": "official_exact_address",
+      "specialist_label_verified": 0,
+      "rows": 1
+    },
+    {
+      "mapped_label": 1,
+      "specialist_label_basis": "mapped_category_and_review_rules_proxy",
+      "specialist_label_verified": null,
+      "rows": 507
+    },
+    {
+      "mapped_label": 1,
+      "specialist_label_basis": "official_exact_address",
+      "specialist_label_verified": 1,
+      "rows": 41
+    }
+  ],
+  "verified_label_category_distribution": [
+    {
+      "category": "toy_store",
+      "mapped_label": 1,
+      "specialist_label_verified": 1,
+      "rows": 30
+    },
+    {
+      "category": "hobby_shop",
+      "mapped_label": 1,
+      "specialist_label_verified": 1,
+      "rows": 6
+    },
+    {
+      "category": "gift_shop",
+      "mapped_label": 1,
+      "specialist_label_verified": 1,
+      "rows": 2
+    },
+    {
+      "category": "osm_shop_toys",
+      "mapped_label": 1,
+      "specialist_label_verified": 1,
+      "rows": 2
+    },
+    {
+      "category": "comic_books_store",
+      "mapped_label": 1,
+      "specialist_label_verified": 1,
+      "rows": 1
+    },
+    {
+      "category": "childrens_clothing_store",
+      "mapped_label": 0,
+      "specialist_label_verified": 0,
+      "rows": 1
+    }
+  ],
+  "predictor_associations": [
+    {
+      "feature": "population_density_per_km2",
+      "nonmissing_rows": 58513,
+      "nonfinite_rows": 0,
+      "unique_values": 6896,
+      "pearson_r_point_biserial": -0.004841127704407676,
+      "spearman_rho": -0.006715327863095694,
+      "by_label": {
+        "0": {
+          "n": 57965,
+          "mean": 3106.6730894138277,
+          "std_population": 3566.882622289579,
+          "median": 2235.842660874137,
+          "q25": 1079.5106431339025,
+          "q75": 3778.0507800274986,
+          "minimum": 0.1554335210599925,
+          "maximum": 55812.438944969064
+        },
+        "1": {
+          "n": 548,
+          "mean": 2927.482132489843,
+          "std_population": 3383.7863527999316,
+          "median": 1997.3362352273198,
+          "q25": 1032.3663345125167,
+          "q75": 3553.9525956716425,
+          "minimum": 1.8378000198122268,
+          "maximum": 35985.91803140808
+        }
+      }
+    },
+    {
+      "feature": "under18_share",
+      "nonmissing_rows": 58513,
+      "nonfinite_rows": 0,
+      "unique_values": 6857,
+      "pearson_r_point_biserial": -0.005134109803648336,
+      "spearman_rho": -0.005186234030101352,
+      "by_label": {
+        "0": {
+          "n": 57965,
+          "mean": 0.19117218075913975,
+          "std_population": 0.07578470235308567,
+          "median": 0.19880624426078972,
+          "q25": 0.1459227467811159,
+          "q75": 0.2405537929045284,
+          "minimum": 0.0,
+          "maximum": 0.48391127772571074
+        },
+        "1": {
+          "n": 548,
+          "mean": 0.187135317049628,
+          "std_population": 0.07022760068458339,
+          "median": 0.19622770437972636,
+          "q25": 0.14788449145360377,
+          "q75": 0.23302460367677758,
+          "minimum": 0.0,
+          "maximum": 0.41089539263981456
+        }
+      }
+    },
+    {
+      "feature": "young_adult_18_34_share",
+      "nonmissing_rows": 58513,
+      "nonfinite_rows": 0,
+      "unique_values": 6868,
+      "pearson_r_point_biserial": -0.010455695862234613,
+      "spearman_rho": -0.011036981117716432,
+      "by_label": {
+        "0": {
+          "n": 57965,
+          "mean": 0.26116253139329304,
+          "std_population": 0.10463587375188566,
+          "median": 0.24592833876221498,
+          "q25": 0.19476122594440484,
+          "q75": 0.30586996578046854,
+          "minimum": 0.0,
+          "maximum": 0.9881632653061224
+        },
+        "1": {
+          "n": 548,
+          "mean": 0.24980528879800817,
+          "std_population": 0.10298825450830902,
+          "median": 0.23833429359320837,
+          "q25": 0.18392689784442362,
+          "q75": 0.29578120066070757,
+          "minimum": 0.033312769895126465,
+          "maximum": 0.7028003613369467
+        }
+      }
+    },
+    {
+      "feature": "median_household_income_2024_usd",
+      "nonmissing_rows": 58513,
+      "nonfinite_rows": 0,
+      "unique_values": 6246,
+      "pearson_r_point_biserial": 0.011543645479158066,
+      "spearman_rho": 0.011796200069291734,
+      "by_label": {
+        "0": {
+          "n": 57965,
+          "mean": 100790.82544639007,
+          "std_population": 43870.4674767123,
+          "median": 93284.0,
+          "q25": 68977.0,
+          "q75": 122122.0,
+          "minimum": 5213.0,
+          "maximum": 250001.0
+        },
+        "1": {
+          "n": 548,
+          "mean": 106051.60401459855,
+          "std_population": 46252.02067231255,
+          "median": 97031.0,
+          "q25": 74805.5,
+          "q75": 127740.0,
+          "minimum": 14385.0,
+          "maximum": 250001.0
+        }
+      }
+    },
+    {
+      "feature": "college_enrolled_share_3plus",
+      "nonmissing_rows": 58513,
+      "nonfinite_rows": 0,
+      "unique_values": 6840,
+      "pearson_r_point_biserial": 0.0044031899258975835,
+      "spearman_rho": 0.005722696058171215,
+      "by_label": {
+        "0": {
+          "n": 57965,
+          "mean": 0.07697500021736578,
+          "std_population": 0.05492431259604268,
+          "median": 0.06830292265461005,
+          "q25": 0.0490487514863258,
+          "q75": 0.09106382978723404,
+          "minimum": 0.0,
+          "maximum": 0.9795918367346939
+        },
+        "1": {
+          "n": 548,
+          "mean": 0.0794845570929496,
+          "std_population": 0.051893194628471244,
+          "median": 0.0691184355222249,
+          "q25": 0.049646767105651496,
+          "q75": 0.09505373433919165,
+          "minimum": 0.0,
+          "maximum": 0.4561878952122855
+        }
+      }
+    },
+    {
+      "feature": "family_household_share",
+      "nonmissing_rows": 58513,
+      "nonfinite_rows": 0,
+      "unique_values": 6785,
+      "pearson_r_point_biserial": -0.004373338268049351,
+      "spearman_rho": -0.007481377496610663,
+      "by_label": {
+        "0": {
+          "n": 57965,
+          "mean": 0.6046891360773753,
+          "std_population": 0.19155322250296825,
+          "median": 0.6390243902439025,
+          "q25": 0.4903529411764706,
+          "q75": 0.7540394973070018,
+          "minimum": 0.015810276679841896,
+          "maximum": 1.0
+        },
+        "1": {
+          "n": 548,
+          "mean": 0.5959968867954827,
+          "std_population": 0.17921580743299415,
+          "median": 0.6184841512482339,
+          "q25": 0.5062059276087867,
+          "q75": 0.733469003104646,
+          "minimum": 0.024429967426710098,
+          "maximum": 0.9325068870523416
+        }
+      }
+    },
+    {
+      "feature": "living_alone_household_share",
+      "nonmissing_rows": 58513,
+      "nonfinite_rows": 0,
+      "unique_values": 6752,
+      "pearson_r_point_biserial": 0.004990180927398357,
+      "spearman_rho": 0.007793858317395996,
+      "by_label": {
+        "0": {
+          "n": 57965,
+          "mean": 0.3029224988927127,
+          "std_population": 0.15666288044219523,
+          "median": 0.2748299319727891,
+          "q25": 0.18627450980392157,
+          "q75": 0.38963804116394607,
+          "minimum": 0.0,
+          "maximum": 0.9584690553745928
+        },
+        "1": {
+          "n": 548,
+          "mean": 0.3110354433749202,
+          "std_population": 0.14923046068642462,
+          "median": 0.28951327327758436,
+          "q25": 0.20300066126135602,
+          "q75": 0.3880694682619155,
+          "minimum": 0.032673267326732675,
+          "maximum": 0.9584690553745928
+        }
+      }
+    },
+    {
+      "feature": "other_retail_count_500m_clean",
+      "nonmissing_rows": 58513,
+      "nonfinite_rows": 0,
+      "unique_values": 756,
+      "pearson_r_point_biserial": -0.0043200609099944805,
+      "spearman_rho": 0.015514026925701562,
+      "by_label": {
+        "0": {
+          "n": 57965,
+          "mean": 43.30789269386699,
+          "std_population": 103.61138852272406,
+          "median": 13.0,
+          "q25": 5.0,
+          "q75": 35.0,
+          "minimum": 0.0,
+          "maximum": 918.0
+        },
+        "1": {
+          "n": 548,
+          "mean": 38.67335766423358,
+          "std_population": 67.47295390868882,
+          "median": 17.0,
+          "q25": 6.75,
+          "q75": 46.25,
+          "minimum": 0.0,
+          "maximum": 842.0
+        }
+      }
+    },
+    {
+      "feature": "other_retail_count_1000m_clean",
+      "nonmissing_rows": 58513,
+      "nonfinite_rows": 0,
+      "unique_values": 1187,
+      "pearson_r_point_biserial": -0.006647433305363403,
+      "spearman_rho": 0.009323409785847838,
+      "by_label": {
+        "0": {
+          "n": 57965,
+          "mean": 87.50264814974554,
+          "std_population": 227.10210603015437,
+          "median": 28.0,
+          "q25": 13.0,
+          "q75": 64.0,
+          "minimum": 0.0,
+          "maximum": 1744.0
+        },
+        "1": {
+          "n": 548,
+          "mean": 71.86496350364963,
+          "std_population": 162.753238989708,
+          "median": 33.0,
+          "q25": 15.0,
+          "q75": 68.0,
+          "minimum": 0.0,
+          "maximum": 1715.0
+        }
+      }
+    },
+    {
+      "feature": "food_count_500m_clean",
+      "nonmissing_rows": 58513,
+      "nonfinite_rows": 0,
+      "unique_values": 434,
+      "pearson_r_point_biserial": 0.008138786880428642,
+      "spearman_rho": 0.013689654073817224,
+      "by_label": {
+        "0": {
+          "n": 57965,
+          "mean": 42.01304235314414,
+          "std_population": 56.16524555186234,
+          "median": 25.0,
+          "q25": 12.0,
+          "q75": 48.0,
+          "minimum": 0.0,
+          "maximum": 448.0
+        },
+        "1": {
+          "n": 548,
+          "mean": 46.75729927007299,
+          "std_population": 54.016433036267145,
+          "median": 31.0,
+          "q25": 13.0,
+          "q75": 58.0,
+          "minimum": 0.0,
+          "maximum": 407.0
+        }
+      }
+    },
+    {
+      "feature": "food_count_1000m_clean",
+      "nonmissing_rows": 58513,
+      "nonfinite_rows": 0,
+      "unique_values": 983,
+      "pearson_r_point_biserial": 0.0010311707433445546,
+      "spearman_rho": 0.007633927370038241,
+      "by_label": {
+        "0": {
+          "n": 57965,
+          "mean": 95.90050892780125,
+          "std_population": 142.6654158467275,
+          "median": 54.0,
+          "q25": 28.0,
+          "q75": 100.0,
+          "minimum": 0.0,
+          "maximum": 1245.0
+        },
+        "1": {
+          "n": 548,
+          "mean": 97.42700729927007,
+          "std_population": 134.27344417550242,
+          "median": 62.0,
+          "q25": 30.0,
+          "q75": 103.0,
+          "minimum": 0.0,
+          "maximum": 1218.0
+        }
+      }
+    },
+    {
+      "feature": "distance_to_mall_m_clean",
+      "nonmissing_rows": 58513,
+      "nonfinite_rows": 0,
+      "unique_values": 56492,
+      "pearson_r_point_biserial": -0.002683059538147632,
+      "spearman_rho": -0.007724437009362491,
+      "by_label": {
+        "0": {
+          "n": 57965,
+          "mean": 2351.673910495501,
+          "std_population": 6993.710344303929,
+          "median": 878.0372392604478,
+          "q25": 232.32225754939202,
+          "q75": 1913.9922892303941,
+          "minimum": 0.0,
+          "maximum": 130078.39678295207
+        },
+        "1": {
+          "n": 548,
+          "mean": 2156.96845666205,
+          "std_population": 6567.297192676854,
+          "median": 809.3232822008839,
+          "q25": 149.04175350821023,
+          "q75": 2024.1743691620031,
+          "minimum": 0.0,
+          "maximum": 102459.42343870807
+        }
+      }
+    },
+    {
+      "feature": "distance_to_university_m_clean",
+      "nonmissing_rows": 58513,
+      "nonfinite_rows": 0,
+      "unique_values": 56523,
+      "pearson_r_point_biserial": -0.006108404962468639,
+      "spearman_rho": -0.009192810351816155,
+      "by_label": {
+        "0": {
+          "n": 57965,
+          "mean": 2966.705199847791,
+          "std_population": 5722.450256091133,
+          "median": 1520.8640387842215,
+          "q25": 723.9933788203488,
+          "q75": 2920.9325249401713,
+          "minimum": 0.0,
+          "maximum": 90154.80522531267
+        },
+        "1": {
+          "n": 548,
+          "mean": 2604.0954482359753,
+          "std_population": 5195.429808737972,
+          "median": 1333.7408383994625,
+          "q25": 634.6209540316094,
+          "q75": 2722.035719399669,
+          "minimum": 7.634807693879862,
+          "maximum": 67403.48198579968
+        }
+      }
+    }
+  ],
+  "predictor_association_method": {
+    "pearson": "Pearson r with a binary 0/1 target, equivalent to the point-biserial correlation.",
+    "spearman": "Pearson correlation of average ranks; tied binary target and tied predictor ranks retained.",
+    "interpretation": "Pooled, unadjusted, descriptive record-level associations with the mapped label; no causality or profitability interpretation. No p-values: repeated tract attributes, spatial dependence and source/selection effects violate a simple independent random-sample interpretation."
+  },
+  "regions": [
+    {
+      "bay9": true,
+      "rows": 10675,
+      "positives": 108,
+      "comparators": 10567,
+      "mapped_positive_prevalence": 0.010117096018735363,
+      "represented_tracts": 1307,
+      "positive_tracts": 91,
+      "represented_counties": 9
+    },
+    {
+      "bay9": false,
+      "rows": 47838,
+      "positives": 440,
+      "comparators": 47398,
+      "mapped_positive_prevalence": 0.009197708934319997,
+      "represented_tracts": 5589,
+      "positive_tracts": 349,
+      "represented_counties": 49
+    }
+  ],
+  "bay9_vs_other": {
+    "prevalence_difference_proportion": 0.000919387084415366,
+    "prevalence_difference_percentage_points": 0.09193870844153659,
+    "prevalence_ratio": 1.0999582712369598,
+    "interpretation": "Shares among retained mapped retail records, not number of toy retailers per resident and not a population-wide retail census; geographic differences are unadjusted."
+  },
+  "county_distribution": [
+    {
+      "county_geoid": "06037",
+      "bay9": false,
+      "rows": 17472,
+      "positives": 163,
+      "comparators": 17309,
+      "mapped_positive_prevalence": 0.009329212454212454,
+      "represented_tracts": 1982,
+      "positive_tracts": 132,
+      "verified_positive_labels": 8
+    },
+    {
+      "county_geoid": "06059",
+      "bay9": false,
+      "rows": 5340,
+      "positives": 67,
+      "comparators": 5273,
+      "mapped_positive_prevalence": 0.012546816479400749,
+      "represented_tracts": 497,
+      "positive_tracts": 54,
+      "verified_positive_labels": 6
+    },
+    {
+      "county_geoid": "06073",
+      "bay9": false,
+      "rows": 5366,
+      "positives": 46,
+      "comparators": 5320,
+      "mapped_positive_prevalence": 0.008572493477450614,
+      "represented_tracts": 552,
+      "positive_tracts": 36,
+      "verified_positive_labels": 1
+    },
+    {
+      "county_geoid": "06001",
+      "bay9": true,
+      "rows": 2169,
+      "positives": 24,
+      "comparators": 2145,
+      "mapped_positive_prevalence": 0.011065006915629323,
+      "represented_tracts": 283,
+      "positive_tracts": 24,
+      "verified_positive_labels": 3
+    },
+    {
+      "county_geoid": "06071",
+      "bay9": false,
+      "rows": 2592,
+      "positives": 24,
+      "comparators": 2568,
+      "mapped_positive_prevalence": 0.009259259259259259,
+      "represented_tracts": 340,
+      "positive_tracts": 15,
+      "verified_positive_labels": 3
+    },
+    {
+      "county_geoid": "06085",
+      "bay9": true,
+      "rows": 2393,
+      "positives": 23,
+      "comparators": 2370,
+      "mapped_positive_prevalence": 0.00961136648558295,
+      "represented_tracts": 310,
+      "positive_tracts": 18,
+      "verified_positive_labels": 2
+    },
+    {
+      "county_geoid": "06065",
+      "bay9": false,
+      "rows": 2813,
+      "positives": 20,
+      "comparators": 2793,
+      "mapped_positive_prevalence": 0.007109847138286527,
+      "represented_tracts": 351,
+      "positive_tracts": 15,
+      "verified_positive_labels": 1
+    },
+    {
+      "county_geoid": "06075",
+      "bay9": true,
+      "rows": 1781,
+      "positives": 17,
+      "comparators": 1764,
+      "mapped_positive_prevalence": 0.009545199326221224,
+      "represented_tracts": 189,
+      "positive_tracts": 14,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06067",
+      "bay9": false,
+      "rows": 1870,
+      "positives": 16,
+      "comparators": 1854,
+      "mapped_positive_prevalence": 0.008556149732620321,
+      "represented_tracts": 272,
+      "positive_tracts": 11,
+      "verified_positive_labels": 1
+    },
+    {
+      "county_geoid": "06111",
+      "bay9": false,
+      "rows": 1390,
+      "positives": 16,
+      "comparators": 1374,
+      "mapped_positive_prevalence": 0.011510791366906475,
+      "represented_tracts": 142,
+      "positive_tracts": 13,
+      "verified_positive_labels": 3
+    },
+    {
+      "county_geoid": "06013",
+      "bay9": true,
+      "rows": 1235,
+      "positives": 12,
+      "comparators": 1223,
+      "mapped_positive_prevalence": 0.009716599190283401,
+      "represented_tracts": 177,
+      "positive_tracts": 10,
+      "verified_positive_labels": 2
+    },
+    {
+      "county_geoid": "06061",
+      "bay9": false,
+      "rows": 668,
+      "positives": 12,
+      "comparators": 656,
+      "mapped_positive_prevalence": 0.017964071856287425,
+      "represented_tracts": 68,
+      "positive_tracts": 7,
+      "verified_positive_labels": 1
+    },
+    {
+      "county_geoid": "06081",
+      "bay9": true,
+      "rows": 859,
+      "positives": 11,
+      "comparators": 848,
+      "mapped_positive_prevalence": 0.012805587892898719,
+      "represented_tracts": 106,
+      "positive_tracts": 9,
+      "verified_positive_labels": 2
+    },
+    {
+      "county_geoid": "06097",
+      "bay9": true,
+      "rows": 900,
+      "positives": 10,
+      "comparators": 890,
+      "mapped_positive_prevalence": 0.011111111111111112,
+      "represented_tracts": 95,
+      "positive_tracts": 8,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06041",
+      "bay9": true,
+      "rows": 588,
+      "positives": 8,
+      "comparators": 580,
+      "mapped_positive_prevalence": 0.013605442176870748,
+      "represented_tracts": 54,
+      "positive_tracts": 5,
+      "verified_positive_labels": 2
+    },
+    {
+      "county_geoid": "06083",
+      "bay9": false,
+      "rows": 782,
+      "positives": 7,
+      "comparators": 775,
+      "mapped_positive_prevalence": 0.008951406649616368,
+      "represented_tracts": 83,
+      "positive_tracts": 5,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06017",
+      "bay9": false,
+      "rows": 242,
+      "positives": 6,
+      "comparators": 236,
+      "mapped_positive_prevalence": 0.024793388429752067,
+      "represented_tracts": 33,
+      "positive_tracts": 6,
+      "verified_positive_labels": 1
+    },
+    {
+      "county_geoid": "06029",
+      "bay9": false,
+      "rows": 1022,
+      "positives": 6,
+      "comparators": 1016,
+      "mapped_positive_prevalence": 0.005870841487279843,
+      "represented_tracts": 161,
+      "positive_tracts": 6,
+      "verified_positive_labels": 1
+    },
+    {
+      "county_geoid": "06045",
+      "bay9": false,
+      "rows": 192,
+      "positives": 6,
+      "comparators": 186,
+      "mapped_positive_prevalence": 0.03125,
+      "represented_tracts": 22,
+      "positive_tracts": 4,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06019",
+      "bay9": false,
+      "rows": 1152,
+      "positives": 5,
+      "comparators": 1147,
+      "mapped_positive_prevalence": 0.004340277777777778,
+      "represented_tracts": 174,
+      "positive_tracts": 4,
+      "verified_positive_labels": 1
+    },
+    {
+      "county_geoid": "06057",
+      "bay9": false,
+      "rows": 228,
+      "positives": 5,
+      "comparators": 223,
+      "mapped_positive_prevalence": 0.021929824561403508,
+      "represented_tracts": 24,
+      "positive_tracts": 3,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06099",
+      "bay9": false,
+      "rows": 686,
+      "positives": 5,
+      "comparators": 681,
+      "mapped_positive_prevalence": 0.007288629737609329,
+      "represented_tracts": 86,
+      "positive_tracts": 4,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06007",
+      "bay9": false,
+      "rows": 364,
+      "positives": 4,
+      "comparators": 360,
+      "mapped_positive_prevalence": 0.01098901098901099,
+      "represented_tracts": 44,
+      "positive_tracts": 4,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06077",
+      "bay9": false,
+      "rows": 744,
+      "positives": 4,
+      "comparators": 740,
+      "mapped_positive_prevalence": 0.005376344086021506,
+      "represented_tracts": 123,
+      "positive_tracts": 4,
+      "verified_positive_labels": 2
+    },
+    {
+      "county_geoid": "06079",
+      "bay9": false,
+      "rows": 665,
+      "positives": 4,
+      "comparators": 661,
+      "mapped_positive_prevalence": 0.006015037593984963,
+      "represented_tracts": 50,
+      "positive_tracts": 3,
+      "verified_positive_labels": 1
+    },
+    {
+      "county_geoid": "06087",
+      "bay9": false,
+      "rows": 507,
+      "positives": 4,
+      "comparators": 503,
+      "mapped_positive_prevalence": 0.007889546351084813,
+      "represented_tracts": 65,
+      "positive_tracts": 4,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06095",
+      "bay9": true,
+      "rows": 520,
+      "positives": 3,
+      "comparators": 517,
+      "mapped_positive_prevalence": 0.0057692307692307696,
+      "represented_tracts": 66,
+      "positive_tracts": 3,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06023",
+      "bay9": false,
+      "rows": 278,
+      "positives": 2,
+      "comparators": 276,
+      "mapped_positive_prevalence": 0.007194244604316547,
+      "represented_tracts": 26,
+      "positive_tracts": 2,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06025",
+      "bay9": false,
+      "rows": 234,
+      "positives": 2,
+      "comparators": 232,
+      "mapped_positive_prevalence": 0.008547008547008548,
+      "represented_tracts": 28,
+      "positive_tracts": 2,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06053",
+      "bay9": false,
+      "rows": 546,
+      "positives": 2,
+      "comparators": 544,
+      "mapped_positive_prevalence": 0.003663003663003663,
+      "represented_tracts": 73,
+      "positive_tracts": 1,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06069",
+      "bay9": false,
+      "rows": 71,
+      "positives": 2,
+      "comparators": 69,
+      "mapped_positive_prevalence": 0.028169014084507043,
+      "represented_tracts": 8,
+      "positive_tracts": 2,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06107",
+      "bay9": false,
+      "rows": 584,
+      "positives": 2,
+      "comparators": 582,
+      "mapped_positive_prevalence": 0.003424657534246575,
+      "represented_tracts": 75,
+      "positive_tracts": 2,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06009",
+      "bay9": false,
+      "rows": 73,
+      "positives": 1,
+      "comparators": 72,
+      "mapped_positive_prevalence": 0.0136986301369863,
+      "represented_tracts": 13,
+      "positive_tracts": 1,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06015",
+      "bay9": false,
+      "rows": 35,
+      "positives": 1,
+      "comparators": 34,
+      "mapped_positive_prevalence": 0.02857142857142857,
+      "represented_tracts": 7,
+      "positive_tracts": 1,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06031",
+      "bay9": false,
+      "rows": 150,
+      "positives": 1,
+      "comparators": 149,
+      "mapped_positive_prevalence": 0.006666666666666667,
+      "represented_tracts": 19,
+      "positive_tracts": 1,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06051",
+      "bay9": false,
+      "rows": 45,
+      "positives": 1,
+      "comparators": 44,
+      "mapped_positive_prevalence": 0.022222222222222223,
+      "represented_tracts": 4,
+      "positive_tracts": 1,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06063",
+      "bay9": false,
+      "rows": 41,
+      "positives": 1,
+      "comparators": 40,
+      "mapped_positive_prevalence": 0.024390243902439025,
+      "represented_tracts": 5,
+      "positive_tracts": 1,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06089",
+      "bay9": false,
+      "rows": 308,
+      "positives": 1,
+      "comparators": 307,
+      "mapped_positive_prevalence": 0.003246753246753247,
+      "represented_tracts": 37,
+      "positive_tracts": 1,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06103",
+      "bay9": false,
+      "rows": 70,
+      "positives": 1,
+      "comparators": 69,
+      "mapped_positive_prevalence": 0.014285714285714285,
+      "represented_tracts": 12,
+      "positive_tracts": 1,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06109",
+      "bay9": false,
+      "rows": 105,
+      "positives": 1,
+      "comparators": 104,
+      "mapped_positive_prevalence": 0.009523809523809525,
+      "represented_tracts": 14,
+      "positive_tracts": 1,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06113",
+      "bay9": false,
+      "rows": 191,
+      "positives": 1,
+      "comparators": 190,
+      "mapped_positive_prevalence": 0.005235602094240838,
+      "represented_tracts": 33,
+      "positive_tracts": 1,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06115",
+      "bay9": false,
+      "rows": 45,
+      "positives": 1,
+      "comparators": 44,
+      "mapped_positive_prevalence": 0.022222222222222223,
+      "represented_tracts": 14,
+      "positive_tracts": 1,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06003",
+      "bay9": false,
+      "rows": 2,
+      "positives": 0,
+      "comparators": 2,
+      "mapped_positive_prevalence": 0.0,
+      "represented_tracts": 1,
+      "positive_tracts": 0,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06005",
+      "bay9": false,
+      "rows": 76,
+      "positives": 0,
+      "comparators": 76,
+      "mapped_positive_prevalence": 0.0,
+      "represented_tracts": 9,
+      "positive_tracts": 0,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06011",
+      "bay9": false,
+      "rows": 17,
+      "positives": 0,
+      "comparators": 17,
+      "mapped_positive_prevalence": 0.0,
+      "represented_tracts": 5,
+      "positive_tracts": 0,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06021",
+      "bay9": false,
+      "rows": 33,
+      "positives": 0,
+      "comparators": 33,
+      "mapped_positive_prevalence": 0.0,
+      "represented_tracts": 5,
+      "positive_tracts": 0,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06027",
+      "bay9": false,
+      "rows": 51,
+      "positives": 0,
+      "comparators": 51,
+      "mapped_positive_prevalence": 0.0,
+      "represented_tracts": 4,
+      "positive_tracts": 0,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06033",
+      "bay9": false,
+      "rows": 76,
+      "positives": 0,
+      "comparators": 76,
+      "mapped_positive_prevalence": 0.0,
+      "represented_tracts": 15,
+      "positive_tracts": 0,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06035",
+      "bay9": false,
+      "rows": 29,
+      "positives": 0,
+      "comparators": 29,
+      "mapped_positive_prevalence": 0.0,
+      "represented_tracts": 6,
+      "positive_tracts": 0,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06039",
+      "bay9": false,
+      "rows": 149,
+      "positives": 0,
+      "comparators": 149,
+      "mapped_positive_prevalence": 0.0,
+      "represented_tracts": 25,
+      "positive_tracts": 0,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06043",
+      "bay9": false,
+      "rows": 20,
+      "positives": 0,
+      "comparators": 20,
+      "mapped_positive_prevalence": 0.0,
+      "represented_tracts": 2,
+      "positive_tracts": 0,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06047",
+      "bay9": false,
+      "rows": 275,
+      "positives": 0,
+      "comparators": 275,
+      "mapped_positive_prevalence": 0.0,
+      "represented_tracts": 46,
+      "positive_tracts": 0,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06049",
+      "bay9": false,
+      "rows": 12,
+      "positives": 0,
+      "comparators": 12,
+      "mapped_positive_prevalence": 0.0,
+      "represented_tracts": 3,
+      "positive_tracts": 0,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06055",
+      "bay9": true,
+      "rows": 230,
+      "positives": 0,
+      "comparators": 230,
+      "mapped_positive_prevalence": 0.0,
+      "represented_tracts": 27,
+      "positive_tracts": 0,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06091",
+      "bay9": false,
+      "rows": 3,
+      "positives": 0,
+      "comparators": 3,
+      "mapped_positive_prevalence": 0.0,
+      "represented_tracts": 1,
+      "positive_tracts": 0,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06093",
+      "bay9": false,
+      "rows": 85,
+      "positives": 0,
+      "comparators": 85,
+      "mapped_positive_prevalence": 0.0,
+      "represented_tracts": 13,
+      "positive_tracts": 0,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06101",
+      "bay9": false,
+      "rows": 129,
+      "positives": 0,
+      "comparators": 129,
+      "mapped_positive_prevalence": 0.0,
+      "represented_tracts": 14,
+      "positive_tracts": 0,
+      "verified_positive_labels": 0
+    },
+    {
+      "county_geoid": "06105",
+      "bay9": false,
+      "rows": 10,
+      "positives": 0,
+      "comparators": 10,
+      "mapped_positive_prevalence": 0.0,
+      "represented_tracts": 3,
+      "positive_tracts": 0,
+      "verified_positive_labels": 0
+    }
+  ],
+  "sample_support": {
+    "counties_with_any_records": 58,
+    "counties_with_positive_labels": 42,
+    "counties_with_zero_positive_labels": 16,
+    "counties_with_1_to_4_positive_labels": 20,
+    "counties_with_5_to_9_positive_labels": 8,
+    "counties_with_10_or_more_positive_labels": 14,
+    "counties_with_20_or_more_positive_labels": 7,
+    "represented_tracts": 6896,
+    "represented_tracts_with_positive_labels": 440,
+    "represented_tracts_with_zero_positive_labels": 6456,
+    "all_california_tracts_in_separate_summary": 9129,
+    "positive_tract_positive_count_histogram": {
+      "1": 370,
+      "2": 51,
+      "3": 9,
+      "4": 4,
+      "5": 3,
+      "6": 3
+    },
+    "max_positive_labels_per_tract": 6,
+    "top3_counties_positive_labels": 276,
+    "top3_counties_positive_share": 0.5036496350364964
+  },
+  "limitations": [
+    "The target was constructed predominantly from map taxonomy/name/review rules. 522/548 positive records have category toy_store. This count describes the mapped input category, not independent ground truth.",
+    "Only 41 of 548 positive labels and one comparator label carry official_exact_address verification. Remaining 507 positives are explicitly unverified proxies. These purposive/development corrections are not an independent holdout and cannot estimate population label precision or recall.",
+    "The model allowlist excludes own category, name, brand and all target-supply counts/distances. Thus the main analysis can examine contextual associations with mapped specialist status, but cannot infer profitability, unmet purchase demand, closure success or commercial outcome.",
+    "Small marginal Pearson/Spearman coefficients do not prove zero predictive signal: nonlinear patterns/interactions may differ. They also do not establish useful out-of-area prediction. No model was trained in this audit.",
+    "A 0.9365% positive class makes overall accuracy misleading; the majority-class fraction is recorded descriptively, not evaluated as a trained model.",
+    "The denominator is retained source-qualified mapped retail sites after cleaning/complete-case selection. It is neither all California retailers nor all eligible available premises; source coverage and taxonomy differ by county/category.",
+    "Many records share the same Census tract values, and neighboring sites share commercial context. The number of rows exceeds the number of independent demographic/spatial units. County/tract counts are provided to show support; no ordinary row-level p-values are claimed.",
+    "No positive label in a county/tract means no retained mapped positive observation, not proven absence of specialist stores. Small county denominators/positive counts prevent precise geographic conclusions.",
+    "ACS features describe the pooled 2020-2024 resident population, not store customers/visits; map input is an October 2026 snapshot. Income endpoint encoding and original ACS sampling uncertainty remain.",
+    "A perceived underserved area requires additional demand/supply validation, coverage assessment and site constraints. Descriptive correlation or a mapped-label model alone cannot prove it."
+  ],
+  "checks": {
+    "input_hash_unchanged": true,
+    "rows_match_release": true,
+    "classes_match_release": true,
+    "all_predictors_finite": true,
+    "dictionary_predictors_13": true,
+    "positive_categories_sum_to_positives": true,
+    "county_totals_match": true
+  }
+}

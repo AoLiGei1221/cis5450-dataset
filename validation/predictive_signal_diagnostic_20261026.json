@@ -1,0 +1,810 @@
+{
+  "diagnostic_only": true,
+  "date": "2026-10-26",
+  "input_sha256": "da49534f55f7ebc49ca5142db17074a55ce9358e59965ba19de3598969c97904",
+  "features": [
+    "population_density_per_km2",
+    "under18_share",
+    "young_adult_18_34_share",
+    "median_household_income_2024_usd",
+    "college_enrolled_share_3plus",
+    "family_household_share",
+    "living_alone_household_share",
+    "other_retail_count_500m_clean",
+    "other_retail_count_1000m_clean",
+    "food_count_500m_clean",
+    "food_count_1000m_clean",
+    "distance_to_mall_m_clean",
+    "distance_to_university_m_clean"
+  ],
+  "target": "is_mapped_specialist",
+  "training_rows": 47838,
+  "training_positives": 440,
+  "test_rows": 10675,
+  "test_positives": 108,
+  "protocol": "Fixed parameters specified before fitting; five county-group folds on non-Bay counties; Bay9 diagnostic test. No category, name, coordinates, audit flags, or target-competition inputs. No feature selection or hyperparameter tuning against Bay results. Scores are uncalibrated; metrics assess mapped proxy labels, not real-world success or underserved demand.",
+  "future_holdout_caution": "Bay9 outcomes are now inspected. Any future model or feature revision must disclose this diagnostic and use new prespecified geographic evaluation or nested CV; do not portray adaptive retesting as untouched external validation.",
+  "versions": {
+    "python": "3.14.4",
+    "sklearn": "1.9.1",
+    "numpy": "2.5.4"
+  },
+  "models": {
+    "logistic_log1p": {
+      "county_cv": [
+        {
+          "rows": 17472,
+          "positives": 163,
+          "constant_score_average_precision": 0.009329212454212454,
+          "average_precision": 0.011239223295784351,
+          "average_precision_lift_over_prevalence": 1.2047344136438294,
+          "roc_auc": 0.5182902472453956,
+          "top_1pct": {
+            "k": 175,
+            "positives": 3,
+            "precision": 0.017142857142857144,
+            "recall": 0.018404907975460124
+          },
+          "top_5pct": {
+            "k": 874,
+            "positives": 11,
+            "precision": 0.012585812356979404,
+            "recall": 0.06748466257668712
+          },
+          "top_10pct": {
+            "k": 1748,
+            "positives": 20,
+            "precision": 0.011441647597254004,
+            "recall": 0.12269938650306748
+          },
+          "fold": 1,
+          "counties": [
+            "06037"
+          ]
+        },
+        {
+          "rows": 7593,
+          "positives": 63,
+          "constant_score_average_precision": 0.008297115764519953,
+          "average_precision": 0.009187005509854542,
+          "average_precision_lift_over_prevalence": 1.1072529021638973,
+          "roc_auc": 0.5461076329602226,
+          "top_1pct": {
+            "k": 76,
+            "positives": 1,
+            "precision": 0.013157894736842105,
+            "recall": 0.015873015873015872
+          },
+          "top_5pct": {
+            "k": 380,
+            "positives": 2,
+            "precision": 0.005263157894736842,
+            "recall": 0.031746031746031744
+          },
+          "top_10pct": {
+            "k": 760,
+            "positives": 5,
+            "precision": 0.006578947368421052,
+            "recall": 0.07936507936507936
+          },
+          "fold": 2,
+          "counties": [
+            "06003",
+            "06015",
+            "06035",
+            "06047",
+            "06057",
+            "06073",
+            "06079",
+            "06091",
+            "06099",
+            "06101",
+            "06103",
+            "06109"
+          ]
+        },
+        {
+          "rows": 7591,
+          "positives": 83,
+          "constant_score_average_precision": 0.010934000790409695,
+          "average_precision": 0.014840576071377835,
+          "average_precision_lift_over_prevalence": 1.3572869031063752,
+          "roc_auc": 0.5672246792176698,
+          "top_1pct": {
+            "k": 76,
+            "positives": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "top_5pct": {
+            "k": 380,
+            "positives": 7,
+            "precision": 0.018421052631578946,
+            "recall": 0.08433734939759036
+          },
+          "top_10pct": {
+            "k": 760,
+            "positives": 16,
+            "precision": 0.021052631578947368,
+            "recall": 0.1927710843373494
+          },
+          "fold": 3,
+          "counties": [
+            "06025",
+            "06031",
+            "06043",
+            "06051",
+            "06053",
+            "06059",
+            "06069",
+            "06083",
+            "06089",
+            "06093",
+            "06105"
+          ]
+        },
+        {
+          "rows": 7591,
+          "positives": 57,
+          "constant_score_average_precision": 0.007508892109076538,
+          "average_precision": 0.009253579692129426,
+          "average_precision_lift_over_prevalence": 1.2323495340869206,
+          "roc_auc": 0.5719242358617542,
+          "top_1pct": {
+            "k": 76,
+            "positives": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "top_5pct": {
+            "k": 380,
+            "positives": 4,
+            "precision": 0.010526315789473684,
+            "recall": 0.07017543859649122
+          },
+          "top_10pct": {
+            "k": 760,
+            "positives": 8,
+            "precision": 0.010526315789473684,
+            "recall": 0.14035087719298245
+          },
+          "fold": 4,
+          "counties": [
+            "06005",
+            "06011",
+            "06017",
+            "06019",
+            "06023",
+            "06027",
+            "06049",
+            "06063",
+            "06065",
+            "06077",
+            "06107",
+            "06111",
+            "06113"
+          ]
+        },
+        {
+          "rows": 7591,
+          "positives": 74,
+          "constant_score_average_precision": 0.009748386246871295,
+          "average_precision": 0.011652426456729011,
+          "average_precision_lift_over_prevalence": 1.195318503149053,
+          "roc_auc": 0.5563605377360865,
+          "top_1pct": {
+            "k": 76,
+            "positives": 1,
+            "precision": 0.013157894736842105,
+            "recall": 0.013513513513513514
+          },
+          "top_5pct": {
+            "k": 380,
+            "positives": 5,
+            "precision": 0.013157894736842105,
+            "recall": 0.06756756756756757
+          },
+          "top_10pct": {
+            "k": 760,
+            "positives": 7,
+            "precision": 0.009210526315789473,
+            "recall": 0.0945945945945946
+          },
+          "fold": 5,
+          "counties": [
+            "06007",
+            "06009",
+            "06021",
+            "06029",
+            "06033",
+            "06039",
+            "06045",
+            "06061",
+            "06067",
+            "06071",
+            "06087",
+            "06115"
+          ]
+        }
+      ],
+      "pooled_oof": {
+        "rows": 47838,
+        "positives": 440,
+        "constant_score_average_precision": 0.009197708934319997,
+        "average_precision": 0.01028760340001112,
+        "average_precision_lift_over_prevalence": 1.118496298749391,
+        "roc_auc": 0.5426649187345841,
+        "top_1pct": {
+          "k": 479,
+          "positives": 7,
+          "precision": 0.014613778705636743,
+          "recall": 0.015909090909090907
+        },
+        "top_5pct": {
+          "k": 2392,
+          "positives": 27,
+          "precision": 0.0112876254180602,
+          "recall": 0.06136363636363636
+        },
+        "top_10pct": {
+          "k": 4784,
+          "positives": 43,
+          "precision": 0.00898829431438127,
+          "recall": 0.09772727272727273
+        }
+      },
+      "bay9": {
+        "rows": 10675,
+        "positives": 108,
+        "constant_score_average_precision": 0.010117096018735363,
+        "average_precision": 0.013368000337582332,
+        "average_precision_lift_over_prevalence": 1.3213278111452906,
+        "roc_auc": 0.6022435324507814,
+        "top_1pct": {
+          "k": 107,
+          "positives": 1,
+          "precision": 0.009345794392523364,
+          "recall": 0.009259259259259259
+        },
+        "top_5pct": {
+          "k": 534,
+          "positives": 7,
+          "precision": 0.013108614232209739,
+          "recall": 0.06481481481481481
+        },
+        "top_10pct": {
+          "k": 1068,
+          "positives": 15,
+          "precision": 0.014044943820224719,
+          "recall": 0.1388888888888889
+        }
+      }
+    },
+    "random_forest": {
+      "county_cv": [
+        {
+          "rows": 17472,
+          "positives": 163,
+          "constant_score_average_precision": 0.009329212454212454,
+          "average_precision": 0.017313825754458206,
+          "average_precision_lift_over_prevalence": 1.8558721692140723,
+          "roc_auc": 0.5170495366253309,
+          "top_1pct": {
+            "k": 175,
+            "positives": 3,
+            "precision": 0.017142857142857144,
+            "recall": 0.018404907975460124
+          },
+          "top_5pct": {
+            "k": 874,
+            "positives": 13,
+            "precision": 0.014874141876430207,
+            "recall": 0.07975460122699386
+          },
+          "top_10pct": {
+            "k": 1748,
+            "positives": 22,
+            "precision": 0.012585812356979404,
+            "recall": 0.13496932515337423
+          },
+          "fold": 1,
+          "counties": [
+            "06037"
+          ]
+        },
+        {
+          "rows": 7593,
+          "positives": 63,
+          "constant_score_average_precision": 0.008297115764519953,
+          "average_precision": 0.010982452957169545,
+          "average_precision_lift_over_prevalence": 1.3236470683141008,
+          "roc_auc": 0.6147947890975779,
+          "top_1pct": {
+            "k": 76,
+            "positives": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "top_5pct": {
+            "k": 380,
+            "positives": 2,
+            "precision": 0.005263157894736842,
+            "recall": 0.031746031746031744
+          },
+          "top_10pct": {
+            "k": 760,
+            "positives": 5,
+            "precision": 0.006578947368421052,
+            "recall": 0.07936507936507936
+          },
+          "fold": 2,
+          "counties": [
+            "06003",
+            "06015",
+            "06035",
+            "06047",
+            "06057",
+            "06073",
+            "06079",
+            "06091",
+            "06099",
+            "06101",
+            "06103",
+            "06109"
+          ]
+        },
+        {
+          "rows": 7591,
+          "positives": 83,
+          "constant_score_average_precision": 0.010934000790409695,
+          "average_precision": 0.014539826513826954,
+          "average_precision_lift_over_prevalence": 1.3297810008007278,
+          "roc_auc": 0.543326475855473,
+          "top_1pct": {
+            "k": 76,
+            "positives": 1,
+            "precision": 0.013157894736842105,
+            "recall": 0.012048192771084338
+          },
+          "top_5pct": {
+            "k": 380,
+            "positives": 7,
+            "precision": 0.018421052631578946,
+            "recall": 0.08433734939759036
+          },
+          "top_10pct": {
+            "k": 760,
+            "positives": 14,
+            "precision": 0.018421052631578946,
+            "recall": 0.1686746987951807
+          },
+          "fold": 3,
+          "counties": [
+            "06025",
+            "06031",
+            "06043",
+            "06051",
+            "06053",
+            "06059",
+            "06069",
+            "06083",
+            "06089",
+            "06093",
+            "06105"
+          ]
+        },
+        {
+          "rows": 7591,
+          "positives": 57,
+          "constant_score_average_precision": 0.007508892109076538,
+          "average_precision": 0.010630917454472606,
+          "average_precision_lift_over_prevalence": 1.4157770946824833,
+          "roc_auc": 0.5550160907977404,
+          "top_1pct": {
+            "k": 76,
+            "positives": 2,
+            "precision": 0.02631578947368421,
+            "recall": 0.03508771929824561
+          },
+          "top_5pct": {
+            "k": 380,
+            "positives": 8,
+            "precision": 0.021052631578947368,
+            "recall": 0.14035087719298245
+          },
+          "top_10pct": {
+            "k": 760,
+            "positives": 9,
+            "precision": 0.011842105263157895,
+            "recall": 0.15789473684210525
+          },
+          "fold": 4,
+          "counties": [
+            "06005",
+            "06011",
+            "06017",
+            "06019",
+            "06023",
+            "06027",
+            "06049",
+            "06063",
+            "06065",
+            "06077",
+            "06107",
+            "06111",
+            "06113"
+          ]
+        },
+        {
+          "rows": 7591,
+          "positives": 74,
+          "constant_score_average_precision": 0.009748386246871295,
+          "average_precision": 0.01264848197682587,
+          "average_precision_lift_over_prevalence": 1.2974949552173671,
+          "roc_auc": 0.5516226283487159,
+          "top_1pct": {
+            "k": 76,
+            "positives": 1,
+            "precision": 0.013157894736842105,
+            "recall": 0.013513513513513514
+          },
+          "top_5pct": {
+            "k": 380,
+            "positives": 4,
+            "precision": 0.010526315789473684,
+            "recall": 0.05405405405405406
+          },
+          "top_10pct": {
+            "k": 760,
+            "positives": 14,
+            "precision": 0.018421052631578946,
+            "recall": 0.1891891891891892
+          },
+          "fold": 5,
+          "counties": [
+            "06007",
+            "06009",
+            "06021",
+            "06029",
+            "06033",
+            "06039",
+            "06045",
+            "06061",
+            "06067",
+            "06071",
+            "06087",
+            "06115"
+          ]
+        }
+      ],
+      "pooled_oof": {
+        "rows": 47838,
+        "positives": 440,
+        "constant_score_average_precision": 0.009197708934319997,
+        "average_precision": 0.012509733750629767,
+        "average_precision_lift_over_prevalence": 1.3600923708241517,
+        "roc_auc": 0.5449505924684201,
+        "top_1pct": {
+          "k": 479,
+          "positives": 7,
+          "precision": 0.014613778705636743,
+          "recall": 0.015909090909090907
+        },
+        "top_5pct": {
+          "k": 2392,
+          "positives": 35,
+          "precision": 0.014632107023411372,
+          "recall": 0.07954545454545454
+        },
+        "top_10pct": {
+          "k": 4784,
+          "positives": 69,
+          "precision": 0.014423076923076924,
+          "recall": 0.15681818181818183
+        }
+      },
+      "bay9": {
+        "rows": 10675,
+        "positives": 108,
+        "constant_score_average_precision": 0.010117096018735363,
+        "average_precision": 0.013890147500081607,
+        "average_precision_lift_over_prevalence": 1.3729381904015847,
+        "roc_auc": 0.5656069384421802,
+        "top_1pct": {
+          "k": 107,
+          "positives": 1,
+          "precision": 0.009345794392523364,
+          "recall": 0.009259259259259259
+        },
+        "top_5pct": {
+          "k": 534,
+          "positives": 11,
+          "precision": 0.020599250936329586,
+          "recall": 0.10185185185185185
+        },
+        "top_10pct": {
+          "k": 1068,
+          "positives": 18,
+          "precision": 0.016853932584269662,
+          "recall": 0.16666666666666666
+        }
+      }
+    },
+    "hist_gradient_boosting": {
+      "county_cv": [
+        {
+          "rows": 17472,
+          "positives": 163,
+          "constant_score_average_precision": 0.009329212454212454,
+          "average_precision": 0.012414142298043742,
+          "average_precision_lift_over_prevalence": 1.3306741977387746,
+          "roc_auc": 0.5468864915482459,
+          "top_1pct": {
+            "k": 175,
+            "positives": 5,
+            "precision": 0.02857142857142857,
+            "recall": 0.03067484662576687
+          },
+          "top_5pct": {
+            "k": 874,
+            "positives": 14,
+            "precision": 0.016018306636155607,
+            "recall": 0.08588957055214724
+          },
+          "top_10pct": {
+            "k": 1748,
+            "positives": 24,
+            "precision": 0.013729977116704805,
+            "recall": 0.147239263803681
+          },
+          "fold": 1,
+          "counties": [
+            "06037"
+          ]
+        },
+        {
+          "rows": 7593,
+          "positives": 63,
+          "constant_score_average_precision": 0.008297115764519953,
+          "average_precision": 0.010409154407442917,
+          "average_precision_lift_over_prevalence": 1.2545509431065724,
+          "roc_auc": 0.5829718164379519,
+          "top_1pct": {
+            "k": 76,
+            "positives": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "top_5pct": {
+            "k": 380,
+            "positives": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "top_10pct": {
+            "k": 760,
+            "positives": 7,
+            "precision": 0.009210526315789473,
+            "recall": 0.1111111111111111
+          },
+          "fold": 2,
+          "counties": [
+            "06003",
+            "06015",
+            "06035",
+            "06047",
+            "06057",
+            "06073",
+            "06079",
+            "06091",
+            "06099",
+            "06101",
+            "06103",
+            "06109"
+          ]
+        },
+        {
+          "rows": 7591,
+          "positives": 83,
+          "constant_score_average_precision": 0.010934000790409695,
+          "average_precision": 0.014639721456297626,
+          "average_precision_lift_over_prevalence": 1.3389171755994613,
+          "roc_auc": 0.5219476734856314,
+          "top_1pct": {
+            "k": 76,
+            "positives": 2,
+            "precision": 0.02631578947368421,
+            "recall": 0.024096385542168676
+          },
+          "top_5pct": {
+            "k": 380,
+            "positives": 7,
+            "precision": 0.018421052631578946,
+            "recall": 0.08433734939759036
+          },
+          "top_10pct": {
+            "k": 760,
+            "positives": 14,
+            "precision": 0.018421052631578946,
+            "recall": 0.1686746987951807
+          },
+          "fold": 3,
+          "counties": [
+            "06025",
+            "06031",
+            "06043",
+            "06051",
+            "06053",
+            "06059",
+            "06069",
+            "06083",
+            "06089",
+            "06093",
+            "06105"
+          ]
+        },
+        {
+          "rows": 7591,
+          "positives": 57,
+          "constant_score_average_precision": 0.007508892109076538,
+          "average_precision": 0.009887259610150669,
+          "average_precision_lift_over_prevalence": 1.316740135099188,
+          "roc_auc": 0.5423402214056511,
+          "top_1pct": {
+            "k": 76,
+            "positives": 1,
+            "precision": 0.013157894736842105,
+            "recall": 0.017543859649122806
+          },
+          "top_5pct": {
+            "k": 380,
+            "positives": 4,
+            "precision": 0.010526315789473684,
+            "recall": 0.07017543859649122
+          },
+          "top_10pct": {
+            "k": 760,
+            "positives": 12,
+            "precision": 0.015789473684210527,
+            "recall": 0.21052631578947367
+          },
+          "fold": 4,
+          "counties": [
+            "06005",
+            "06011",
+            "06017",
+            "06019",
+            "06023",
+            "06027",
+            "06049",
+            "06063",
+            "06065",
+            "06077",
+            "06107",
+            "06111",
+            "06113"
+          ]
+        },
+        {
+          "rows": 7591,
+          "positives": 74,
+          "constant_score_average_precision": 0.009748386246871295,
+          "average_precision": 0.013606864033190225,
+          "average_precision_lift_over_prevalence": 1.3958068226479323,
+          "roc_auc": 0.5666318506879902,
+          "top_1pct": {
+            "k": 76,
+            "positives": 0,
+            "precision": 0.0,
+            "recall": 0.0
+          },
+          "top_5pct": {
+            "k": 380,
+            "positives": 6,
+            "precision": 0.015789473684210527,
+            "recall": 0.08108108108108109
+          },
+          "top_10pct": {
+            "k": 760,
+            "positives": 14,
+            "precision": 0.018421052631578946,
+            "recall": 0.1891891891891892
+          },
+          "fold": 5,
+          "counties": [
+            "06007",
+            "06009",
+            "06021",
+            "06029",
+            "06033",
+            "06039",
+            "06045",
+            "06061",
+            "06067",
+            "06071",
+            "06087",
+            "06115"
+          ]
+        }
+      ],
+      "pooled_oof": {
+        "rows": 47838,
+        "positives": 440,
+        "constant_score_average_precision": 0.009197708934319997,
+        "average_precision": 0.011567946973484105,
+        "average_precision_lift_over_prevalence": 1.2576987439034832,
+        "roc_auc": 0.547136986025494,
+        "top_1pct": {
+          "k": 479,
+          "positives": 10,
+          "precision": 0.020876826722338204,
+          "recall": 0.022727272727272728
+        },
+        "top_5pct": {
+          "k": 2392,
+          "positives": 31,
+          "precision": 0.012959866220735786,
+          "recall": 0.07045454545454545
+        },
+        "top_10pct": {
+          "k": 4784,
+          "positives": 74,
+          "precision": 0.015468227424749164,
+          "recall": 0.16818181818181818
+        }
+      },
+      "bay9": {
+        "rows": 10675,
+        "positives": 108,
+        "constant_score_average_precision": 0.010117096018735363,
+        "average_precision": 0.012273472582033823,
+        "average_precision_lift_over_prevalence": 1.2131418501223246,
+        "roc_auc": 0.5621137959195118,
+        "top_1pct": {
+          "k": 107,
+          "positives": 1,
+          "precision": 0.009345794392523364,
+          "recall": 0.009259259259259259
+        },
+        "top_5pct": {
+          "k": 534,
+          "positives": 6,
+          "precision": 0.011235955056179775,
+          "recall": 0.05555555555555555
+        },
+        "top_10pct": {
+          "k": 1068,
+          "positives": 11,
+          "precision": 0.010299625468164793,
+          "recall": 0.10185185185185185
+        }
+      }
+    }
+  },
+  "selected_by_nonbay_cv": "random_forest",
+  "selected_model_bay_county_bootstrap": {
+    "clusters": 9,
+    "replicates": 1000,
+    "percentile_2_5_and_97_5": {
+      "AP": [
+        0.010677812303008733,
+        0.0209297035748504
+      ],
+      "prevalence": [
+        0.008964446305887601,
+        0.01113656949040819
+      ],
+      "AP_minus_prevalence": [
+        0.0008335720688608609,
+        0.010433381203062078
+      ],
+      "AP_lift": [
+        1.0787320927107769,
+        2.02825913544192
+      ]
+    },
+    "limitation": "Only nine county clusters; intervals conditional on the fitted model and mapped proxy labels, do not include label noise or model-selection uncertainty."
+  },
+  "elapsed_seconds": 32.4,
+  "input_unchanged": true
+}
